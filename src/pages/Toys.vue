@@ -8,7 +8,7 @@
     <div class="product">
         <a href="#" @click="$router.push('/toys/koshenya_rudenki_vushka')">
             <div class="product-title">Кошеня з руденькими вушками</div>
-            <img loading="lazy" src="../assets/img/koshenya_rudenki_vushka_01.jpg" class="product-image" alt="">
+            <img loading="lazy" src="../assets/img/koshenya_rudenki_vushka_05.jpg" class="product-image" alt="">
         </a>
     </div>
     <div class="product">
