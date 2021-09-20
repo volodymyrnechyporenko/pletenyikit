@@ -391,7 +391,7 @@ h4 {
   pointer-events: none;
 }
 
-.product, #about, .article {
+.product, #about, .article, .item-all {
   -webkit-animation: goodsCat ease 1s;
           animation: goodsCat ease 1s;
 }
