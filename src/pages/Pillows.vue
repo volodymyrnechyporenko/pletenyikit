@@ -6,6 +6,12 @@
 
 <div class="product-category">
     <div class="product">
+        <a href="#" @click="$router.push('/pillows/zirka_chervoni_tony')">
+            <div class="product-title">Зірка в червоних тонах</div>
+            <img loading="lazy" src="../assets/img/zirka_chervoni_tony_01.jpg" class="product-image" alt="">
+        </a>
+    </div>
+    <div class="product">
         <a href="#" @click="$router.push('/pillows/minimalizm_lapky')">
             <div class="product-title">Мінімалізм і рожеві лапки</div>
             <img loading="lazy" src="../assets/img/minimalistychnyi_03.jpg" class="product-image" alt="">

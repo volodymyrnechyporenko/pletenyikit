@@ -26,6 +26,7 @@ import Accessories_rukavytsi_pukhnastyky from "@/pages/Accessories_rukavytsi_puk
 import Accessories_rukavytsi_mobilnogo_koliorovi_smuzhky from "@/pages/Accessories_rukavytsi_mobilnogo_koliorovi_smuzhky"
 import Accessories_rukavytsi_zhakard from "@/pages/Accessories_rukavytsi_zhakard"
 
+import Toys_koshenya_rudenki_vushka from "@/pages/Toys_koshenya_rudenki_vushka"
 import Toys_myshka_bila from "@/pages/Toys_myshka_bila"
 import Toys_myshka_temno_sira from "@/pages/Toys_myshka_temno_sira"
 import Toys_myshka_sira from "@/pages/Toys_myshka_sira"
@@ -35,9 +36,9 @@ import Toys_myshka_ruda from "@/pages/Toys_myshka_ruda"
 import Toys_myshka_bukliovana_sira from "@/pages/Toys_myshka_bukliovana_sira"
 import Toys_kotyk_bilyi from "@/pages/Toys_kotyk_bilyi"
 import Toys_kotyk_siryi from "@/pages/Toys_kotyk_siryi"
-import Toys_koshenyatko_bile from "@/pages/Toys_koshenyatko_bile"
 import Toys_koshenyatko_serdechko from "@/pages/Toys_koshenyatko_serdechko"
 
+import Pillows_zirka_chervoni_tony from "@/pages/Pillows_zirka_chervoni_tony"
 import Pillows_minimalizm_lapky from "@/pages/Pillows_minimalizm_lapky"
 import Pillows_nosyk_serdechko from "@/pages/Pillows_nosyk_serdechko"
 import Pillows_pudrova_kytska from "@/pages/Pillows_pudrova_kytska"
@@ -134,8 +135,8 @@ export const routes = [
         component: Toys_kotyk_siryi
     },
     {
-        path: '/toys/koshenyatko_bile',
-        component: Toys_koshenyatko_bile
+        path: '/toys/koshenya_rudenki_vushka',
+        component: Toys_koshenya_rudenki_vushka
     },
     {
         path: '/toys/koshenyatko_serdechko',
@@ -212,6 +213,10 @@ export const routes = [
     {
         path: '/accessories/rukavytsi_zhakard',
         component: Accessories_rukavytsi_zhakard
+    },
+    {
+        path: '/pillows/zirka_chervoni_tony',
+        component: Pillows_zirka_chervoni_tony
     },
     {
         path: '/pillows/minimalizm_lapky',
