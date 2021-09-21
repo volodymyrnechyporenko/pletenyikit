@@ -73,6 +73,8 @@ import Kitchen_koliorovi_smailyky from "@/pages/Kitchen_koliorovi_smailyky"
 import Kitchen_siri_smailyky from "@/pages/Kitchen_siri_smailyky"
 import Kitchen_yabluka from "@/pages/Kitchen_yabluka"
 
+import ToyDetails from "@/pages/ToyDetails.vue"
+
 export const routes = [
     {
         path: '/',
@@ -85,6 +87,10 @@ export const routes = [
     {
         path: '/toys',
         component: Toys
+    },
+    {
+        path: '/toys/:id',
+        component: ToyDetails
     },
     {
         path: '/pillows',
