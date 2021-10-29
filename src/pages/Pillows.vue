@@ -6,6 +6,18 @@
 
 <div class="product-category">
     <div class="product">
+        <a href="#" @click="$router.push('/pillows/kotosyluet')">
+            <div class="product-title">Котосилует</div>
+            <img loading="lazy" src="../assets/img/kotosyluet_01.jpg" class="product-image" alt="">
+        </a>
+    </div>
+    <div class="product">
+        <a href="#" @click="$router.push('/pillows/biryuzova_zirka')">
+            <div class="product-title">Бірюзова зірка</div>
+            <img loading="lazy" src="../assets/img/biryuzova_zirka_02.jpg" class="product-image" alt="">
+        </a>
+    </div>
+    <div class="product">
         <a href="#" @click="$router.push('/pillows/zirka_chervoni_tony')">
             <div class="product-title">Зірка в червоних тонах</div>
             <img loading="lazy" src="../assets/img/zirka_chervoni_tony_01.jpg" class="product-image" alt="">
@@ -105,12 +117,6 @@
         <a href="#" @click="$router.push('/pillows/zhovtyi_bukliovanyi_pesyk')">
             <div class="product-title">Жовтий букльований песик</div>
             <img loading="lazy" src="../assets/img/zhovtyi_buklyovanyi_pesyk_01.jpg" class="product-image" alt="">
-        </a>
-    </div>
-    <div class="product">
-        <a href="#" @click="$router.push('/pillows/zhovto_garyachyi_pesyk')">
-            <div class="product-title">Жовто-гарячий песик</div>
-            <img loading="lazy" src="../assets/img/zhovto-garyachyi_pesyk_01.jpg" class="product-image" alt="">
         </a>
     </div>
     <div class="product">

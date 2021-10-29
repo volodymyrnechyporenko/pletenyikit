@@ -34,6 +34,16 @@
         </div>
     </div>
 </div>
+
+<h3>Схожі товари</h3>
+<div class="product-like-this">
+    <div class="product">
+        <a href="#" @click="$router.push('/pillows/biryuzova_zirka')">
+            <div class="product-title">Бірюзова зірка</div>
+            <img loading="lazy" src="../assets/img/biryuzova_zirka_02.jpg" class="product-image" alt="">
+        </a>
+  </div>
+</div>
   
 </template>
 

@@ -41,12 +41,9 @@
 </template>
 
 <script>
-
 import { email, required } from '@vuelidate/validators'
 import { useVuelidate } from '@vuelidate/core'
-
 export default {
-
     setup: () => ({ v$: useVuelidate() }),
     data () {
         return {
@@ -65,15 +62,11 @@ export default {
             message: { required }
         }
     },
-
     methods: {
         async formSend() {
-
             this.v$.$validate()
-
             if (!this.v$.$error) {
                 form.classList.add('_sending');
-
                 const formData = new FormData(form);
                 const requestOptions = {
                     method: "POST",
@@ -95,9 +88,7 @@ export default {
 		}
     }
 }
-
 </script>
 
 <style>
-
 </style>

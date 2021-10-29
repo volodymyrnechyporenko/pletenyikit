@@ -38,6 +38,8 @@ import Toys_kotyk_bilyi from "@/pages/Toys_kotyk_bilyi"
 import Toys_kotyk_siryi from "@/pages/Toys_kotyk_siryi"
 import Toys_koshenyatko_serdechko from "@/pages/Toys_koshenyatko_serdechko"
 
+import Pillows_kotosyluet from "@/pages/Pillows_kotosyluet"
+import Pillows_biryuzova_zirka from "@/pages/Pillows_biryuzova_zirka"
 import Pillows_zirka_chervoni_tony from "@/pages/Pillows_zirka_chervoni_tony"
 import Pillows_minimalizm_lapky from "@/pages/Pillows_minimalizm_lapky"
 import Pillows_nosyk_serdechko from "@/pages/Pillows_nosyk_serdechko"
@@ -73,8 +75,6 @@ import Kitchen_koliorovi_smailyky from "@/pages/Kitchen_koliorovi_smailyky"
 import Kitchen_siri_smailyky from "@/pages/Kitchen_siri_smailyky"
 import Kitchen_yabluka from "@/pages/Kitchen_yabluka"
 
-import ToyDetails from "@/pages/ToyDetails.vue"
-
 export const routes = [
     {
         path: '/',
@@ -87,10 +87,6 @@ export const routes = [
     {
         path: '/toys',
         component: Toys
-    },
-    {
-        path: '/toys/:id',
-        component: ToyDetails
     },
     {
         path: '/pillows',
@@ -219,6 +215,14 @@ export const routes = [
     {
         path: '/accessories/rukavytsi_zhakard',
         component: Accessories_rukavytsi_zhakard
+    },
+    {
+        path: '/pillows/kotosyluet',
+        component: Pillows_kotosyluet
+    },
+    {
+        path: '/pillows/biryuzova_zirka',
+        component: Pillows_biryuzova_zirka
     },
     {
         path: '/pillows/zirka_chervoni_tony',
@@ -355,7 +359,7 @@ export const routes = [
 ]
 
 const router = createRouter({
-    scrollBehavior (to, from, savedPosition) {
+    scrollBehavior (to) {
         if (to.hash) {
             return {
               el: to.hash,
@@ -368,33 +372,3 @@ const router = createRouter({
 })
 
 export default router;
-
-
-function getRoutesList(routes, pre) {
-    return routes.reduce((array, route) => {
-      const path = `${pre}${route.path}`;
-  
-      if (route.path !== '*') {
-        array.push(path);
-      }
-  
-      if (route.children) {
-        array.push(...getRoutesList(route.children, `${path}/`));
-      }
-  
-      return array;
-    }, []);
-  }
-  
-  getRoutesList(router.options.routes, 'https://pletenyikit.com.ua');
-
-  function getRoutesXML() {
-    const list = getRoutesList(router.options.routes, 'https://pletenyikit.com.ua')
-      .map(route => `<url><loc>${route}</loc></url>`)
-      .join('\r\n');
-    return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-      ${list}
-    </urlset>`;
-  }
-  
-  getRoutesXML();

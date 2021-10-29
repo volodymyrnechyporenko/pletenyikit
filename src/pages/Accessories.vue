@@ -84,12 +84,6 @@
           </a>
       </div>
       <div class="product">
-          <a href="#" @click="$router.push('/accessories/mitenky_sovy_vushka')">
-              <div class="product-title">Мітенки "Сови з вушками"</div>
-              <img loading="lazy" src="../assets/img/mitenky_sovy_vushka_01.jpg" class="product-image" alt="">
-          </a>
-      </div>
-      <div class="product">
           <a href="#" @click="$router.push('/accessories/mitenky_try_troyandy')">
               <div class="product-title">Мітенки "Три троянди"</div>
               <img loading="lazy" src="../assets/img/mitenky_try_troyandy_01.jpg" class="product-image" alt="">
@@ -99,12 +93,6 @@
           <a href="#" @click="$router.push('/accessories/rukavytsi_pukhnastyky')">
               <div class="product-title">Рукавиці "Пухнастики"</div>
               <img loading="lazy" src="../assets/img/rukavytsi_bili_puhnasti_01.jpg" class="product-image" alt="">
-          </a>
-      </div>
-      <div class="product">
-          <a href="#" @click="$router.push('/accessories/rukavytsi_mobilnogo_koliorovi_smuzhky')">
-              <div class="product-title">Рукавиці для мобільного "Кольорові смужки"</div>
-              <img loading="lazy" src="../assets/img/rukavytsi_mobilnogo_kolyorovi_01.jpg" class="product-image" alt="">
           </a>
       </div>
       <div class="product">

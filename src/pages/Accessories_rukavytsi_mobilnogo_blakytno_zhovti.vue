@@ -33,16 +33,6 @@
         </div>
     </div>
 </div>
-
-<h3>Схожі товари</h3>
-<div class="product-like-this">
-    <div class="product">
-        <a href="#" @click="$router.push('/accessories/rukavytsi_mobilnogo_koliorovi_smuzhky')">
-            <div class="product-title">Рукавиці для мобільного "Кольорові смужки"</div>
-            <img loading="lazy" src="../assets/img/rukavytsi_mobilnogo_kolyorovi_01.jpg" class="product-image" alt="">
-        </a>
-    </div>
-</div>
   
 </template>
 
