@@ -20,10 +20,8 @@ import Accessories_mitenky_snizhna_blakyt from "@/pages/Accessories_mitenky_sniz
 import Accessories_mitenky_fioletovyi_melanzh from "@/pages/Accessories_mitenky_fioletovyi_melanzh"
 import Accessories_mitenky_snizhynky from "@/pages/Accessories_mitenky_snizhynky"
 import Accessories_mitenky_snizhne_zoloto from "@/pages/Accessories_mitenky_snizhne_zoloto"
-import Accessories_mitenky_sovy_vushka from "@/pages/Accessories_mitenky_sovy_vushka"
 import Accessories_mitenky_try_troyandy from "@/pages/Accessories_mitenky_try_troyandy"
 import Accessories_rukavytsi_pukhnastyky from "@/pages/Accessories_rukavytsi_pukhnastyky"
-import Accessories_rukavytsi_mobilnogo_koliorovi_smuzhky from "@/pages/Accessories_rukavytsi_mobilnogo_koliorovi_smuzhky"
 import Accessories_rukavytsi_zhakard from "@/pages/Accessories_rukavytsi_zhakard"
 
 import Toys_koshenya_rudenki_vushka from "@/pages/Toys_koshenya_rudenki_vushka"
@@ -57,7 +55,6 @@ import Pillows_rodynne_derevo from "@/pages/Pillows_rodynne_derevo"
 import Pillows_serdechko from "@/pages/Pillows_serdechko"
 import Pillows_pukhkenkyi_pesopodukh from "@/pages/Pillows_pukhkenkyi_pesopodukh"
 import Pillows_zhovtyi_bukliovanyi_pesyk from "@/pages/Pillows_zhovtyi_bukliovanyi_pesyk"
-import Pillows_zhovto_garyachyi_pesyk from "@/pages/Pillows_zhovto_garyachyi_pesyk"
 import Pillows_sira_melanzheva_myshka from "@/pages/Pillows_sira_melanzheva_myshka"
 import Pillows_sira_bukliovana_myshka from "@/pages/Pillows_sira_bukliovana_myshka"
 import Pillows_metelyk_syni_smuzhky from "@/pages/Pillows_metelyk_syni_smuzhky"
@@ -197,20 +194,12 @@ export const routes = [
         component: Accessories_mitenky_snizhne_zoloto
     },
     {
-        path: '/accessories/mitenky_sovy_vushka',
-        component: Accessories_mitenky_sovy_vushka
-    },
-    {
         path: '/accessories/mitenky_try_troyandy',
         component: Accessories_mitenky_try_troyandy
     },
     {
         path: '/accessories/rukavytsi_pukhnastyky',
         component: Accessories_rukavytsi_pukhnastyky
-    },
-    {
-        path: '/accessories/rukavytsi_mobilnogo_koliorovi_smuzhky',
-        component: Accessories_rukavytsi_mobilnogo_koliorovi_smuzhky
     },
     {
         path: '/accessories/rukavytsi_zhakard',
@@ -291,10 +280,6 @@ export const routes = [
     {
         path: '/pillows/zhovtyi_bukliovanyi_pesyk',
         component: Pillows_zhovtyi_bukliovanyi_pesyk
-    },
-    {
-        path: '/pillows/zhovto_garyachyi_pesyk',
-        component: Pillows_zhovto_garyachyi_pesyk
     },
     {
         path: '/pillows/sira_melanzheva_myshka',
