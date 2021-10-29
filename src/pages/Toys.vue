@@ -66,12 +66,6 @@
     </a>
   </div>
   <div class="product">
-    <a href="#" @click="$router.push('/toys/koshenyatko_bile')">
-        <div class="product-title">Кошенятко біле</div>
-        <img loading="lazy" src="../assets/img/kotyky_01.jpg" class="product-image" alt="">
-    </a>
-  </div>
-  <div class="product">
     <a href="#" @click="$router.push('/toys/koshenyatko_serdechko')">
         <div class="product-title">Кошенятко з сердечком</div>
         <img loading="lazy" src="../assets/img/kotyky_02.jpg" class="product-image" alt="">

@@ -18,12 +18,6 @@
           </a>
       </div>
       <div class="product">
-          <a href="#" @click="$router.push('/accessories/mitenky_zhovti_kotyky')">
-              <div class="product-title">Мітенки "Жовті котики"</div>
-              <img loading="lazy" src="../assets/img/zhovti_mitenky_kotyky_01.jpg" class="product-image" alt="">
-          </a>
-      </div>
-      <div class="product">
           <a href="#" @click="$router.push('/accessories/baktus_vesniana_zelen')">
               <div class="product-title">Бактус "Весняна зелень"</div>
               <img loading="lazy" src="../assets/img/zelenyi_baktus_01.jpg" class="product-image" alt="">
@@ -51,12 +45,6 @@
           <a href="#" @click="$router.push('/accessories/rukavytsi_mobilnogo_blakytno_zhovti')">
               <div class="product-title">Рукавиці для мобільного "Блакитно-жовтий меланж"</div>
               <img loading="lazy" src="../assets/img/rukavytsi_mobilnogo_smugasti_01.jpg" class="product-image" alt="">
-          </a>
-      </div>
-      <div class="product">
-          <a href="#" @click="$router.push('/accessories/mitenky_siri_kotyky')">
-              <div class="product-title">Мітенки "Сірі котики"</div>
-              <img loading="lazy" src="../assets/img/mitenky_kotyky_01.jpg" class="product-image" alt="">
           </a>
       </div>
       <div class="product">

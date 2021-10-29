@@ -30,22 +30,6 @@
         </div>
     </div>
 </div>
-
-<h3>Схожі товари</h3>
-<div class="product-like-this">
-    <div class="product">
-        <a href="#" @click="$router.push('/accessories/mitenky_siri_kotyky')">
-            <div class="product-title">Мітенки "Сірі котики"</div>
-            <img loading="lazy" src="../assets/img/mitenky_kotyky_01.jpg" class="product-image" alt="">
-        </a>
-    </div>
-    <div class="product">
-        <a href="#" @click="$router.push('/accessories/mitenky_zhovti_kotyky')">
-            <div class="product-title">Мітенки "Жовті котики"</div>
-            <img loading="lazy" src="../assets/img/zhovti_mitenky_kotyky_01.jpg" class="product-image" alt="">
-        </a>
-    </div>
-</div>
   
 </template>
 

@@ -9,13 +9,11 @@ import Order from "@/pages/Order"
 
 import Accessories_beret_sriblo from "@/pages/Accessories_beret_sriblo"
 import Accessories_shalyk_beret_svitlyi_bezh from "@/pages/Accessories_shalyk_beret_svitlyi_bezh"
-import Accessories_mitenky_zhovti_kotyky from "@/pages/Accessories_mitenky_zhovti_kotyky"
 import Accessories_baktus_vesniana_zelen from "@/pages/Accessories_baktus_vesniana_zelen"
 import Accessories_mitenky_olyvkovi_kosy from "@/pages/Accessories_mitenky_olyvkovi_kosy"
 import Accessories_mitenky_fakturni_sovy from "@/pages/Accessories_mitenky_fakturni_sovy"
 import Accessories_rukavytsi_siri_kosy from "@/pages/Accessories_rukavytsi_siri_kosy"
 import Accessories_rukavytsi_mobilnogo_blakytno_zhovti from "@/pages/Accessories_rukavytsi_mobilnogo_blakytno_zhovti"
-import Accessories_mitenky_siri_kotyky from "@/pages/Accessories_mitenky_siri_kotyky"
 import Accessories_mitenky_snizhna_blakyt from "@/pages/Accessories_mitenky_snizhna_blakyt"
 import Accessories_mitenky_fioletovyi_melanzh from "@/pages/Accessories_mitenky_fioletovyi_melanzh"
 import Accessories_mitenky_snizhynky from "@/pages/Accessories_mitenky_snizhynky"
@@ -150,10 +148,6 @@ export const routes = [
         component: Accessories_shalyk_beret_svitlyi_bezh
     },
     {
-        path: '/accessories/mitenky_zhovti_kotyky',
-        component: Accessories_mitenky_zhovti_kotyky
-    },
-    {
         path: '/accessories/baktus_vesniana_zelen',
         component: Accessories_baktus_vesniana_zelen
     },
@@ -172,10 +166,6 @@ export const routes = [
     {
         path: '/accessories/rukavytsi_mobilnogo_blakytno_zhovti',
         component: Accessories_rukavytsi_mobilnogo_blakytno_zhovti
-    },
-    {
-        path: '/accessories/mitenky_siri_kotyky',
-        component: Accessories_mitenky_siri_kotyky
     },
     {
         path: '/accessories/mitenky_snizhna_blakyt',
