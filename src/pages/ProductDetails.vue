@@ -1,8 +1,7 @@
 <template>
   <ProductSummaryCard
-    v-for="product in accessories"
-    :key="product.link"
-    :product="product"
+  v-for="product in accessories" 
+  :product="product"
   />
 </template>
 
@@ -14,7 +13,6 @@ export default {
   components: {
     ProductSummaryCard
   },
-  
   data() {
     return {
       accessories: accessories

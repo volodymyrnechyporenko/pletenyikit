@@ -4,7 +4,7 @@
   </div>
 
   <div class="product-category">
-    <ProductPreviewCard
+    <AccessoriesPreviewCard
       v-for="product in accessories"
       :key="product.id"
       :product="product"
@@ -14,11 +14,11 @@
 
 <script>
 import accessories from '../data/accessories.js';
-import ProductPreviewCard from '../components/products/ProductPreviewCard.vue';
+import AccessoriesPreviewCard from '../components/products/AccessoriesPreviewCard.vue';
 
 export default {
   components: {
-    ProductPreviewCard
+    AccessoriesPreviewCard
   },
   data() {
     return {

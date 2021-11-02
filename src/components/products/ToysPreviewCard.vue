@@ -13,8 +13,14 @@
 </template>
 
 <script>
+import toys from '../../data/toys.js';
 export default {
-  props: ['product']
+  props: ['product'],
+  data() {
+    return {
+      toys: toys
+    };
+  }
 };
 </script>
 
