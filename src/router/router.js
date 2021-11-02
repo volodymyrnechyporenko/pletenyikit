@@ -7,20 +7,7 @@ import Pillows from "@/pages/Pillows"
 import Kitchen from "@/pages/Kitchen"
 import Order from "@/pages/Order"
 
-import Accessories_beret_sriblo from "@/pages/Accessories_beret_sriblo"
-import Accessories_shalyk_beret_svitlyi_bezh from "@/pages/Accessories_shalyk_beret_svitlyi_bezh"
-import Accessories_baktus_vesniana_zelen from "@/pages/Accessories_baktus_vesniana_zelen"
-import Accessories_mitenky_olyvkovi_kosy from "@/pages/Accessories_mitenky_olyvkovi_kosy"
-import Accessories_mitenky_fakturni_sovy from "@/pages/Accessories_mitenky_fakturni_sovy"
-import Accessories_rukavytsi_siri_kosy from "@/pages/Accessories_rukavytsi_siri_kosy"
-import Accessories_rukavytsi_mobilnogo_blakytno_zhovti from "@/pages/Accessories_rukavytsi_mobilnogo_blakytno_zhovti"
-import Accessories_mitenky_snizhna_blakyt from "@/pages/Accessories_mitenky_snizhna_blakyt"
-import Accessories_mitenky_fioletovyi_melanzh from "@/pages/Accessories_mitenky_fioletovyi_melanzh"
-import Accessories_mitenky_snizhynky from "@/pages/Accessories_mitenky_snizhynky"
-import Accessories_mitenky_snizhne_zoloto from "@/pages/Accessories_mitenky_snizhne_zoloto"
-import Accessories_mitenky_try_troyandy from "@/pages/Accessories_mitenky_try_troyandy"
-import Accessories_rukavytsi_pukhnastyky from "@/pages/Accessories_rukavytsi_pukhnastyky"
-import Accessories_rukavytsi_zhakard from "@/pages/Accessories_rukavytsi_zhakard"
+import ProductDetails from "@/pages/ProductDetails"
 
 import Toys_koshenya_rudenki_vushka from "@/pages/Toys_koshenya_rudenki_vushka"
 import Toys_myshka_bila from "@/pages/Toys_myshka_bila"
@@ -141,59 +128,59 @@ export const routes = [
     },
     {
         path: '/accessories/beret_sriblo',
-        component: Accessories_beret_sriblo
+        component: ProductDetails
     },
     {
         path: '/accessories/shalyk_beret_svitlyi_bezh',
-        component: Accessories_shalyk_beret_svitlyi_bezh
+        component: ProductDetails
     },
     {
         path: '/accessories/baktus_vesniana_zelen',
-        component: Accessories_baktus_vesniana_zelen
+        component: ProductDetails
     },
     {
         path: '/accessories/mitenky_olyvkovi_kosy',
-        component: Accessories_mitenky_olyvkovi_kosy
+        component: ProductDetails
     },
     {
         path: '/accessories/mitenky_fakturni_sovy',
-        component: Accessories_mitenky_fakturni_sovy
+        component: ProductDetails
     },
     {
         path: '/accessories/rukavytsi_siri_kosy',
-        component: Accessories_rukavytsi_siri_kosy
+        component: ProductDetails
     },
     {
         path: '/accessories/rukavytsi_mobilnogo_blakytno_zhovti',
-        component: Accessories_rukavytsi_mobilnogo_blakytno_zhovti
+        component: ProductDetails
     },
     {
         path: '/accessories/mitenky_snizhna_blakyt',
-        component: Accessories_mitenky_snizhna_blakyt
+        component: ProductDetails
     },
     {
         path: '/accessories/mitenky_fioletovyi_melanzh',
-        component: Accessories_mitenky_fioletovyi_melanzh
+        component: ProductDetails
     },
     {
         path: '/accessories/mitenky_snizhynky',
-        component: Accessories_mitenky_snizhynky
+        component: ProductDetails
     },
     {
         path: '/accessories/mitenky_snizhne_zoloto',
-        component: Accessories_mitenky_snizhne_zoloto
+        component: ProductDetails
     },
     {
         path: '/accessories/mitenky_try_troyandy',
-        component: Accessories_mitenky_try_troyandy
+        component: ProductDetails
     },
     {
         path: '/accessories/rukavytsi_pukhnastyky',
-        component: Accessories_rukavytsi_pukhnastyky
+        component: ProductDetails
     },
     {
         path: '/accessories/rukavytsi_zhakard',
-        component: Accessories_rukavytsi_zhakard
+        component: ProductDetails
     },
     {
         path: '/pillows/kotosyluet',
