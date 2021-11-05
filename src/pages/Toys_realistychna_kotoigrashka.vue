@@ -1,7 +1,7 @@
 <template>
 
   <div class="heading">
-    <h1>Подушки</h1>
+    <h1>Іграшки</h1>
 </div>
 
 <div class="item-all">

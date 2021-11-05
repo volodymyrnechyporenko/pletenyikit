@@ -5,7 +5,7 @@
 
   <div class="product-category">
     <AccessoriesPreviewCard
-      v-for="product in accessories"
+      v-for="product in accessories.slice().reverse()"
       :key="product.id"
       :product="product"
     />
