@@ -5,7 +5,13 @@
 </div>
   
 <div class="product-category">
-    <div class="product">
+  <div class="product">
+    <a href="#" @click="$router.push('/toys/realistychna_kotoigrashka')">
+        <div class="product-title">Реалістична котоіграшка</div>
+        <img loading="lazy" src="../assets/img/realistychna_kotoigrashka_01.jpg" class="product-image" alt="">
+    </a>
+  </div>
+  <div class="product">
     <a href="#" @click="$router.push('/toys/koshenya_rudenki_vushka')">
         <div class="product-title">Кошеня з руденькими вушками</div>
         <img loading="lazy" src="../assets/img/koshenya_rudenki_vushka_05.jpg" class="product-image" alt="">

@@ -1,7 +1,7 @@
 <template>
 
   <div class="heading">
-    <h1>Подушки</h1>
+    <h1>Іграшки</h1>
 </div>
 
 <div class="item-all">
@@ -33,6 +33,16 @@
             <p>Розмір: 46/12см</p>
             <div class="price">1000 грн</div>
         </div>
+    </div>
+</div>
+
+<h3>Схожі товари</h3>
+<div class="product-like-this">
+    <div class="product">
+        <a href="#" @click="$router.push('/toys/kotyk_blakytnookyi')">
+            <div class="product-small">Котик блакитноокий</div>
+            <img loading="lazy" src="../assets/img/bila_naturalistychna_01.jpg" class="product-image" alt="">
+        </a>
     </div>
 </div>
   

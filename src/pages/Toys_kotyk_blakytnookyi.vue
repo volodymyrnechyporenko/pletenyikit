@@ -35,6 +35,16 @@
         </div>
     </div>
 </div>
+
+<h3>Схожі товари</h3>
+<div class="product-like-this">
+    <div class="product">
+        <a href="#" @click="$router.push('/toys/realistychna_kotoigrashka')">
+            <div class="product-small">Реалістична котоіграшка</div>
+            <img loading="lazy" src="../assets/img/realistychna_kotoigrashka_01.jpg" class="product-image" alt="">
+        </a>
+    </div>
+</div>
   
 </template>
 

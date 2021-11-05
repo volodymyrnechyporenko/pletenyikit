@@ -27,6 +27,7 @@ import Toys_myshka_bila from "@/pages/Toys_myshka_bila"
 import Toys_myshka_temno_sira from "@/pages/Toys_myshka_temno_sira"
 import Toys_myshka_sira from "@/pages/Toys_myshka_sira"
 import Toys_kotyk_bezhevyi from "@/pages/Toys_kotyk_bezhevyi"
+import Toys_realistychna_kotoigrashka from "@/pages/Toys_realistychna_kotoigrashka"
 import Toys_kotyk_blakytnookyi from "@/pages/Toys_kotyk_blakytnookyi"
 import Toys_myshka_ruda from "@/pages/Toys_myshka_ruda"
 import Toys_myshka_bukliovana_sira from "@/pages/Toys_myshka_bukliovana_sira"
@@ -35,7 +36,6 @@ import Toys_kotyk_siryi from "@/pages/Toys_kotyk_siryi"
 import Toys_koshenyatko_serdechko from "@/pages/Toys_koshenyatko_serdechko"
 
 import Pillows_buzkova_zirka from "@/pages/Pillows_buzkova_zirka"
-import Pillows_realistychna_kotoigrashka from "@/pages/Pillows_realistychna_kotoigrashka"
 import Pillows_kotosyluet from "@/pages/Pillows_kotosyluet"
 import Pillows_biryuzova_zirka from "@/pages/Pillows_biryuzova_zirka"
 import Pillows_zirka_chervoni_tony from "@/pages/Pillows_zirka_chervoni_tony"
@@ -112,6 +112,10 @@ export const routes = [
     {
         path: '/toys/kotyk_bezhevyi',
         component: Toys_kotyk_bezhevyi
+    },
+    {
+        path: '/toys/realistychna_kotoigrashka',
+        component: Toys_realistychna_kotoigrashka
     },
     {
         path: '/toys/kotyk_blakytnookyi',
@@ -200,10 +204,6 @@ export const routes = [
     {
         path: '/pillows/buzkova_zirka',
         component: Pillows_buzkova_zirka
-    },
-    {
-        path: '/pillows/realistychna_kotoigrashka',
-        component: Pillows_realistychna_kotoigrashka
     },
     {
         path: '/pillows/kotosyluet',
