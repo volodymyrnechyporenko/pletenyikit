@@ -42,7 +42,13 @@
             <div class="product-title">Бірюзова зірка</div>
             <img loading="lazy" src="../assets/img/biryuzova_zirka_02.jpg" class="product-image" alt="">
         </a>
-  </div>
+    </div>
+    <div class="product">
+        <a href="#" @click="$router.push('/pillows/buzkova_zirka')">
+            <div class="product-title">Бузкова зірка</div>
+            <img loading="lazy" src="../assets/img/buzkova_zirka_01.jpg" class="product-image" alt="">
+        </a>
+    </div>
 </div>
   
 </template>

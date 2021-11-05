@@ -6,9 +6,21 @@
 
 <div class="product-category">
     <div class="product">
+        <a href="#" @click="$router.push('/pillows/realistychna_kotoigrashka')">
+            <div class="product-title">Реалістична котоіграшка</div>
+            <img loading="lazy" src="../assets/img/realistychna_kotoigrashka_01.jpg" class="product-image" alt="">
+        </a>
+    </div>
+    <div class="product">
         <a href="#" @click="$router.push('/pillows/kotosyluet')">
             <div class="product-title">Котосилует</div>
             <img loading="lazy" src="../assets/img/kotosyluet_01.jpg" class="product-image" alt="">
+        </a>
+    </div>
+    <div class="product">
+        <a href="#" @click="$router.push('/pillows/buzkova_zirka')">
+            <div class="product-title">Бузкова зірка</div>
+            <img loading="lazy" src="../assets/img/buzkova_zirka_01.jpg" class="product-image" alt="">
         </a>
     </div>
     <div class="product">
