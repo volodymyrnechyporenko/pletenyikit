@@ -34,6 +34,8 @@ import Toys_kotyk_bilyi from "@/pages/Toys_kotyk_bilyi"
 import Toys_kotyk_siryi from "@/pages/Toys_kotyk_siryi"
 import Toys_koshenyatko_serdechko from "@/pages/Toys_koshenyatko_serdechko"
 
+import Pillows_buzkova_zirka from "@/pages/Pillows_buzkova_zirka"
+import Pillows_realistychna_kotoigrashka from "@/pages/Pillows_realistychna_kotoigrashka"
 import Pillows_kotosyluet from "@/pages/Pillows_kotosyluet"
 import Pillows_biryuzova_zirka from "@/pages/Pillows_biryuzova_zirka"
 import Pillows_zirka_chervoni_tony from "@/pages/Pillows_zirka_chervoni_tony"
@@ -194,6 +196,14 @@ export const routes = [
     {
         path: '/accessories/rukavytsi_zhakard',
         component: Accessories_rukavytsi_zhakard
+    },
+    {
+        path: '/pillows/buzkova_zirka',
+        component: Pillows_buzkova_zirka
+    },
+    {
+        path: '/pillows/realistychna_kotoigrashka',
+        component: Pillows_realistychna_kotoigrashka
     },
     {
         path: '/pillows/kotosyluet',

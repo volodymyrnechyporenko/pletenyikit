@@ -30,7 +30,6 @@
 </template>
 
 <script>
-import accessories from '../../data/accessories.js';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import SwiperCore, {
   Navigation,

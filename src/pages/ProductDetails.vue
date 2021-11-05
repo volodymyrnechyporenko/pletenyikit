@@ -1,22 +1,29 @@
 <template>
   <ProductSummaryCard
-  v-for="product in accessories" 
-  :product="product"
+    :product="product"
+    v-on="viewProduct(product)"
   />
 </template>
 
 <script>
-import accessories from '../data/accessories.js';
+import toys from '../data/toys.js';
 import ProductSummaryCard from '../components/products/ProductSummaryCard.vue';
 
 export default {
+  
   components: {
     ProductSummaryCard
   },
   data() {
     return {
-      accessories: accessories
+      toys: toys
     };
+  },
+  methods: {
+    viewProduct(product) {
+      this.product = product;
+      return this.product;
+    }
   }
 };
 </script>

@@ -423,6 +423,36 @@ const pillows = [
         price: 600,
         link: '/pillows/rozhevyi_zaichyk',
         category: "Подушки"
+    },
+    {
+        id: 28,
+        name: "Бузкова зірка",
+        description: "Пастельні світлі відтінки - завжди доречні, а світло-бузковий колір і досі в трендах. Плетена вручну подушка-зірка прикрасить собою будь-який диван чи ліжечко. Подушка дуже м'яка та приємна на дотик, виконана з цікавої меланжевох пряжі, тож не є нудною та однотонною. Виріб цікаво не лише обіймати та підкладати під голову, а й - розглядати. Розміри: 48/12см. Матеріали: пряжа - акрил, наповнювач - холофайбер.",
+        images: [
+            "../assets/img/buzkova_zirka_01.jpg",
+            "../assets/img/buzkova_zirka_02.jpg",
+            "../assets/img/buzkova_zirka_03.jpg",
+            "../assets/img/buzkova_zirka_04.jpg"
+        ],
+        price: 500,
+        link: '/pillows/buzkova_zirka',
+        category: "Подушки"
+    },
+    {
+        id: 29,
+        name: "Реалістична котоіграшка",
+        description: "Обережно! З незвички, якщо у вас немає кота, можна злякатись, що до вас в хату забіг якийсь кіт) Бо ця іграшка, на перший погляд, здається справжнім сидячим котиком. Я дуже люблю супер-мінімалістичні подушки та іграшки, але існує запит і на реалістичних котиків і ми намагаємося мати в наявності різні котоВироби. Плетений та пошитий повністю вручну котик - в наявності. Мордочка та лапки також вишиті вручну. Матеріали: пряжа - акрил, наповнення - холофайбер.",
+        images: [
+            "../assets/img/realistychna_kotoigrashka_01.jpg",
+            "../assets/img/realistychna_kotoigrashka_02.jpg",
+            "../assets/img/realistychna_kotoigrashka_03.jpg",
+            "../assets/img/realistychna_kotoigrashka_04.jpg",
+            "../assets/img/realistychna_kotoigrashka_05.jpg",
+            "../assets/img/realistychna_kotoigrashka_06.jpg"
+        ],
+        price: 1000,
+        link: '/pillows/realistychna_kotoigrashka',
+        category: "Подушки"
     }
 ]
 

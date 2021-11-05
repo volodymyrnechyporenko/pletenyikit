@@ -41,7 +41,13 @@
             <div class="product-title">Зірка в червоних тонах</div>
             <img loading="lazy" src="../assets/img/zirka_chervoni_tony_01.jpg" class="product-image" alt="">
         </a>
-  </div>
+    </div>
+    <div class="product">
+        <a href="#" @click="$router.push('/pillows/buzkova_zirka')">
+            <div class="product-title">Бузкова зірка</div>
+            <img loading="lazy" src="../assets/img/buzkova_zirka_01.jpg" class="product-image" alt="">
+        </a>
+    </div>
 </div>
   
 </template>
