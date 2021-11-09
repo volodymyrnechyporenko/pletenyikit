@@ -1,14 +1,26 @@
 <template>
   <div class="product">
-    <a href="#" @click="$router.push(product.link)">
+    <router-link
+      :to="{
+        name: 'ProductDetalis',
+        params: {
+          name: product.name,
+          description: product.description,
+          price: product.price,
+          link: product.link,
+          category: product.category,
+          images: product.images
+        }
+      }"
+    >
       <div class="product-title">{{ product.name }}</div>
       <img
         loading="lazy"
-        :src="product.images[0]"
+        :src="require(`@/assets/img/${this.product.images[0]}`)"
         class="product-image"
         alt=""
       />
-    </a>
+    </router-link>
   </div>
 </template>
 

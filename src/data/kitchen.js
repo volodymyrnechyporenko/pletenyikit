@@ -4,16 +4,16 @@ const kitchen = [
         name: "Сердечка",
         description: "Ніжні та романтичні, містять в собі кілька відтінків неба, підставки \"Сердечка\" - в наявності. В наборі - три сердечка (блакитне, сіре, та сіро-блакитного відтінку). Матеріали: акрил (пряжа). Розміри: 14/12см. Ціна за набір з трьох штук.",
         images: [
-            "../assets/img/serdtsya_01.jpg",
-            "../assets/img/serdtsya_02.jpg",
-            "../assets/img/serdtsya_03.jpg",
-            "../assets/img/serdtsya_04.jpg",
-            "../assets/img/serdtsya_05.jpg",
-            "../assets/img/serdtsya_06.jpg",
-            "../assets/img/serdtsya_07.jpg"
+            "serdtsya_01.jpg",
+            "serdtsya_02.jpg",
+            "serdtsya_03.jpg",
+            "serdtsya_04.jpg",
+            "serdtsya_05.jpg",
+            "serdtsya_06.jpg",
+            "serdtsya_07.jpg"
         ],
         price: 80,
-        link: '/kitchen/serdechka',
+        link: 'serdechka',
         category: "Для кухні"
     },
     {
@@ -21,12 +21,12 @@ const kitchen = [
         name: "Закохані котики",
         description: "Таких підставочок - всього дві в наявності. Тож варто поспішити з придбанням ;) Матеріали: акрил (пряжа), бавовна (підкладка). Розміри: 16/13см. Ціна за штуку.",
         images: [
-            "../assets/img/zakohani_kotyky_01.jpg",
-            "../assets/img/zakohani_kotyky_02.jpg",
-            "../assets/img/zakohani_kotyky_03.jpg"
+            "zakohani_kotyky_01.jpg",
+            "zakohani_kotyky_02.jpg",
+            "zakohani_kotyky_03.jpg"
         ],
         price: 50,
-        link: '/kitchen/zakokhani_kotyky',
+        link: 'zakokhani_kotyky',
         category: "Для кухні"
     },
     {
@@ -34,17 +34,17 @@ const kitchen = [
         name: "Калейдоскоп",
         description: "Яскраві підставки під горнятка ручного плетіння вже готові забарвити собою ваш інтер'єр. Гарно виглядатимуть як зі склом, так і з керамікою. Підставки двохсторонні, зворотній бік - білий. В один набір входять шість підставочок. Є набори з бежевим, малиновим та бузковим гачкованим окантуванням. Розмір: 11/11см. Матеріал: акрил. Ціна за набір.",
         images: [
-            "../assets/img/kvadraty_01.jpg",
-            "../assets/img/kvadraty_02.jpg",
-            "../assets/img/kvadraty_03.jpg",
-            "../assets/img/kvadraty_04.jpg",
-            "../assets/img/kvadraty_05.jpg",
-            "../assets/img/kvadraty_06.jpg",
-            "../assets/img/kvadraty_07.jpg",
-            "../assets/img/kvadraty_08.jpg"
+            "kvadraty_01.jpg",
+            "kvadraty_02.jpg",
+            "kvadraty_03.jpg",
+            "kvadraty_04.jpg",
+            "kvadraty_05.jpg",
+            "kvadraty_06.jpg",
+            "kvadraty_07.jpg",
+            "kvadraty_08.jpg"
         ],
         price: 280,
-        link: '/kitchen/kaleidoskop',
+        link: 'kaleidoskop',
         category: "Для кухні"
     },
     {
@@ -52,15 +52,15 @@ const kitchen = [
         name: "Червона фактура",
         description: "Всього дві в наявності! Червоні, фатурні та досить великого розміру підставочки під горнятка - до вашої уваги. Орнамент на виробі створено виключно за рахунок чергування різних петельок в процесі плетіння. Є підставочка з силуетом руки та сонечка. Зі зворотнього боку - бавовняна підкладка з квітковим орнаментом. Розміри: 18/15см. Ціна за штуку.",
         images: [
-            "../assets/img/chervoni_fakturni_01.jpg",
-            "../assets/img/chervoni_fakturni_02.jpg",
-            "../assets/img/chervoni_fakturni_03.jpg",
-            "../assets/img/chervoni_fakturni_04.jpg",
-            "../assets/img/chervoni_fakturni_05.jpg",
-            "../assets/img/chervoni_fakturni_06.jpg"
+            "chervoni_fakturni_01.jpg",
+            "chervoni_fakturni_02.jpg",
+            "chervoni_fakturni_03.jpg",
+            "chervoni_fakturni_04.jpg",
+            "chervoni_fakturni_05.jpg",
+            "chervoni_fakturni_06.jpg"
         ],
         price: 50,
-        link: '/kitchen/chervona_faktura',
+        link: 'chervona_faktura',
         category: "Для кухні"
     },
     {
@@ -68,16 +68,16 @@ const kitchen = [
         name: "Кольорові смайлики",
         description: "Мінімалістичні та усміхнені - підставочки \"Смайлики\". Можна придбати поштучно або разом. Діаметр 11см. Ціна за штуку.",
         images: [
-            "../assets/img/kolyorovi_smailyky_01.jpg",
-            "../assets/img/kolyorovi_smailyky_02.jpg",
-            "../assets/img/kolyorovi_smailyky_03.jpg",
-            "../assets/img/kolyorovi_smailyky_04.jpg",
-            "../assets/img/kolyorovi_smailyky_05.jpg",
-            "../assets/img/kolyorovi_smailyky_06.jpg",
-            "../assets/img/kolyorovi_smailyky_07.jpg"
+            "kolyorovi_smailyky_01.jpg",
+            "kolyorovi_smailyky_02.jpg",
+            "kolyorovi_smailyky_03.jpg",
+            "kolyorovi_smailyky_04.jpg",
+            "kolyorovi_smailyky_05.jpg",
+            "kolyorovi_smailyky_06.jpg",
+            "kolyorovi_smailyky_07.jpg"
         ],
         price: 35,
-        link: '/kitchen/koliorovi_smailyky',
+        link: 'koliorovi_smailyky',
         category: "Для кухні"
     },
     {
@@ -85,14 +85,14 @@ const kitchen = [
         name: "Сірі смайлики",
         description: "Підставки під горнятка \"Сірі смайлики\" плетені гачком, мають діаметр 11см та вишиті личка. Ціна за штуку.",
         images: [
-            "../assets/img/siri_smailyky_01.jpg",
-            "../assets/img/siri_smailyky_02.jpg",
-            "../assets/img/siri_smailyky_03.jpg",
-            "../assets/img/siri_smailyky_04.jpg",
-            "../assets/img/siri_smailyky_05.jpg"
+            "siri_smailyky_01.jpg",
+            "siri_smailyky_02.jpg",
+            "siri_smailyky_03.jpg",
+            "siri_smailyky_04.jpg",
+            "siri_smailyky_05.jpg"
         ],
         price: 35,
-        link: '/kitchen/siri_smailyky',
+        link: 'siri_smailyky',
         category: "Для кухні"
     },
     {
@@ -100,15 +100,15 @@ const kitchen = [
         name: "Яблука",
         description: "Підставки \"Яблука\" плетені гачком з різних відтінків пастельної акрилової пряжі. Фактурні мінімалістичні та пасуватимуть до різного посуду. Діаметр: 11см. Ціна за штуку.",
         images: [
-            "../assets/img/yabluka_01.jpg",
-            "../assets/img/yabluka_02.jpg",
-            "../assets/img/yabluka_03.jpg",
-            "../assets/img/yabluka_04.jpg",
-            "../assets/img/yabluka_05.jpg",
-            "../assets/img/yabluka_06.jpg"
+            "yabluka_01.jpg",
+            "yabluka_02.jpg",
+            "yabluka_03.jpg",
+            "yabluka_04.jpg",
+            "yabluka_05.jpg",
+            "yabluka_06.jpg"
         ],
         price: 35,
-        link: '/kitchen/yabluka',
+        link: 'yabluka',
         category: "Для кухні"
     }
 ]
