@@ -6,6 +6,10 @@ import Accessories from "@/pages/Accessories"
 import Pillows from "@/pages/Pillows"
 import Kitchen from "@/pages/Kitchen"
 import Order from "@/pages/Order"
+import ToysDetails from "@/pages/ToysDetails"
+import AccessoriesDetails from "@/pages/AccessoriesDetails"
+import PillowsDetails from "@/pages/PillowsDetails"
+import KitchenDetails from "@/pages/KitchenDetails"
 
 export const routes = [
     {
@@ -34,23 +38,24 @@ export const routes = [
     },
     {
         path: '/toys/:link',
-        name: 'ProductDetalis',
-        component: () => import("@/pages/ProductDetails")
+        name: 'ToysDetails',
+        component: ToysDetails
     },
     {
         path: '/accessories/:link',
-        name: 'ProductDetalis',
-        component: () => import("@/pages/ProductDetails")
+        name: 'AccessoriesDetails',
+        props: true,
+        component: AccessoriesDetails
     },
     {
         path: '/pillows/:link',
-        name: 'ProductDetalis',
-        component: () => import("@/pages/ProductDetails")
+        name: 'PillowsDetails',
+        component: PillowsDetails
     },
     {
         path: '/kitchen/:link',
-        name: 'ProductDetalis',
-        component: () => import("@/pages/ProductDetails")
+        name: 'KitchenDetails',
+        component: KitchenDetails
     }
 ]
 

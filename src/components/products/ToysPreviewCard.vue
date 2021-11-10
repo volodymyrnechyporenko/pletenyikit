@@ -1,9 +1,8 @@
 <template>
-  <div class="product">
-    <router-link
-      :to="{
-        name: 'ProductDetalis',
+  <div class="product" @click="$router.push({
+        name: 'ToysDetails',
         params: {
+          id: product.id,
           name: product.name,
           description: product.description,
           price: product.price,
@@ -11,8 +10,7 @@
           category: product.category,
           images: product.images
         }
-      }"
-    >
+      })">
       <div class="product-title">{{ product.name }}</div>
       <img
         loading="lazy"
@@ -20,7 +18,6 @@
         class="product-image"
         alt=""
       />
-    </router-link>
   </div>
 </template>
 
