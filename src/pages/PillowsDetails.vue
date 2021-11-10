@@ -23,6 +23,8 @@
       <div class="item-text">
         <h3>{{ product.name }}</h3>
         <p>{{ product.description }}</p>
+        <p>{{ product.materials }}</p>
+        <p>{{ product.dimensions }}</p>
         <div class="price">{{ product.price }} грн</div>
       </div>
     </div>

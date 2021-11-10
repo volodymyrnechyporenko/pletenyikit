@@ -2,14 +2,14 @@
   <div class="product" @click="$router.push({
         name: 'AccessoriesDetails',
         params: {
+          id: product.id,
           name: product.name,
-          description: product.description,
           price: product.price,
           link: product.link,
-          category: product.category,
           images: product.images
         }
       })">
+      <div class="product-price">{{ product.price }}</div>
       <div class="product-title">{{ product.name }}</div>
       <img
         loading="lazy"
