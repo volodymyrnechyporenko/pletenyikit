@@ -65,13 +65,13 @@ const pillows = [
         materials: "Плетений спицями з велюрової світло-фіолетової пряжі та грубшої темно-бузкової акрилової нитки котик має гіпоалергенне наповнення (холофайбер), дуже м'якенький та приємний на дотик.",
         dimensions: "Розмір: 33/31/13см.",
         images: [
-            "fioletovyi_gentleman_01.jpg",
+            "fioletovyi_gentleman_04.jpg",
             "fioletovyi_gentleman_02.jpg",
             "fioletovyi_gentleman_03.jpg",
-            "fioletovyi_gentleman_04.jpg",
             "fioletovyi_gentleman_05.jpg",
             "fioletovyi_gentleman_06.jpg",
-            "fioletovyi_gentleman_07.jpg"
+            "fioletovyi_gentleman_07.jpg",
+            "fioletovyi_gentleman_01.jpg"
         ],
         price: 650,
         link: 'fioletovyi_gentleman',
@@ -84,9 +84,9 @@ const pillows = [
         materials: "Матеріали: холофайбер (наповнення), синтетична пряжа.",
         dimensions: "Розмір: 35/34/15см.",
         images: [
-            "rozhevyi_melanzh_veliur_01.jpg",
-            "rozhevyi_melanzh_veliur_02.jpg",
             "rozhevyi_melanzh_veliur_03.jpg",
+            "rozhevyi_melanzh_veliur_02.jpg",
+            "rozhevyi_melanzh_veliur_01.jpg",
             "rozhevyi_melanzh_veliur_04.jpg",
             "rozhevyi_melanzh_veliur_05.jpg",
             "rozhevyi_melanzh_veliur_06.jpg",
@@ -124,9 +124,9 @@ const pillows = [
         materials: "Матеріали: холофайбер (наповнення).",
         dimensions: "Розмір: 31/30/11см.",
         images: [
-            "bezhevyi_melanzh_01.jpg",
+            "bezhevyi_melanzh_03.jpg",
             "bezhevyi_melanzh_02.jpg",
-            "bezhevyi_melanzh_03.jpg"
+            "bezhevyi_melanzh_01.jpg"
         ],
         price: 550,
         link: 'bezhevyi_melanzh',
@@ -395,8 +395,8 @@ const pillows = [
         description: "Це один з двох неплетених виробів у \"Плетеному КоТі\". Якось я знайшла серед тканин, що залишились від пошиття одягу та іграшок на замовлення, кілька видів бавовняного вельвету та бавовняну заквітчану фланель. З них мені побачились сплячі кити. І я їх пошила. Наповнення, як і у плетених подушок - холофайбер, а тканини на 100% натуральні.",
         dimensions: "Розміри: 56/26/14см.",
         images: [
-            "synio_rozhevyi_kyt_01.jpg",
             "synio_rozhevyi_kyt_02.jpg",
+            "synio_rozhevyi_kyt_01.jpg",
             "synio_rozhevyi_kyt_03.jpg",
             "synio_rozhevyi_kyt_04.jpg",
             "synio_rozhevyi_kyt_05.jpg"

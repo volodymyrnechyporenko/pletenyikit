@@ -78,8 +78,8 @@ const kitchen = [
         dimensions: "Діаметр 11см.",
         amount: "Ціна за штуку.",
         images: [
-            "kolyorovi_smailyky_01.jpg",
             "kolyorovi_smailyky_02.jpg",
+            "kolyorovi_smailyky_01.jpg",
             "kolyorovi_smailyky_03.jpg",
             "kolyorovi_smailyky_04.jpg",
             "kolyorovi_smailyky_05.jpg",
