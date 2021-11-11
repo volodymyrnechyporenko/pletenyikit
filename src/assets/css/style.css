@@ -26,7 +26,7 @@ header, footer {
   background-color: #a32720;
   color: #cbac6a;
   width: 100%;
-  padding: .8rem 0;
+  padding: .6rem 0;
 }
 
 header {
@@ -63,20 +63,26 @@ footer {
 
 main {
   color: #aea28f;
-  padding: 6rem;
+  padding: 8rem;
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   main {
-    padding: 3em 6vw;
+    padding: 3rem 1rem;
   }
 }
 
 .nav, .foot-all, .categories, .item-all {
   display: flex;
   justify-content: space-between;
-  padding: 0 6rem
+  padding: 0 8rem
+}
+
+@media screen and (max-width: 812px) {
+  .nav, .foot-all, .categories, .item-all {
+    padding: 0 1rem;
+  }
 }
 
 .nav {
@@ -92,7 +98,6 @@ main {
 }
 
 @media screen and (max-width: 992px) {
-
   .nav-left, .nav-right {
     display: none;
   }
@@ -114,7 +119,6 @@ main {
 }
 
 @media screen and (max-width: 992px) and (orientation: portrait) {
-
   .foot-left, .foot-right {
     width: 100%;
   }
@@ -238,10 +242,10 @@ h4 {
 
 .txt-2col p {
   margin-top: 0;
-  widows: 3;
+  widows: 2;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
   .txt-2col {
     column-count: 1;
   }
@@ -255,7 +259,6 @@ h4 {
 }
 
 @media screen and (max-width: 767px) {
-
   .article, .item-all {
     flex-direction: column-reverse;
     border: none;
@@ -264,7 +267,6 @@ h4 {
 }
 
 @media screen and (max-width: 992px) and (orientation: landscape) {
-
   .article, .item-all {
     flex-direction: row;
     border: none;
@@ -276,7 +278,6 @@ h4 {
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
-
   .item-left, .item-right {
     width: 100%;
   }
@@ -428,25 +429,11 @@ h4 {
   width: 5%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 735px) {
   .nav-logo {
     width: 10%;
     text-align: left;
   }
-}
-
-.foot-logo {
-  text-align: center;
-}
-
-@media screen and (max-width: 992px) {
-  .foot-logo {
-    display: none;
-  }
-}
-
-.foot-logo img {
-  max-width: 20%;
 }
 
 .product-image {
@@ -592,7 +579,7 @@ button:hover {
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem 0 1rem 0;
 }
 
 .filter_button_wrap {
@@ -679,12 +666,12 @@ button:hover {
 }
 
 .sidebar ul {
-  margin-top: 7em;
+  margin-top: 4rem;
 }
 
 .sidebar li {
   list-style-type: none;
-  margin-bottom: 2.8em;
+  margin-bottom: 3rem;
 }
 
 .sidebar .side {
