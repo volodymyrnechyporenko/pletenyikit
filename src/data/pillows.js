@@ -125,7 +125,7 @@ const pillows = [
         dimensions: "Розмір: 31/30/11см.",
         images: [
             "bezhevyi_melanzh_01.jpg",
-            "bezhevyi_melanzh_01.jpg",
+            "bezhevyi_melanzh_02.jpg",
             "bezhevyi_melanzh_03.jpg"
         ],
         price: 550,

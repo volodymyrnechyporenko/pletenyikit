@@ -8,7 +8,7 @@
       <swiper
         :slides-per-view="1"
         :space-between="20"
-        :navigation="true"
+        
         :pagination="{ clickable: true }"
         :autoplay="{ delay: 3000 }"
         loop
@@ -35,19 +35,17 @@
 import pillows from '../data/pillows.js';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import SwiperCore, {
-  Navigation,
   Pagination,
   Autoplay,
   EffectFade
 } from 'swiper';
 
-SwiperCore.use([Navigation, Pagination, Autoplay, EffectFade]);
+SwiperCore.use([Pagination, Autoplay, EffectFade]);
 
 export default {
   components: {
     Swiper,
     SwiperSlide,
-    Navigation,
     Pagination,
     Autoplay
   },
