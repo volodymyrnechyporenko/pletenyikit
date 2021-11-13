@@ -1,7 +1,7 @@
 <template>
   <ScrollTopComponent>
       <a class="scrollToTop">
-        <font-awesome-icon :icon="['fas', 'arrow-alt-circle-up']" size="3x"/>
+        <font-awesome-icon :icon="['fas', 'angle-up']" size="3x"/>
       </a>
   </ScrollTopComponent>
 </template>
