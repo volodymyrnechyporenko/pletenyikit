@@ -477,15 +477,26 @@ h4 {
 }
 
 .form_input:focus {
-  border: 0.2vw solid #aea28f;
+  border: 0.2rem solid #aea28f;
 }
 
 textarea {
   resize: vertical;
+  outline: none;
 }
 
-input[type=text] {
+input[type=text], input[type=tel] {
   height: 2.6em;
+  outline: none;
+}
+
+input.error {
+  border: 0.2rem solid #a32720;
+}
+
+input::placeholder, textarea::placeholder {
+  font: 100% "RepoRegular";
+  font-size: 1rem;
 }
 
 .checkbox_input {
@@ -549,30 +560,12 @@ button:hover {
 
 .form_button {
   width: 100%;
+}
+
+.form_button, .order_button {
   font-size: 1.4em;
   padding: 0.6em 0.8em;
-  border-radius: 0.6vw;
-}
-
-button {
-  background-color: #aea28f;
-  color: #ffffff;
-  font: 100% "RepoRegular";
-  font-weight: 600;
-  margin-top: .5em;
-  border: none;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: #cbac6a;
-  transition: background-color 0.5s ease 0s;
-}
-
-.form_button, .pay_button, .order_button {
-  font-size: 1.4em;
-  padding: 0.6em 0.8em;
-  border-radius: 0.6vw;
+  border-radius: 0.3rem;
 }
 
 .filter_heading {
@@ -626,10 +619,6 @@ button:hover {
 .filter_button:hover::before, .filter_button:hover::after {
   width: 50%;
   opacity: 1;
-}
-
-.form_button {
-  width: 100%;
 }
 
 .scrollToTop {
