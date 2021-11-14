@@ -211,6 +211,57 @@ const accessories = [
         price: 270,
         link: 'rukavytsi_zhakard',
         category: "Аксесуари"
+    },
+    {
+        id: 15,
+        name: "Мітенки \"Бджілки\"",
+        description: "Аксесуар для любителів меду або комах! Мітенки з вишитими бджілками - що може ще більше нагадувати про літо прохолодними днями?",
+        materials: "Виріб плетено з м'якої акрилової пряжі спицями, вишивка зроблена вручну, як і всі вироби Плетеного КоТа.",
+        images: [
+            "mitenky_bdzhilky_01.jpg",
+            "mitenky_bdzhilky_02.jpg",
+            "mitenky_bdzhilky_03.jpg",
+            "mitenky_bdzhilky_04.jpg"
+        ],
+        price: 300,
+        link: 'mitenky_bdzhilky',
+        category: "Аксесуари"
+    },
+    {
+        id: 16,
+        name: "Рукавиці для мобільного \"Біла хризантема\"",
+        description: "Ця вишивка найбільше нагадує мені пізню білу хризантему у саду, що вже втратив яскраві осінні кольори та почав набувати зимових сірих тонів. Якщо ви любите спокійні відтіки та мінімалізм - ці рукавички для мобільного чудово вам пасуватимуть.",
+        materials: "Ручне плетіння спицями та ручна вишивка. Розмір універсальний, завдяки плетінню \"гумка\" на долоні. Можна легко користуватись мобільним телефоном, не знімаючи рукавички.",
+        images: [
+            "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+            "rukavytsi_mobilnogo_bila_khryzantema_02.jpg",
+            "rukavytsi_mobilnogo_bila_khryzantema_03.jpg",
+            "rukavytsi_mobilnogo_bila_khryzantema_04.jpg",
+            "rukavytsi_mobilnogo_bila_khryzantema_05.jpg",
+            "rukavytsi_mobilnogo_bila_khryzantema_06.jpg"
+        ],
+        price: 350,
+        link: 'rukavytsi_mobilnogo_bila_khryzantema',
+        category: "Аксесуари"
+    },
+    {
+        id: 17,
+        name: "Рукавиці для мобільного \"Зоряна ніч\"",
+        description: "Ван Гог надихає багато кого, і ми - не виключення. До вашої уваги - вовняні рукавички для зручного користування мобільним \"Зоряна ніч\". Чудова тепленька темно-бірюзова пряжа зі значним вмістом вовни + ручна вишивка = яскраві та оригінальні зимові рукавички.",
+        materials: "Матеріал: вовна - 70%, акрил - 30%",
+        dimensions: "Розмір: M/L (плетіння-гумка зі сторони долоні дає можливість купувати рукавички на ширшу руку також).",
+        images: [
+            "rukavytsi_mobilnogo_zoryana_nich_01.jpg",
+            "rukavytsi_mobilnogo_zoryana_nich_02.jpg",
+            "rukavytsi_mobilnogo_zoryana_nich_03.jpg",
+            "rukavytsi_mobilnogo_zoryana_nich_04.jpg",
+            "rukavytsi_mobilnogo_zoryana_nich_05.jpg",
+            "rukavytsi_mobilnogo_zoryana_nich_06.jpg",
+            "rukavytsi_mobilnogo_zoryana_nich_07.jpg"
+        ],
+        price: 350,
+        link: 'rukavytsi_mobilnogo_zoryana_nich',
+        category: "Аксесуари"
     }
 ]
 

@@ -204,6 +204,24 @@ const toys = [
         link: 'koshenya_rudenki_vushka',
         category: "Іграшки"
     },
+    {
+        id: 13,
+        name: "Біленьке велюрове кошеня",
+        description: "Неймовірно пухкенький на вигляд та на дотик - котусик. Пряжа, з якого його виконано, поєднує в собі всі відтінки літніх романтичних квітів: лаванду, рожевий та білий.",
+        materials: "Все, як завжди, плетено, пошито і вишито 100% вручну. Матеріали: акрил (пряжа), холофайбер (наповнення).",
+        dimensions: "Розмір: 13/7см.",
+        images: [
+            "veliurove_bilenke_koshenya_01.jpg",
+            "veliurove_bilenke_koshenya_02.jpg",
+            "veliurove_bilenke_koshenya_03.jpg",
+            "veliurove_bilenke_koshenya_04.jpg",
+            "veliurove_bilenke_koshenya_05.jpg",
+            "veliurove_bilenke_koshenya_06.jpg"
+        ],
+        price: 300,
+        link: 'veliurove_bilenke_koshenya',
+        category: "Іграшки"
+    }
 ]
 
 export default toys

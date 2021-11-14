@@ -360,69 +360,8 @@ h4 {
   }
 }
 
-.product-ordered {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: .4rem;
-  border: 1px solid #aea28f;
-  margin-bottom: 1rem;
-}
-
-.product-ordered:nth-child() {
-  margin-bottom: 1rem;
-}
-
-.ordered-img {
-  width: 25%;
-}
-
-.ordered-img img, .nav-logo img, .product-image, .ordered-img img {
+.nav-logo img, .product-image {
   max-width: 100%;
-}
-
-.ordered-item {
-  width: 65%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: left;
-}
-
-.ordered-title {
-  font-size: calc(12px + 6 * (100vw / 1920));
-  font-weight: 600;
-  color: #cbac6a;
-}
-
-.ordered-price {
-  font-size: calc(14px + 16 * (100vw / 1920));
-  font-weight: 300;
-  color: #cbac6a;
-}
-
-.ordered-remove {
-  width: 5%;
-  padding-top: .5rem;
-}
-
-.ordered-remove .fa {
-  font-size: calc(16px + 6 * (100vw / 1920));
-  font-weight: 600;
-  color: #aea28f;
-}
-
-.ordered-remove .fa:hover {
-  color: #cbac6a;
-  transition: .5s ease 0s;
-  cursor: pointer;
-}
-
-.price-total {
-  font-size: calc(14px + 16 * (100vw / 1920));
-  font-weight: 300;
-  color: #aea28f;
-  margin: 1.5rem 0;
 }
 
 .nav-logo {
@@ -439,10 +378,6 @@ h4 {
 .product-image {
   position: absolute;
   vertical-align: bottom;
-}
-
-.ordered-img {
-  width: 15%;
 }
 
 .form_body {
@@ -488,59 +423,6 @@ textarea {
 input[type=text], input[type=tel] {
   height: 2.6em;
   outline: none;
-}
-
-input.error {
-  border: 0.2rem solid #a32720;
-}
-
-input::placeholder, textarea::placeholder {
-  font: 100% "RepoRegular";
-  font-size: 1rem;
-}
-
-.checkbox_input {
-  display: none;
-}
-
-.checkbox_input:checked+.checkbox_label::after {
-  transform: scale(1);
-}
-
-.checkbox_label {
-  font-size: 1em;
-  line-height: 140%;
-  display: inline-flex;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-}
-
-.checkbox_label::before {
-  content: "";
-  align-self: flex-start;
-  flex: 0 0 22px;
-  height: 22px;
-  background-color: #ffffff;
-  border-radius: 4px;
-  margin: 0px 10px 0px 0px;
-}
-
-.checkbox_label::after {
-  transition: transform 0.5s ease 0s;
-  content: "";
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  border-radius: 4px;
-  background-color: #cbac6a;
-  transform: scale(0);
-}
-
-.checkbox_label a {
-  text-decoration: underline;
 }
 
 button {

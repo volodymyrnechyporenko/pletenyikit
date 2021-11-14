@@ -486,6 +486,23 @@ const pillows = [
         link: 'kotosyluet',
         category: "Подушки"
     },
+    {
+        id: 29,
+        name: "Котик-щокастик меланжевий",
+        description: "Білі щічки - одна з найсимпатичніших деатлей цього котика, але, якщо придивитись, таких деталей - купа.",
+        materials: "Гарні вушка, цікавий меланжевий відтінок, коротенькі лапки - все ручного плетіння і все це готово їхати та прикрашати вашу оселю.",
+        dimensions: "Розмір: 47/30/13см.",
+        images: [
+            "kotyk_schokastyk_melanzhevyi_01.jpg",
+            "kotyk_schokastyk_melanzhevyi_02.jpg",
+            "kotyk_schokastyk_melanzhevyi_03.jpg",
+            "kotyk_schokastyk_melanzhevyi_04.jpg",
+            "kotyk_schokastyk_melanzhevyi_05.jpg"
+        ],
+        price: 750,
+        link: 'kotyk_schokastyk_melanzhevyi',
+        category: "Подушки"
+    }
 ]
 
 export default pillows
