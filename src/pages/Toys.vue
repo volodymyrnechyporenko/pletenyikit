@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 
 <div class="heading">
   <h1>Іграшки</h1>
@@ -52,39 +53,57 @@
         <div class="product-title">Мишка руда</div>
         <img loading="lazy" src="../assets/img/kryska_rudisha_01.jpg" class="product-image" alt="">
     </a>
+=======
+  <div class="heading">
+    <h1>Іграшки</h1>
+>>>>>>> dev
   </div>
-  <div class="product">
-    <a href="#" @click="$router.push('/toys/kotyk_bilyi')">
-        <div class="product-title">Котик білий</div>
-        <img loading="lazy" src="../assets/img/kotoigrashka_bilenka_01.jpg" class="product-image" alt="">
-    </a>
-  </div>
-  <div class="product">
-    <a href="#" @click="$router.push('/toys/kotyk_siryi')">
-        <div class="product-title">Котий сірий</div>
-        <img loading="lazy" src="../assets/img/kotoigrashka_sirenka_01.jpg" class="product-image" alt="">
-    </a>
-  </div>
-  <div class="product">
-    <a href="#" @click="$router.push('/toys/myshka_bukliovana_sira')">
-        <div class="product-title">Мишка букльована сіра</div>
-        <img loading="lazy" src="../assets/img/kryska_sira_02.jpg" class="product-image" alt="">
-    </a>
-  </div>
-  <div class="product">
-    <a href="#" @click="$router.push('/toys/koshenyatko_serdechko')">
-        <div class="product-title">Кошенятко з сердечком</div>
-        <img loading="lazy" src="../assets/img/kotyky_02.jpg" class="product-image" alt="">
-    </a>
-  </div>
-</div>
 
+  <div class="filter_heading">Фільтри</div>
+  <div class="filter_button_wrap">
+    <div class="filter_button" v-on:click="priceSorted()">від дешевших</div>
+    <div class="filter_button" v-on:click="dateSorted()">від дорожчих</div>
+  </div>
+
+  <div class="product-category">
+    <ToysPreviewCard
+      v-for="product in toys.slice().reverse()"
+      :key="product.id"
+      :product="product"
+    />
+  </div>
 </template>
 
 <script>
+import toys from '../data/toys.js';
+import ToysPreviewCard from '../components/products/ToysPreviewCard.vue';
+
 export default {
-}
+  components: {
+    ToysPreviewCard
+  },
+  data() {
+    return {
+      toys: toys
+    };
+  },
+  methods: {
+    priceSorted() {
+      return this.toys.sort(function(a, b) {
+        if (a.price > b.price) {
+          return b.price - a.price;
+        }
+      });
+    },
+    dateSorted() {
+      return this.toys.sort(function(a, b) {
+        if (a.price < b.price) {
+          return a.price - b.price;
+        }
+      });
+    }
+  }
+};
 </script>
 
-<style>
-</style>
+<style></style>

@@ -16,7 +16,7 @@ module.exports = {
             'https://pletenyikit.com.ua/order'
         ],
         defaults: {
-          lastmod:    '2021-10-29',
+          lastmod:    '2021-11-14',
           changefreq: 'daily',
           priority:   1.0,
       },

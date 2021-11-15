@@ -1,64 +1,53 @@
 <template>
-
-<div class="heading">
+  <div class="heading">
     <h1>Для кухні</h1>
-</div>
+  </div>
 
-<div class="product-category">
-    <div class="product">
-        <a href="#" @click="$router.push('/kitchen/serdechka')">
-            <div class="product-title">Сердечка</div>
-            <img loading="lazy" src="../assets/img/serdtsya_01.jpg" class="product-image" alt="">
-        </a>
-    </div>
-    <div class="product">
-        <a href="#" @click="$router.push('/kitchen/zakokhani_kotyky')">
-            <div class="product-title">Закохані котики</div>
-            <img loading="lazy" src="../assets/img/zakohani_kotyky_01.jpg" class="product-image" alt="">
-        </a>
-    </div>
-    <div class="product">
-        <a href="#" @click="$router.push('/kitchen/kaleidoskop')">
-            <div class="product-title">Калейдоскоп</div>
-            <img loading="lazy" src="../assets/img/kvadraty_02.jpg" class="product-image" alt="">
-        </a>
-    </div>
-    <div class="product">
-        <a href="#" @click="$router.push('/kitchen/chervona_faktura')">
-            <div class="product-title">Червона фактура</div>
-            <img loading="lazy" src="../assets/img/chervoni_fakturni_01.jpg" class="product-image" alt="">
-        </a>
-    </div>
-    <div class="product">
-        <a href="#" @click="$router.push('/kitchen/koliorovi_smailyky')">
-            <div class="product-title">Кольорові смайлики</div>
-            <img loading="lazy" src="../assets/img/kolyorovi_smailyky_02.jpg" class="product-image" alt="">
-        </a>
-    </div>
-    <div class="product">
-        <a href="#" @click="$router.push('/kitchen/siri_smailyky')">
-            <div class="product-title">Сірі смайлики</div>
-            <img loading="lazy" src="../assets/img/siri_smailyky_01.jpg" class="product-image" alt="">
-        </a>
-    </div>
-    <div class="product">
-        <a href="#" @click="$router.push('/kitchen/yabluka')">
-            <div class="product-title">Яблука</div>
-            <img loading="lazy" src="../assets/img/yabluka_05.jpg" class="product-image" alt="">
-        </a>
-    </div>
-</div>
-  
+  <div class="filter_heading">Фільтри</div>
+  <div class="filter_button_wrap">
+    <div class="filter_button" v-on:click="priceSorted()">від дешевших</div>
+    <div class="filter_button" v-on:click="dateSorted()">від дорожчих</div>
+  </div>
+
+  <div class="product-category">
+    <KitchenPreviewCard
+      v-for="product in kitchen.slice().reverse()"
+      :key="product.id"
+      :product="product"
+    />
+  </div>
 </template>
 
 <script>
+import kitchen from '../data/kitchen.js';
+import KitchenPreviewCard from '../components/products/KitchenPreviewCard.vue';
 
 export default {
-  
-}
-
+  components: {
+    KitchenPreviewCard
+  },
+  data() {
+    return {
+      kitchen: kitchen
+    };
+  },
+  methods: {
+    priceSorted() {
+      return this.kitchen.sort(function(a, b) {
+        if (a.price > b.price) {
+          return b.price - a.price;
+        }
+      });
+    },
+    dateSorted() {
+      return this.kitchen.sort(function(a, b) {
+        if (a.price < b.price) {
+          return a.price - b.price;
+        }
+      });
+    }
+  }
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

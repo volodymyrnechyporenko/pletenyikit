@@ -6,6 +6,7 @@ import Accessories from "@/pages/Accessories"
 import Pillows from "@/pages/Pillows"
 import Kitchen from "@/pages/Kitchen"
 import Order from "@/pages/Order"
+<<<<<<< HEAD
 
 import Accessories_beret_sriblo from "@/pages/Accessories_beret_sriblo"
 import Accessories_shalyk_beret_svitlyi_bezh from "@/pages/Accessories_shalyk_beret_svitlyi_bezh"
@@ -71,6 +72,12 @@ import Kitchen_chervona_faktura from "@/pages/Kitchen_chervona_faktura"
 import Kitchen_koliorovi_smailyky from "@/pages/Kitchen_koliorovi_smailyky"
 import Kitchen_siri_smailyky from "@/pages/Kitchen_siri_smailyky"
 import Kitchen_yabluka from "@/pages/Kitchen_yabluka"
+=======
+import ToysDetails from "@/pages/ToysDetails"
+import AccessoriesDetails from "@/pages/AccessoriesDetails"
+import PillowsDetails from "@/pages/PillowsDetails"
+import KitchenDetails from "@/pages/KitchenDetails"
+>>>>>>> dev
 
 export const routes = [
     {
@@ -98,6 +105,7 @@ export const routes = [
         component: Order
     },
     {
+<<<<<<< HEAD
         path: '/toys/myshka_bila',
         component: Toys_myshka_bila
     },
@@ -216,131 +224,28 @@ export const routes = [
     {
         path: '/pillows/zirka_chervoni_tony',
         component: Pillows_zirka_chervoni_tony
+=======
+        path: '/toys/:link',
+        name: 'ToysDetails',
+        component: ToysDetails
+>>>>>>> dev
     },
     {
-        path: '/pillows/minimalizm_lapky',
-        component: Pillows_minimalizm_lapky
+        path: '/accessories/:link',
+        name: 'AccessoriesDetails',
+        props: true,
+        component: AccessoriesDetails
     },
     {
-        path: '/pillows/nosyk_serdechko',
-        component: Pillows_nosyk_serdechko
+        path: '/pillows/:link',
+        name: 'PillowsDetails',
+        component: PillowsDetails
     },
     {
-        path: '/pillows/pudrova_kytska',
-        component: Pillows_pudrova_kytska
-    },
-    {
-        path: '/pillows/fioletovyi_gentleman',
-        component: Pillows_fioletovyi_gentleman
-    },
-    {
-        path: '/pillows/rozhevyi_velur',
-        component: Pillows_rozhevyi_velur
-    },
-    {
-        path: '/pillows/synio_bezhevyi_melanzh',
-        component: Pillows_synio_bezhevyi_melanzh
-    },
-    {
-        path: '/pillows/bezhevyi_melanzh',
-        component: Pillows_bezhevyi_melanzh
-    },
-    {
-        path: '/pillows/siryi_kit_rozhevi_lapky',
-        component: Pillows_siryi_kit_rozhevi_lapky
-    },
-    {
-        path: '/pillows/zhovtyi_pukhnastyi_kotyk',
-        component: Pillows_zhovtyi_pukhnastyi_kotyk
-    },
-    {
-        path: '/pillows/siryi_zelenookyi_smugach',
-        component: Pillows_siryi_zelenookyi_smugach
-    },
-    {
-        path: '/pillows/pesyk_burshtynovi_ochi',
-        component: Pillows_pesyk_burshtynovi_ochi
-    },
-    {
-        path: '/pillows/pianino',
-        component: Pillows_pianino
-    },
-    {
-        path: '/pillows/rodynne_derevo',
-        component: Pillows_rodynne_derevo
-    },
-    {
-        path: '/pillows/serdechko',
-        component: Pillows_serdechko
-    },
-    {
-        path: '/pillows/pukhkenkyi_pesopodukh',
-        component: Pillows_pukhkenkyi_pesopodukh
-    },
-    {
-        path: '/pillows/zhovtyi_bukliovanyi_pesyk',
-        component: Pillows_zhovtyi_bukliovanyi_pesyk
-    },
-    {
-        path: '/pillows/sira_melanzheva_myshka',
-        component: Pillows_sira_melanzheva_myshka
-    },
-    {
-        path: '/pillows/sira_bukliovana_myshka',
-        component: Pillows_sira_bukliovana_myshka
-    },
-    {
-        path: '/pillows/metelyk_syni_smuzhky',
-        component: Pillows_metelyk_syni_smuzhky
-    },
-    {
-        path: '/pillows/metelyk_chervoni_smuzhky',
-        component: Pillows_metelyk_chervoni_smuzhky
-    },
-    {
-        path: '/pillows/lysychka',
-        component: Pillows_lysychka
-    },
-    {
-        path: '/pillows/syniy_kyt',
-        component: Pillows_syniy_kyt
-    },
-    {
-        path: '/pillows/synio_rozhevyi_kyt',
-        component: Pillows_synio_rozhevyi_kyt
-    },
-    {
-        path: '/pillows/rozhevyi_zaichyk',
-        component: Pillows_rozhevyi_zaichyk
-    },
-    {
-        path: '/kitchen/serdechka',
-        component: Kitchen_serdechka
-    },
-    {
-        path: '/kitchen/zakokhani_kotyky',
-        component: Kitchen_zakokhani_kotyky
-    },
-    {
-        path: '/kitchen/kaleidoskop',
-        component: Kitchen_kaleidoskop
-    },
-    {
-        path: '/kitchen/chervona_faktura',
-        component: Kitchen_chervona_faktura
-    },
-    {
-        path: '/kitchen/koliorovi_smailyky',
-        component: Kitchen_koliorovi_smailyky
-    },
-    {
-        path: '/kitchen/siri_smailyky',
-        component: Kitchen_siri_smailyky
-    },
-    {
-        path: '/kitchen/yabluka',
-        component: Kitchen_yabluka
-    },
+        path: '/kitchen/:link',
+        name: 'KitchenDetails',
+        component: KitchenDetails
+    }
 ]
 
 const router = createRouter({
