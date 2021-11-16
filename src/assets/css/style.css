@@ -266,6 +266,13 @@ h4 {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .item-all {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #aea28f;
+  }
+}
+
 @media screen and (max-width: 992px) and (orientation: landscape) {
   .article, .item-all {
     flex-direction: row;
@@ -304,7 +311,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 2rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {

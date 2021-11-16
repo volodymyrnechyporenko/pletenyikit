@@ -28,16 +28,16 @@
       </div>
     </div>
   </div>
+  <div class="product-similar">
+    <KitchenSimilarProduct v-for="item in product.similar" :item="item" />
+  </div>
 </template>
 
 <script>
 import kitchen from '../data/kitchen.js';
+import KitchenSimilarProduct from '../components/products/KitchenSimilarProduct';
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import SwiperCore, {
-  Pagination,
-  Autoplay,
-  EffectFade
-} from 'swiper';
+import SwiperCore, { Pagination, Autoplay, EffectFade } from 'swiper';
 
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 
@@ -46,17 +46,22 @@ export default {
     Swiper,
     SwiperSlide,
     Pagination,
-    Autoplay
+    Autoplay,
+    KitchenSimilarProduct
   },
   data() {
     return {
-      product: null
-    }
+      product: null,
+      kitchen: kitchen,
+      visible: false
+    };
   },
   created() {
-    const product = kitchen.find(product => product.link === this.$route.params.link)
+    const product = kitchen.find(
+      product => product.link === this.$route.params.link
+    );
     if (product) {
-      this.product = product
+      this.product = product;
     }
   }
 };

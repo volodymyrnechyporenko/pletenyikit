@@ -28,7 +28,6 @@
       </div>
     </div>
   </div>
-  <h3 class="title-similar" :style="{ visibility: 'hidden' }">Схожі товари</h3>
   <div class="product-similar">
     <PillowsSimilarProduct
       v-for="item in product.similar"
