@@ -9,7 +9,14 @@ const accessories = [
         ],
         price: 200,
         link: 'beret_sriblo',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "beret_shalyk_01.jpg",
+                price: 550,
+                link: 'shalyk_beret_svitlyi_bezh'
+            }
+        ]
     },
     {
         id: 2,
@@ -27,7 +34,14 @@ const accessories = [
         ],
         price: 550,
         link: 'shalyk_beret_svitlyi_bezh',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "beret_shalyk_09.jpg",
+                price: 200,
+                link: 'beret_sriblo'
+            }
+        ]
     },
     {
         id: 3,
@@ -58,7 +72,14 @@ const accessories = [
         ],
         price: 180,
         link: 'mitenky_olyvkovi_kosy',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_fakturni_sovy_01.jpg",
+                price: 250,
+                link: 'mitenky_fakturni_sovy'
+            }
+        ]
     },
     {
         id: 5,
@@ -73,7 +94,14 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_fakturni_sovy',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_olyvkovi_kosy_01.jpg",
+                price: 180,
+                link: 'mitenky_olyvkovi_kosy'
+            }
+        ]
     },
     {
         id: 6,
@@ -92,7 +120,24 @@ const accessories = [
         ],
         price: 300,
         link: 'rukavytsi_siri_kosy',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_mobilnogo_zoryana_nich_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_zoryana_nich'
+            },
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            }
+        ]
     },
     {
         id: 7,
@@ -108,8 +153,25 @@ const accessories = [
             "rukavytsi_mobilnogo_smugasti_07.jpg"
         ],
         price: 300,
-        link: 'rukavytsi_siri_kosy',
-        category: "Аксесуари"
+        link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_mobilnogo_zoryana_nich_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_zoryana_nich'
+            },
+            {
+                img: "rukavytsi_cholovichi_siri_01.jpg",
+                price: 300,
+                link: 'rukavytsi_siri_kosy'
+            }
+        ]
     },
     {
         id: 8,
@@ -125,7 +187,24 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_snizhna_blakyt',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_fioletovyi_melanzh_01.jpg",
+                price: 250,
+                link: 'mitenky_fioletovyi_melanzh'
+            },
+            {
+                img: "mitenky_snizhynky_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhynky'
+            },
+            {
+                img: "mitenky_snizhne_zoloto_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhne_zoloto'
+            }
+        ]
     },
     {
         id: 9,
@@ -140,7 +219,24 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_fioletovyi_melanzh',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_snizhna_blakyt_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhna_blakyt'
+            },
+            {
+                img: "mitenky_snizhynky_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhynky'
+            },
+            {
+                img: "mitenky_snizhne_zoloto_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhne_zoloto'
+            }
+        ]
     },
     {
         id: 10,
@@ -153,7 +249,24 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_snizhynky',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_fioletovyi_melanzh_01.jpg",
+                price: 250,
+                link: 'mitenky_fioletovyi_melanzh'
+            },
+            {
+                img: "mitenky_snizhna_blakyt_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhna_blakyt'
+            },
+            {
+                img: "mitenky_snizhne_zoloto_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhne_zoloto'
+            }
+        ]
     },
     {
         id: 11,
@@ -168,7 +281,24 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_snizhne_zoloto',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_fioletovyi_melanzh_01.jpg",
+                price: 250,
+                link: 'mitenky_fioletovyi_melanzh'
+            },
+            {
+                img: "mitenky_snizhynky_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhynky'
+            },
+            {
+                img: "mitenky_snizhna_blakyt_01.jpg",
+                price: 250,
+                link: 'mitenky_snizhna_blakyt'
+            }
+        ]
     },
     {
         id: 12,
@@ -183,7 +313,19 @@ const accessories = [
         ],
         price: 300,
         link: 'mitenky_try_troyandy',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "mitenky_bdzhilky_01.jpg",
+                price: 300,
+                link: 'mitenky_bdzhilky'
+            }
+        ]
     },
     {
         id: 13,
@@ -198,7 +340,14 @@ const accessories = [
         ],
         price: 270,
         link: 'rukavytsi_pukhnastyky',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavychky_zhakard_01.jpg",
+                price: 270,
+                link: 'rukavytsi_zhakard'
+            }
+        ]
     },
     {
         id: 14,
@@ -213,7 +362,14 @@ const accessories = [
         ],
         price: 270,
         link: 'rukavytsi_zhakard',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_bili_puhnasti_01.jpg",
+                price: 270,
+                link: 'rukavytsi_pukhnastyky'
+            }
+        ]
     },
     {
         id: 15,
@@ -228,7 +384,19 @@ const accessories = [
         ],
         price: 300,
         link: 'mitenky_bdzhilky',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "mitenky_try_troyandy_01.jpg",
+                price: 300,
+                link: 'mitenky_try_troyandy'
+            }
+        ]
     },
     {
         id: 16,
@@ -245,7 +413,34 @@ const accessories = [
         ],
         price: 350,
         link: 'rukavytsi_mobilnogo_bila_khryzantema',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            },
+            {
+                img: "rukavytsi_mobilnogo_zoryana_nich_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_zoryana_nich'
+            },
+            {
+                img: "rukavytsi_cholovichi_siri_01.jpg",
+                price: 300,
+                link: 'rukavytsi_siri_kosy'
+            },
+            {
+                img: "mitenky_try_troyandy_01.jpg",
+                price: 300,
+                link: 'mitenky_try_troyandy'
+            },
+            {
+                img: "mitenky_bdzhilky_01.jpg",
+                price: 300,
+                link: 'mitenky_bdzhilky'
+            }
+        ]
     },
     {
         id: 17,
@@ -264,7 +459,34 @@ const accessories = [
         ],
         price: 350,
         link: 'rukavytsi_mobilnogo_zoryana_nich',
-        category: "Аксесуари"
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            },
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_cholovichi_siri_01.jpg",
+                price: 300,
+                link: 'rukavytsi_siri_kosy'
+            },
+            {
+                img: "mitenky_try_troyandy_01.jpg",
+                price: 300,
+                link: 'mitenky_try_troyandy'
+            },
+            {
+                img: "mitenky_bdzhilky_01.jpg",
+                price: 300,
+                link: 'mitenky_bdzhilky'
+            }
+        ]
     }
 ]
 
