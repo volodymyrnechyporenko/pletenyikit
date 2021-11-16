@@ -300,16 +300,15 @@ h4 {
   }
 }
 
-.product-like-this {
-  display: -ms-grid;
+.product-similar {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 3vw;
+  grid-gap: 2rem;
   margin-bottom: 4rem;
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
-  .product-like-this {
+  .product-similar {
     grid-template-columns: repeat(2, 1fr);
   }
 }

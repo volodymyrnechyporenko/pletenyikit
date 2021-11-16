@@ -17,7 +17,14 @@ const pillows = [
         ],
         price: 550,
         link: 'minimalizm_lapky',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "kit_nosyk_01.jpg",
+                price: 550,
+                link: 'nosyk_serdechko'
+            }
+        ]
     },
     {
         id: 2,
@@ -34,7 +41,14 @@ const pillows = [
         ],
         price: 550,
         link: 'nosyk_serdechko',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "minimalistychnyi_01.jpg",
+                price: 550,
+                link: 'minimalizm_lapky'
+            }
+        ]
     },
     {
         id: 3,
@@ -56,7 +70,39 @@ const pillows = [
         ],
         price: 650,
         link: 'pudrova_kytska',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "fioletovyi_gentleman_04.jpg",
+                price: 650,
+                link: 'fioletovyi_gentleman'
+            },
+            {
+                img: "rozhevyi_melanzh_veliur_03.jpg",
+                price: 650,
+                link: 'rozhevyi_velur'
+            },
+            {
+                img: "synio-bezhevyi_melanzh_01.jpg",
+                price: 650,
+                link: 'synio_bezhevyi_melanzh'
+            },
+            {
+                img: "bezhevyi_melanzh_03.jpg",
+                price: 550,
+                link: 'bezhevyi_melanzh'
+            },
+            {
+                img: "siryi_kit_rozhevi_lapky_01.jpg",
+                price: 650,
+                link: 'siryi_kit_rozhevi_lapky'
+            },
+            {
+                img: "temno-syniy_zhovtuvatyi_01.jpg",
+                price: 650,
+                link: 'zhovtyi_pukhnastyi_kotyk'
+            }
+        ]
     },
     {
         id: 4,
@@ -75,7 +121,39 @@ const pillows = [
         ],
         price: 650,
         link: 'fioletovyi_gentleman',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "rozheva_gryvka_01.jpg",
+                price: 650,
+                link: 'pudrova_kytska'
+            },
+            {
+                img: "rozhevyi_melanzh_veliur_03.jpg",
+                price: 650,
+                link: 'rozhevyi_velur'
+            },
+            {
+                img: "synio-bezhevyi_melanzh_01.jpg",
+                price: 650,
+                link: 'synio_bezhevyi_melanzh'
+            },
+            {
+                img: "bezhevyi_melanzh_03.jpg",
+                price: 550,
+                link: 'bezhevyi_melanzh'
+            },
+            {
+                img: "siryi_kit_rozhevi_lapky_01.jpg",
+                price: 650,
+                link: 'siryi_kit_rozhevi_lapky'
+            },
+            {
+                img: "temno-syniy_zhovtuvatyi_01.jpg",
+                price: 650,
+                link: 'zhovtyi_pukhnastyi_kotyk'
+            }
+        ]
     },
     {
         id: 5,
@@ -95,7 +173,39 @@ const pillows = [
         ],
         price: 650,
         link: 'rozhevyi_velur',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "fioletovyi_gentleman_04.jpg",
+                price: 650,
+                link: 'fioletovyi_gentleman'
+            },
+            {
+                img: "rozheva_gryvka_01.jpg",
+                price: 650,
+                link: 'pudrova_kytska'
+            },
+            {
+                img: "synio-bezhevyi_melanzh_01.jpg",
+                price: 650,
+                link: 'synio_bezhevyi_melanzh'
+            },
+            {
+                img: "bezhevyi_melanzh_03.jpg",
+                price: 550,
+                link: 'bezhevyi_melanzh'
+            },
+            {
+                img: "siryi_kit_rozhevi_lapky_01.jpg",
+                price: 650,
+                link: 'siryi_kit_rozhevi_lapky'
+            },
+            {
+                img: "temno-syniy_zhovtuvatyi_01.jpg",
+                price: 650,
+                link: 'zhovtyi_pukhnastyi_kotyk'
+            }
+        ]
     },
     {
         id: 6,
@@ -115,7 +225,39 @@ const pillows = [
         ],
         price: 650,
         link: 'synio_bezhevyi_melanzh',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "fioletovyi_gentleman_04.jpg",
+                price: 650,
+                link: 'fioletovyi_gentleman'
+            },
+            {
+                img: "rozhevyi_melanzh_veliur_03.jpg",
+                price: 650,
+                link: 'rozhevyi_velur'
+            },
+            {
+                img: "rozheva_gryvka_01.jpg",
+                price: 650,
+                link: 'pudrova_kytska'
+            },
+            {
+                img: "bezhevyi_melanzh_03.jpg",
+                price: 550,
+                link: 'bezhevyi_melanzh'
+            },
+            {
+                img: "siryi_kit_rozhevi_lapky_01.jpg",
+                price: 650,
+                link: 'siryi_kit_rozhevi_lapky'
+            },
+            {
+                img: "temno-syniy_zhovtuvatyi_01.jpg",
+                price: 650,
+                link: 'zhovtyi_pukhnastyi_kotyk'
+            }
+        ]
     },
     {
         id: 7,
@@ -130,7 +272,39 @@ const pillows = [
         ],
         price: 550,
         link: 'bezhevyi_melanzh',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "fioletovyi_gentleman_04.jpg",
+                price: 650,
+                link: 'fioletovyi_gentleman'
+            },
+            {
+                img: "rozhevyi_melanzh_veliur_03.jpg",
+                price: 650,
+                link: 'rozhevyi_velur'
+            },
+            {
+                img: "synio-bezhevyi_melanzh_01.jpg",
+                price: 650,
+                link: 'synio_bezhevyi_melanzh'
+            },
+            {
+                img: "rozheva_gryvka_01.jpg",
+                price: 550,
+                link: 'pudrova_kytska'
+            },
+            {
+                img: "siryi_kit_rozhevi_lapky_01.jpg",
+                price: 650,
+                link: 'siryi_kit_rozhevi_lapky'
+            },
+            {
+                img: "temno-syniy_zhovtuvatyi_01.jpg",
+                price: 650,
+                link: 'zhovtyi_pukhnastyi_kotyk'
+            }
+        ]
     },
     {
         id: 8,
@@ -150,7 +324,39 @@ const pillows = [
         ],
         price: 650,
         link: 'siryi_kit_rozhevi_lapky',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "fioletovyi_gentleman_04.jpg",
+                price: 650,
+                link: 'fioletovyi_gentleman'
+            },
+            {
+                img: "rozhevyi_melanzh_veliur_03.jpg",
+                price: 650,
+                link: 'rozhevyi_velur'
+            },
+            {
+                img: "synio-bezhevyi_melanzh_01.jpg",
+                price: 650,
+                link: 'synio_bezhevyi_melanzh'
+            },
+            {
+                img: "bezhevyi_melanzh_03.jpg",
+                price: 550,
+                link: 'bezhevyi_melanzh'
+            },
+            {
+                img: "rozheva_gryvka_01.jpg",
+                price: 650,
+                link: 'pudrova_kytska'
+            },
+            {
+                img: "temno-syniy_zhovtuvatyi_01.jpg",
+                price: 650,
+                link: 'zhovtyi_pukhnastyi_kotyk'
+            }
+        ]
     },
     {
         id: 9,
@@ -168,7 +374,14 @@ const pillows = [
         ],
         price: 800,
         link: 'siryi_zelenookyi_smugach',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "pesyk_kvadratnyi_01.jpg",
+                price: 650,
+                link: 'pesyk_burshtynovi_ochi'
+            }
+        ]
     },
     {
         id: 10,
@@ -188,7 +401,39 @@ const pillows = [
         ],
         price: 650,
         link: 'zhovtyi_pukhnastyi_kotyk',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "fioletovyi_gentleman_04.jpg",
+                price: 650,
+                link: 'fioletovyi_gentleman'
+            },
+            {
+                img: "rozhevyi_melanzh_veliur_03.jpg",
+                price: 650,
+                link: 'rozhevyi_velur'
+            },
+            {
+                img: "synio-bezhevyi_melanzh_01.jpg",
+                price: 650,
+                link: 'synio_bezhevyi_melanzh'
+            },
+            {
+                img: "bezhevyi_melanzh_03.jpg",
+                price: 550,
+                link: 'bezhevyi_melanzh'
+            },
+            {
+                img: "siryi_kit_rozhevi_lapky_01.jpg",
+                price: 650,
+                link: 'siryi_kit_rozhevi_lapky'
+            },
+            {
+                img: "rozheva_gryvka_01.jpg",
+                price: 650,
+                link: 'pudrova_kytska'
+            }
+        ]
     },
     {
         id: 11,
@@ -208,7 +453,14 @@ const pillows = [
         ],
         price: 650,
         link: 'pesyk_burshtynovi_ochi',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "smugach_siryi_zelenookyi_01.jpg",
+                price: 650,
+                link: 'siryi_zelenookyi_smugach'
+            }
+        ]
     },
     {
         id: 12,
@@ -226,7 +478,19 @@ const pillows = [
         ],
         price: 400,
         link: 'pianino',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "metelyky_01.jpg",
+                price: 400,
+                link: 'metelyk_syni_smuzhky'
+            },
+            {
+                img: "metelyky_05.jpg",
+                price: 400,
+                link: 'metelyk_chervoni_smuzhky'
+            }
+        ]
     },
     {
         id: 13,
@@ -278,7 +542,14 @@ const pillows = [
         ],
         price: 600,
         link: 'pukhkenkyi_pesopodukh',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "rozhevyi_zaichyk_03.jpg",
+                price: 600,
+                link: 'rozhevyi_zaichyk'
+            }
+        ]
     },
     {
         id: 16,
@@ -308,7 +579,14 @@ const pillows = [
         ],
         price: 400,
         link: 'sira_melanzheva_myshka',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "sira_bukliovana_myshka_01.jpg",
+                price: 400,
+                link: 'sira_bukliovana_myshka'
+            }
+        ]
     },
     {
         id: 18,
@@ -322,7 +600,14 @@ const pillows = [
         ],
         price: 400,
         link: 'sira_bukliovana_myshka',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "sira_melanzheva_myshka_01.jpg",
+                price: 400,
+                link: 'sira_melanzheva_myshka'
+            }
+        ]
     },
     {
         id: 19,
@@ -338,7 +623,19 @@ const pillows = [
         ],
         price: 400,
         link: 'metelyk_syni_smuzhky',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "metelyky_05.jpg",
+                price: 400,
+                link: 'metelyk_chervoni_smuzhky'
+            },
+            {
+                img: "pianino_01.jpg",
+                price: 400,
+                link: 'pianino'
+            }
+        ]
     },
     {
         id: 20,
@@ -354,7 +651,19 @@ const pillows = [
         ],
         price: 400,
         link: 'metelyk_chervoni_smuzhky',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "metelyky_01.jpg",
+                price: 400,
+                link: 'metelyk_syni_smuzhky'
+            },
+            {
+                img: "pianino_01.jpg",
+                price: 400,
+                link: 'pianino'
+            }
+        ]
     },
     {
         id: 21,
@@ -387,7 +696,14 @@ const pillows = [
         ],
         price: 350,
         link: 'syniy_kyt',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "synio_rozhevyi_kyt_02.jpg",
+                price: 350,
+                link: 'synio_rozhevyi_kyt'
+            }
+        ]
     },
     {
         id: 23,
@@ -403,7 +719,14 @@ const pillows = [
         ],
         price: 350,
         link: 'synio_rozhevyi_kyt',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "syniy_kyt_01.jpg",
+                price: 350,
+                link: 'syniy_kyt'
+            }
+        ]
     },
     {
         id: 24,
@@ -417,7 +740,14 @@ const pillows = [
         ],
         price: 600,
         link: 'rozhevyi_zaichyk',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "bezhevyi_pesyk_japan_01.jpg",
+                price: 600,
+                link: 'pukhkenkyi_pesopodukh'
+            }
+        ]
     },
     {
         id: 25,
@@ -434,7 +764,19 @@ const pillows = [
         ],
         price: 500,
         link: 'biryuzova_zirka',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "zirka_chervoni_tony_01.jpg",
+                price: 500,
+                link: 'zirka_chervoni_tony'
+            },
+            {
+                img: "buzkova_zirka_01.jpg",
+                price: 500,
+                link: 'buzkova_zirka'
+            },
+        ]
     },
     {
         id: 26,
@@ -451,7 +793,19 @@ const pillows = [
         ],
         price: 500,
         link: 'zirka_chervoni_tony',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "biryuzova_zirka_01.jpg",
+                price: 500,
+                link: 'biryuzova_zirka'
+            },
+            {
+                img: "buzkova_zirka_01.jpg",
+                price: 500,
+                link: 'buzkova_zirka'
+            },
+        ]
     },
     {
         id: 27,
@@ -467,7 +821,19 @@ const pillows = [
         ],
         price: 500,
         link: 'buzkova_zirka',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "biryuzova_zirka_01.jpg",
+                price: 500,
+                link: 'biryuzova_zirka'
+            },
+            {
+                img: "zirka_chervoni_tony_01.jpg",
+                price: 500,
+                link: 'zirka_chervoni_tony'
+            },
+        ]
     },
     {
         id: 28,
