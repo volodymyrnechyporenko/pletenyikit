@@ -266,6 +266,13 @@ h4 {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .item-all {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #aea28f;
+  }
+}
+
 @media screen and (max-width: 992px) and (orientation: landscape) {
   .article, .item-all {
     flex-direction: row;
@@ -300,16 +307,15 @@ h4 {
   }
 }
 
-.product-like-this {
-  display: -ms-grid;
+.product-similar {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 3vw;
-  margin-bottom: 4rem;
+  grid-gap: 2rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
-  .product-like-this {
+  .product-similar {
     grid-template-columns: repeat(2, 1fr);
   }
 }

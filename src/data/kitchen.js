@@ -31,7 +31,14 @@ const kitchen = [
         ],
         price: 50,
         link: 'zakokhani_kotyky',
-        category: "Для кухні"
+        category: "Для кухні",
+        similar: [
+            {
+                img: "chervoni_fakturni_01.jpg",
+                price: 50,
+                link: 'chervona_faktura'
+            }
+        ]
     },
     {
         id: 3,
@@ -69,7 +76,14 @@ const kitchen = [
         ],
         price: 50,
         link: 'chervona_faktura',
-        category: "Для кухні"
+        category: "Для кухні",
+        similar: [
+            {
+                img: "zakohani_kotyky_01.jpg",
+                price: 50,
+                link: 'zakokhani_kotyky'
+            }
+        ]
     },
     {
         id: 5,
@@ -88,7 +102,19 @@ const kitchen = [
         ],
         price: 35,
         link: 'koliorovi_smailyky',
-        category: "Для кухні"
+        category: "Для кухні",
+        similar: [
+            {
+                img: "yabluka_01.jpg",
+                price: 35,
+                link: 'yabluka'
+            },
+            {
+                img: "siri_smailyky_01.jpg",
+                price: 35,
+                link: 'siri_smailyky'
+            }
+        ]
     },
     {
         id: 6,
@@ -105,7 +131,19 @@ const kitchen = [
         ],
         price: 35,
         link: 'siri_smailyky',
-        category: "Для кухні"
+        category: "Для кухні",
+        similar: [
+            {
+                img: "yabluka_01.jpg",
+                price: 35,
+                link: 'yabluka'
+            },
+            {
+                img: "kolyorovi_smailyky_02.jpg",
+                price: 35,
+                link: 'koliorovi_smailyky'
+            }
+        ]
     },
     {
         id: 7,
@@ -123,7 +161,19 @@ const kitchen = [
         ],
         price: 35,
         link: 'yabluka',
-        category: "Для кухні"
+        category: "Для кухні",
+        similar: [
+            {
+                img: "kolyorovi_smailyky_02.jpg",
+                price: 35,
+                link: 'koliorovi_smailyky'
+            },
+            {
+                img: "siri_smailyky_01.jpg",
+                price: 35,
+                link: 'siri_smailyky'
+            }
+        ]
     }
 ]
 

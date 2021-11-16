@@ -13,7 +13,19 @@ const toys = [
         ],
         price: 100,
         link: 'myshka_bila',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "myshoigrashka_temno-sira_01.jpg",
+                price: 100,
+                link: 'myshka_temno_sira'
+            },
+            {
+                img: "myshoigrashka_sira_01.jpg",
+                price: 100,
+                link: 'myshka_sira'
+            }
+        ]
     },
     {
         id: 2,
@@ -30,7 +42,19 @@ const toys = [
         ],
         price: 100,
         link: 'myshka_temno_sira',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "myshoigrashka_bila_01.jpg",
+                price: 100,
+                link: 'myshka_bila'
+            },
+            {
+                img: "myshoigrashka_sira_01.jpg",
+                price: 100,
+                link: 'myshka_sira'
+            }
+        ]
     },
     {
         id: 3,
@@ -47,7 +71,19 @@ const toys = [
         ],
         price: 100,
         link: 'myshka_sira',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "myshoigrashka_bila_01.jpg",
+                price: 100,
+                link: 'myshka_bila'
+            },
+            {
+                img: "myshoigrashka_temno-sira_01.jpg",
+                price: 100,
+                link: 'myshka_temno_sira'
+            }
+        ]
     },
     {
         id: 4,
@@ -63,7 +99,19 @@ const toys = [
         ],
         price: 250,
         link: 'kotyk_bezhevyi',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "kotoigrashka_bilenka_01.jpg",
+                price: 250,
+                link: 'kotyk_bilyi'
+            },
+            {
+                img: "kotoigrashka_sirenka_01.jpg",
+                price: 250,
+                link: 'kotyk_siryi'
+            }
+        ]
     },
     {
         id: 5,
@@ -84,7 +132,14 @@ const toys = [
         ],
         price: 1000,
         link: 'kotyk_blakytnookyi',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "realistychna_kotoigrashka_01.jpg",
+                price: 1000,
+                link: 'realistychna_kotoigrashka'
+            }
+        ]
     },
     {
         id: 6,
@@ -100,7 +155,14 @@ const toys = [
         ],
         price: 300,
         link: 'myshka_ruda',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "kryska_sira_01.jpg",
+                price: 300,
+                link: 'myshka_bukliovana_sira'
+            }
+        ]
     },
     {
         id: 7,
@@ -118,7 +180,19 @@ const toys = [
         ],
         price: 250,
         link: 'kotyk_bilyi',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "bezheva_kotoigrashka_01.jpg",
+                price: 250,
+                link: 'kotyk_bezhevyi'
+            },
+            {
+                img: "kotoigrashka_sirenka_01.jpg",
+                price: 250,
+                link: 'kotyk_siryi'
+            }
+        ]
     },
     {
         id: 8,
@@ -136,7 +210,19 @@ const toys = [
         ],
         price: 250,
         link: 'kotyk_siryi',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "bezheva_kotoigrashka_01.jpg",
+                price: 250,
+                link: 'kotyk_bezhevyi'
+            },
+            {
+                img: "kotoigrashka_bilenka_01.jpg",
+                price: 250,
+                link: 'kotyk_bilyi'
+            }
+        ]
     },
     {
         id: 9,
@@ -153,7 +239,14 @@ const toys = [
         ],
         price: 300,
         link: 'myshka_bukliovana_sira',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "kryska_rudisha_01.jpg",
+                price: 300,
+                link: 'myshka_ruda'
+            }
+        ]
     },
     {
         id: 10,
@@ -185,7 +278,14 @@ const toys = [
         ],
         price: 1000,
         link: 'realistychna_kotoigrashka',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "bila_naturalistychna_01.jpg",
+                price: 1000,
+                link: 'kotyk_blakytnookyi'
+            }
+        ]
     },
     {
         id: 12,
@@ -202,7 +302,14 @@ const toys = [
         ],
         price: 300,
         link: 'koshenya_rudenki_vushka',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "veliurove_bilenke_koshenya_01.jpg",
+                price: 300,
+                link: 'veliurove_bilenke_koshenya'
+            }
+        ]
     },
     {
         id: 13,
@@ -220,7 +327,14 @@ const toys = [
         ],
         price: 300,
         link: 'veliurove_bilenke_koshenya',
-        category: "Іграшки"
+        category: "Іграшки",
+        similar: [
+            {
+                img: "koshenya_rudenki_vushka_05.jpg",
+                price: 300,
+                link: 'koshenya_rudenki_vushka'
+            }
+        ]
     }
 ]
 

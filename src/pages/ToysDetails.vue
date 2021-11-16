@@ -28,10 +28,17 @@
       </div>
     </div>
   </div>
+  <div class="product-similar">
+    <ToysSimilarProduct
+      v-for="item in product.similar"
+      :item="item"
+    />
+  </div>
 </template>
 
 <script>
 import toys from '../data/toys.js';
+import ToysSimilarProduct from '../components/products/ToysSimilarProduct';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import SwiperCore, {
   Pagination,
@@ -46,11 +53,13 @@ export default {
     Swiper,
     SwiperSlide,
     Pagination,
-    Autoplay
+    Autoplay,
+    ToysSimilarProduct
   },
   data() {
     return {
-      product: null
+      product: null,
+      toys: toys
     }
   },
   created() {

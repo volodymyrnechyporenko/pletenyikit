@@ -8,7 +8,6 @@
       <swiper
         :slides-per-view="1"
         :space-between="20"
-        
         :pagination="{ clickable: true }"
         :autoplay="{ delay: 3000 }"
         loop
@@ -29,10 +28,17 @@
       </div>
     </div>
   </div>
+  <div class="product-similar">
+    <PillowsSimilarProduct
+      v-for="item in product.similar"
+      :item="item"
+    />
+  </div>
 </template>
 
 <script>
 import pillows from '../data/pillows.js';
+import PillowsSimilarProduct from '../components/products/PillowsSimilarProduct';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import SwiperCore, {
   Pagination,
@@ -47,11 +53,13 @@ export default {
     Swiper,
     SwiperSlide,
     Pagination,
-    Autoplay
+    Autoplay,
+    PillowsSimilarProduct
   },
   data() {
     return {
-      product: null
+      product: null,
+      pillows: pillows
     }
   },
   created() {

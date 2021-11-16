@@ -3,7 +3,7 @@
   <ScrollTopArrow></ScrollTopArrow>
   <main>
     
-    <router-view></router-view>
+    <router-view :key="$route.path"></router-view>
     
   <AboutTxt></AboutTxt>
   </main>
