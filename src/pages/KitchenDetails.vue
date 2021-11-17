@@ -28,6 +28,7 @@
       </div>
     </div>
   </div>
+  <h3 v-if="product.similar">Схожі товари</h3>
   <div class="product-similar">
     <KitchenSimilarProduct v-for="item in product.similar" :item="item" />
   </div>

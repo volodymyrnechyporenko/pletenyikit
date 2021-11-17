@@ -128,11 +128,6 @@ const accessories = [
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
             },
             {
-                img: "rukavytsi_mobilnogo_zoryana_nich_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_zoryana_nich'
-            },
-            {
                 img: "rukavytsi_mobilnogo_smugasti_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
@@ -160,11 +155,6 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
-            },
-            {
-                img: "rukavytsi_mobilnogo_zoryana_nich_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_zoryana_nich'
             },
             {
                 img: "rukavytsi_cholovichi_siri_01.jpg",
@@ -419,57 +409,6 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_smugasti_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
-            },
-            {
-                img: "rukavytsi_mobilnogo_zoryana_nich_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_zoryana_nich'
-            },
-            {
-                img: "rukavytsi_cholovichi_siri_01.jpg",
-                price: 300,
-                link: 'rukavytsi_siri_kosy'
-            },
-            {
-                img: "mitenky_try_troyandy_01.jpg",
-                price: 300,
-                link: 'mitenky_try_troyandy'
-            },
-            {
-                img: "mitenky_bdzhilky_01.jpg",
-                price: 300,
-                link: 'mitenky_bdzhilky'
-            }
-        ]
-    },
-    {
-        id: 17,
-        name: "Рукавиці для мобільного \"Зоряна ніч\"",
-        description: "Ван Гог надихає багато кого, і ми - не виключення. До вашої уваги - вовняні рукавички для зручного користування мобільним \"Зоряна ніч\". Чудова тепленька темно-бірюзова пряжа зі значним вмістом вовни + ручна вишивка = яскраві та оригінальні зимові рукавички.",
-        materials: "Матеріал: вовна - 70%, акрил - 30%",
-        dimensions: "Розмір: M/L (плетіння-гумка зі сторони долоні дає можливість купувати рукавички на ширшу руку також).",
-        images: [
-            "rukavytsi_mobilnogo_zoryana_nich_01.jpg",
-            "rukavytsi_mobilnogo_zoryana_nich_02.jpg",
-            "rukavytsi_mobilnogo_zoryana_nich_03.jpg",
-            "rukavytsi_mobilnogo_zoryana_nich_04.jpg",
-            "rukavytsi_mobilnogo_zoryana_nich_05.jpg",
-            "rukavytsi_mobilnogo_zoryana_nich_06.jpg",
-            "rukavytsi_mobilnogo_zoryana_nich_07.jpg"
-        ],
-        price: 350,
-        link: 'rukavytsi_mobilnogo_zoryana_nich',
-        category: "Аксесуари",
-        similar: [
-            {
-                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
-            },
-            {
-                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema'
             },
             {
                 img: "rukavytsi_cholovichi_siri_01.jpg",
