@@ -28,11 +28,9 @@
       </div>
     </div>
   </div>
+  <h3 v-if="product.similar">Схожі товари</h3>
   <div class="product-similar">
-    <AccessoriesSimilarProduct
-      v-for="item in product.similar"
-      :item="item"
-    />
+    <AccessoriesSimilarProduct v-for="item in product.similar" :item="item" />
   </div>
 </template>
 
@@ -40,11 +38,7 @@
 import accessories from '../data/accessories.js';
 import AccessoriesSimilarProduct from '../components/products/AccessoriesSimilarProduct';
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import SwiperCore, {
-  Pagination,
-  Autoplay,
-  EffectFade
-} from 'swiper';
+import SwiperCore, { Pagination, Autoplay, EffectFade } from 'swiper';
 
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 
@@ -60,12 +54,14 @@ export default {
     return {
       product: null,
       accessories: accessories
-    }
+    };
   },
   created() {
-    const product = accessories.find(product => product.link === this.$route.params.link)
+    const product = accessories.find(
+      product => product.link === this.$route.params.link
+    );
     if (product) {
-      this.product = product
+      this.product = product;
     }
   }
 };
