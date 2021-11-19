@@ -44,7 +44,6 @@ export const routes = [
     {
         path: '/accessories/:link',
         name: 'AccessoriesDetails',
-        props: true,
         component: AccessoriesDetails
     },
     {
