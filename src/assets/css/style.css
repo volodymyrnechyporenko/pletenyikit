@@ -269,7 +269,6 @@ h4 {
 @media screen and (max-width: 767px) {
   .item-all {
     padding-bottom: 2rem;
-    border-bottom: 1px solid #aea28f;
   }
 }
 
