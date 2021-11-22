@@ -9,25 +9,25 @@
     <div class="product">
         <a href="#" @click="$router.push('/toys')">
             <div class="category-title">Іграшки</div>
-            <img src="../assets/img/kryska_rudisha_04.jpg" class="product-image toys" alt="">
+            <img src="../assets/img/realistychna_kotoigrashka_01.jpg" class="product-image toys" alt="">
         </a>
     </div>
     <div class="product">
         <a href="#" @click="$router.push('/accessories')">
             <div class="category-title">Аксесуари</div>
-            <img src="../assets/img/zhovti_mitenky_kotyky_01.jpg" class="product-image accessories" alt="">
+            <img src="../assets/img/mitenky_sovy_girchychni_01.jpg" class="product-image accessories" alt="">
         </a>
     </div>
     <div class="product">
         <a href="#" @click="$router.push('/pillows')">
             <div class="category-title">Подушки</div>
-            <img src="../assets/img/smugach_siryi_zelenookyi_01.jpg" class="product-image pillows" alt="">
+            <img src="../assets/img/pesyk_kvadratnyi_01.jpg" class="product-image pillows" alt="">
         </a>
     </div>
     <div class="product">
         <a href="#" @click="$router.push('/kitchen')">
             <div class="category-title">Для кухні</div>
-            <img src="../assets/img/kvadraty_02.jpg" class="product-image kitchen" alt="">
+            <img src="../assets/img/serdtsya_01.jpg" class="product-image kitchen" alt="">
         </a>
     </div>
   </div>
