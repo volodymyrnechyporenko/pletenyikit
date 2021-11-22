@@ -768,7 +768,7 @@ const pillows = [
         similar: [
             {
                 img: "zirka_chervoni_tony_01.jpg",
-                price: 500,
+                price: 500,          
                 link: 'zirka_chervoni_tony'
             },
             {
@@ -776,6 +776,11 @@ const pillows = [
                 price: 500,
                 link: 'buzkova_zirka'
             },
+            {
+                img: "bila_zirka_01.jpg",
+                price: 500,
+                link: 'bila_zirka'
+            }
         ]
     },
     {
@@ -805,6 +810,11 @@ const pillows = [
                 price: 500,
                 link: 'buzkova_zirka'
             },
+            {
+                img: "bila_zirka_01.jpg",
+                price: 500,
+                link: 'bila_zirka'
+            }
         ]
     },
     {
@@ -833,6 +843,11 @@ const pillows = [
                 price: 500,
                 link: 'zirka_chervoni_tony'
             },
+            {
+                img: "bila_zirka_01.jpg",
+                price: 500,
+                link: 'bila_zirka'
+            }
         ]
     },
     {
@@ -867,6 +882,57 @@ const pillows = [
         ],
         price: 750,
         link: 'kotyk_schokastyk_melanzhevyi',
+        category: "Подушки"
+    },
+    {
+        id: 30,
+        name: "Біла зірка",
+        description: "Якщо зірочку з неба - то велику і гарну, як ця подушка! Неймовірно м'яка букльована меланжева пряжа та дуже приємні кольори. Така подушка пасуватиме як до світлого, так і до темного інтер'єру.",
+        materials: "Матеріали: акрил (пряжа), холофайбер (наповнення).",
+        dimensions: "Розмір: 50/13см.",
+        images: [
+            "bila_zirka_01.jpg",
+            "bila_zirka_02.jpg",
+            "bila_zirka_03.jpg",
+            "bila_zirka_04.jpg",
+            "bila_zirka_05.jpg"
+        ],
+        price: 500,
+        link: 'bila_zirka',
+        category: "Подушки",
+        similar: [
+            {
+                img: "biryuzova_zirka_01.jpg",
+                price: 500,
+                link: 'biryuzova_zirka'
+            },
+            {
+                img: "zirka_chervoni_tony_01.jpg",
+                price: 500,
+                link: 'zirka_chervoni_tony'
+            },
+            {
+                img: "buzkova_zirka_01.jpg",
+                price: 500,
+                link: 'buzkova_zirka'
+            }
+        ]
+    },
+    {
+        id: 31,
+        name: "Бузковий зайчик",
+        description: "Усміхнений та веселий - бузковий зубатий заєць до вашої уваги.",
+        materials: "Рухомі лапки та вушка, цікаве плетіння бузкової м'якенької пряжі. Звісно, все - повністю ручна робота та мордочка вишита вручну. Ідеальний подарунок до будь-якого свята тішитиме своєю посмішкою що дня.",
+        dimensions: "Розміри: тулуб 30/28/10см.",
+        images: [
+            "buzkovyi_zaichyk_01.jpg",
+            "buzkovyi_zaichyk_02.jpg",
+            "buzkovyi_zaichyk_03.jpg",
+            "buzkovyi_zaichyk_04.jpg",
+            "buzkovyi_zaichyk_05.jpg"
+        ],
+        price: 800,
+        link: 'buzkovyi_zaichyk',
         category: "Подушки"
     }
 ]
