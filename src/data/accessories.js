@@ -78,6 +78,26 @@ const accessories = [
                 img: "mitenky_fakturni_sovy_01.jpg",
                 price: 250,
                 link: 'mitenky_fakturni_sovy'
+            },
+            {
+                img: "mitenky_sovy_buzkovi_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_buzkovi'
+            },
+            {
+                img: "mitenky_sovy_girchychni_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_girchychni'
+            },
+            {
+                img: "mitenky_kotyky_chorni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_chorni'
+            },
+            {
+                img: "mitenky_kotyky_girchychni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_girchychni'
             }
         ]
     },
@@ -100,6 +120,26 @@ const accessories = [
                 img: "mitenky_olyvkovi_kosy_01.jpg",
                 price: 180,
                 link: 'mitenky_olyvkovi_kosy'
+            },
+            {
+                img: "mitenky_sovy_buzkovi_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_buzkovi'
+            },
+            {
+                img: "mitenky_sovy_girchychni_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_girchychni'
+            },
+            {
+                img: "mitenky_kotyky_chorni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_chorni'
+            },
+            {
+                img: "mitenky_kotyky_girchychni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_girchychni'
             }
         ]
     },
@@ -426,7 +466,176 @@ const accessories = [
                 link: 'mitenky_bdzhilky'
             }
         ]
-    }
+    },
+    {
+        id: 17,
+        name: "Мітенки \"Бузкові сови\"",
+        description: "Такі моделі мітенок ми вже мали в продажу, але, ніколи не було таких кольорів. Бузкові м'якенькі мітенки з маленькими совенятами - не лише зігріють, а й піднімуть настрій.",
+        materials: "Матеріал: акрил та бісер.",
+        images: [
+            "mitenky_sovy_buzkovi_01.jpg",
+            "mitenky_sovy_buzkovi_02.jpg",
+            "mitenky_sovy_buzkovi_03.jpg",
+            "mitenky_sovy_buzkovi_04.jpg"
+        ],
+        price: 270,
+        link: 'mitenky_sovy_buzkovi',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_olyvkovi_kosy_01.jpg",
+                price: 180,
+                link: 'mitenky_olyvkovi_kosy'
+            },
+            {
+                img: "mitenky_fakturni_sovy_01.jpg",
+                price: 250,
+                link: 'mitenky_fakturni_sovy'
+            },
+            {
+                img: "mitenky_sovy_girchychni_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_girchychni'
+            },
+            {
+                img: "mitenky_kotyky_chorni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_chorni'
+            },
+            {
+                img: "mitenky_kotyky_girchychni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_girchychni'
+            }
+        ]
+    },
+    {
+        id: 18,
+        name: "Мітенки \"Гірчичні сови\"",
+        description: "Цей теплий та сонячний колір пасує всім, а зараз ще й - дуже модний. Гірчичні м'якенькі мітенки з маленькими совенятами - не лише зігріють, а й піднімуть настрій.",
+        materials: "Матеріал: акрил та бісер.",
+        images: [
+            "mitenky_sovy_girchychni_01.jpg",
+            "mitenky_sovy_girchychni_02.jpg",
+            "mitenky_sovy_girchychni_03.jpg",
+            "mitenky_sovy_girchychni_04.jpg",
+            "mitenky_sovy_girchychni_05.jpg"
+        ],
+        price: 270,
+        link: 'mitenky_sovy_girchychni',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_olyvkovi_kosy_01.jpg",
+                price: 180,
+                link: 'mitenky_olyvkovi_kosy'
+            },
+            {
+                img: "mitenky_fakturni_sovy_01.jpg",
+                price: 250,
+                link: 'mitenky_fakturni_sovy'
+            },
+            {
+                img: "mitenky_sovy_buzkovi_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_buzkovi'
+            },
+            {
+                img: "mitenky_kotyky_chorni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_chorni'
+            },
+            {
+                img: "mitenky_kotyky_girchychni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_girchychni'
+            }
+        ]
+    },
+    {
+        id: 19,
+        name: "Мітенки \"Чорні котики\"",
+        description: "І у мене і моєї мами є по чорній кішці, тож у Плетеному КоТі просто мали з'явитись чорні мітенки-котики. Бо ми не віримо в прикмети, а віримо, що чорні коти приносять лише тепло та затишок.",
+        materials: "Ручне плетіння та вишивка, пряжа - акрил.",
+        images: [
+            "mitenky_kotyky_chorni_01.jpg",
+            "mitenky_kotyky_chorni_01.jpg",
+            "mitenky_kotyky_chorni_01.jpg",
+            "mitenky_kotyky_chorni_01.jpg"
+        ],
+        price: 250,
+        link: 'mitenky_kotyky_chorni',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_olyvkovi_kosy_01.jpg",
+                price: 180,
+                link: 'mitenky_olyvkovi_kosy'
+            },
+            {
+                img: "mitenky_fakturni_sovy_01.jpg",
+                price: 250,
+                link: 'mitenky_fakturni_sovy'
+            },
+            {
+                img: "mitenky_sovy_buzkovi_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_buzkovi'
+            },
+            {
+                img: "mitenky_sovy_girchychni_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_girchychni'
+            },
+            {
+                img: "mitenky_kotyky_girchychni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_girchychni'
+            }
+        ]
+    },
+    {
+        id: 20,
+        name: "Мітенки \"Гірчичні котики\"",
+        description: "Мітенки-котики гірчичного кольору 100% піднімуть настрій та додадуть тепла у ваш зимовий день.",
+        materials: "Ручне плетіння та вишивка, пряжа - акрил.",
+        images: [
+            "mitenky_kotyky_girchychni_01.jpg",
+            "mitenky_kotyky_girchychni_02.jpg",
+            "mitenky_kotyky_girchychni_03.jpg",
+            "mitenky_kotyky_girchychni_04.jpg"
+        ],
+        price: 250,
+        link: 'mitenky_kotyky_girchychni',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "mitenky_olyvkovi_kosy_01.jpg",
+                price: 180,
+                link: 'mitenky_olyvkovi_kosy'
+            },
+            {
+                img: "mitenky_fakturni_sovy_01.jpg",
+                price: 250,
+                link: 'mitenky_fakturni_sovy'
+            },
+            {
+                img: "mitenky_sovy_buzkovi_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_buzkovi'
+            },
+            {
+                img: "mitenky_sovy_girchychni_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_girchychni'
+            },
+            {
+                img: "mitenky_kotyky_chorni_01.jpg",
+                price: 250,
+                link: 'mitenky_kotyky_chorni'
+            }
+        ]
+    },
 ]
 
 export default accessories
