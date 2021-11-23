@@ -85,9 +85,6 @@ export default {
 .swiper-container {
   width: 100%;
   height: auto;
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
   overflow: hidden;
   list-style: none;
@@ -97,8 +94,6 @@ export default {
 
 .swiper-wrapper {
   position: relative;
-  width: 100%;
-  height: 100%;
   z-index: 1;
   display: flex;
   transition-property: transform;
