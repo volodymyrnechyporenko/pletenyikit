@@ -28,9 +28,15 @@ main {
 
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   main {
-    padding: 3rem 1rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main {
+    padding: 3rem 2rem;
   }
 }
 
@@ -127,46 +133,55 @@ main {
   margin-top: 4rem;
 }
 
-.item-all {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 8rem
-}
-
-@media screen and (max-width: 812px) {
-  .item-all {
-    padding: 0 1rem;
-  }
-}
-
-.article, .item-all {
+.article, .item-all, .order-all {
   display: flex;
   flex-direction: row;
   border: 2px solid #aea28f;
-  padding: 3vh 3vw;
+  padding: 3rem;
+}
+
+.item-all, .order-all {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .item-all, .order-all {
+    padding: 0 1rem;
+  }
+
+  .item-all {
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .article, .item-all {
+  .article, .item-all, .order-all {
     flex-direction: column-reverse;
     border: none;
     padding: 0;
   }
 
   .item-all {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .article, .item-all, .order-all {
+    padding: 2rem;
   }
 }
 
 @media screen and (max-width: 992px) and (orientation: landscape) {
-  .article, .item-all {
+  .article, .item-all, .order-all {
     flex-direction: row;
     border: none;
   }
 }
 
 .item-left, .item-right {
-  width: 45%;
+  width: 46%;
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {

@@ -110,7 +110,7 @@ header {
   }
 }
 
-@media screen and (max-width: 922px) and (orientation: landscape) {
+@media screen and (max-width: 812px) and (orientation: landscape) {
   header {
     position: absolute;
   }
@@ -123,9 +123,9 @@ header {
   align-items: center;
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 1024px) {
   .nav {
-    padding: 0 1rem;
+    padding: 0 2rem;
   }
 }
 
@@ -138,7 +138,7 @@ header {
   width: 30%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .nav-left,
   .nav-right {
     display: none;
@@ -177,7 +177,7 @@ header {
   max-width: 100%;
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 767px) {
   .nav-logo {
     width: 10%;
     text-align: left;
@@ -222,7 +222,7 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .menu-icon {
     z-index: 9;
     display: block;

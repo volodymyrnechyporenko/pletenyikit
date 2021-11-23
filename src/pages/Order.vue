@@ -3,7 +3,7 @@
     <h1>Замовлення</h1>
   </div>
 
-  <div class="item-all">
+  <div class="order-all">
     <div class="item-left">
       <div class="form">
         <h3 class="form_title">Нам можна написати</h3>

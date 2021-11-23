@@ -58,7 +58,6 @@ footer {
   background-color: #a32720;
   color: #cbac6a;
   width: 100%;
-  padding: 0.6rem 0;
   margin-top: auto;
   border-top: 3px solid #cbac6a;
 }
@@ -66,13 +65,19 @@ footer {
 .foot-all {
   display: flex;
   justify-content: space-between;
-  padding: 0 8rem;
+  padding: 0.6rem 8rem;
   flex-direction: row;
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 767px) {
   .foot-all {
     padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .foot-all {
+    padding: 0 2rem;
   }
 }
 
