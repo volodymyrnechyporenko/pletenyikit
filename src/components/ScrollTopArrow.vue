@@ -16,5 +16,20 @@ export default {
 </script>
 
 <style>
+.scrollToTop {
+  height: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: #cbac6a;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0px;
+  right: 1rem;
+  z-index: 7;
+  cursor: pointer;
+}
 
+.scrollToTop:hover {
+  text-decoration: none;
+}
 </style>
