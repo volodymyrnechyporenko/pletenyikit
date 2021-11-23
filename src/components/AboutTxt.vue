@@ -23,8 +23,8 @@ export default {
 #about::before {
   display: block;
   content: " ";
-  margin-top: -8vh;
-  height: 8vh;
+  margin-top: -4rem;
+  height: 4rem;
   visibility: hidden;
   pointer-events: none;
 }
