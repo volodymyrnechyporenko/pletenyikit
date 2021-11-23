@@ -20,5 +20,29 @@ export default {
 </script>
 
 <style>
+#about::before {
+  display: block;
+  content: " ";
+  margin-top: -4rem;
+  height: 4rem;
+  visibility: hidden;
+  pointer-events: none;
+}
 
+.txt-2col {
+  column-count: 2;
+  column-gap: 1.6em;
+  column-width: auto;
+}
+
+.txt-2col p {
+  margin-top: 0;
+  widows: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .txt-2col {
+    column-count: 1;
+  }
+}
 </style>

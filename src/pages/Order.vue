@@ -3,7 +3,7 @@
     <h1>Замовлення</h1>
   </div>
 
-  <div class="item-all">
+  <div class="order-all">
     <div class="item-left">
       <div class="form">
         <h3 class="form_title">Нам можна написати</h3>
@@ -142,4 +142,77 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.form_body {
+  position: relative;
+}
+
+.form_body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(203, 172, 106, 0.4) url('../assets/img/giphy.gif') center / 50px
+    no-repeat;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.form_body._sending::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.form_input {
+  border: 0.104vw solid #aea28f;
+  border-radius: 0.156vw;
+  background-color: #2b2b2a;
+  color: #aea28f;
+  width: 99%;
+  margin-bottom: 0.625vw;
+}
+
+.form_input:focus {
+  border: 0.2rem solid #aea28f;
+}
+
+textarea {
+  resize: vertical;
+  outline: none;
+}
+
+input[type='text'],
+input[type='tel'] {
+  height: 2.6em;
+  outline: none;
+}
+
+button {
+  background-color: #aea28f;
+  color: #ffffff;
+  font: 100% 'RepoRegular';
+  font-weight: 600;
+  margin-top: 0.5em;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #cbac6a;
+  transition: background-color 0.5s ease 0s;
+}
+
+.form_button {
+  width: 100%;
+}
+
+.form_button,
+.order_button {
+  font-size: 1.4em;
+  padding: 0.6em 0.8em;
+  border-radius: 0.3rem;
+}
+</style>
