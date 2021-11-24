@@ -85,6 +85,12 @@ main {
   }
 }
 
+.product-image {
+  max-width: 100%;
+  position: absolute;
+  vertical-align: bottom;
+}
+
 .product {
   position: relative;
   height: 0;
@@ -120,12 +126,6 @@ main {
   100% {
     opacity: 1;
   }
-}
-
-.product-image {
-  max-width: 100%;
-  position: absolute;
-  vertical-align: bottom;
 }
 
 .heading {
