@@ -81,19 +81,17 @@ footer {
   }
 }
 
-@media screen and (max-width: 992px) and (orientation: portrait) {
-  .foot-all {
-    flex-direction: column;
-    align-items: start;
-  }
-}
-
 .foot-left,
 .foot-right {
   width: 45%;
 }
 
-@media screen and (max-width: 992px) and (orientation: portrait) {
+@media screen and (max-width: 768px) {
+  .foot-all {
+    flex-direction: column;
+    align-items: start;
+  }
+
   .foot-left,
   .foot-right {
     width: 100%;
