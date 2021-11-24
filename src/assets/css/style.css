@@ -128,15 +128,12 @@ main {
   }
 }
 
-<<<<<<< HEAD
 .product-image {
   max-width: 100%;
   position: absolute;
   vertical-align: bottom;
 }
 
-=======
->>>>>>> dev
 .heading {
   text-align: center;
   margin-top: 4rem;
