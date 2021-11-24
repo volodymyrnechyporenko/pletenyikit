@@ -559,9 +559,9 @@ const accessories = [
         materials: "Ручне плетіння та вишивка, пряжа - акрил.",
         images: [
             "mitenky_kotyky_chorni_01.jpg",
-            "mitenky_kotyky_chorni_01.jpg",
-            "mitenky_kotyky_chorni_01.jpg",
-            "mitenky_kotyky_chorni_01.jpg"
+            "mitenky_kotyky_chorni_02.jpg",
+            "mitenky_kotyky_chorni_03.jpg",
+            "mitenky_kotyky_chorni_04.jpg"
         ],
         price: 250,
         link: 'mitenky_kotyky_chorni',
