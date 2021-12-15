@@ -636,6 +636,216 @@ const accessories = [
             }
         ]
     },
+    {
+        id: 21,
+        name: "Зелений снуд і рукавиці",
+        description: "Таке буває дуже не часто, але я не змогла розділити цей набір. Темно-зелений снуд та рукавиці для мобільного. М'які, теплі та фактурні аксесувари чудово виглядають разом. Ручна в'язка, приємний колір, пасуватиме і жінкам і чоловікам. Матеріал: акрил.",
+        materials: "Розміри: снуд: довжина 24см, ширина 27см; рукавиці: M-L.",
+        images: [
+            "zelenyi_snud_rukavytsi_01.jpg",
+            "zelenyi_snud_rukavytsi_02.jpg",
+            "zelenyi_snud_rukavytsi_03.jpg",
+            "zelenyi_snud_rukavytsi_04.jpg",
+            "zelenyi_snud_rukavytsi_05.jpg",
+            "zelenyi_snud_rukavytsi_06.jpg"
+        ],
+        price: 500,
+        link: 'zelenyi_snud_rukavytsi',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "malynovyi_snud_01.jpg",
+                price: 250,
+                link: 'malynovyi_snud'
+            },
+            {
+                img: "pomaranchevyi_snud_01.jpg",
+                price: 200,
+                link: 'pomaranchevyi_snud'
+            },
+            {
+                img: "pomaranchevyi_snud_kosy_01.jpg",
+                price: 200,
+                link: 'pomaranchevyi_snud_kosy'
+            }
+        ]
+    },
+    {
+        id: 22,
+        name: "Малиновий снуд",
+        description: "Яскравий, теплий, фактурний та схожий на комір від об'ємного светра. Малиновий меланжевий снуд - саме те, що потрібно взимку для вбереження шиї від морозів, а вас - від зимової сірості.",
+        materials: "Матеріал: акрил.",
+        images: [
+            "malynovyi_snud_01.jpg",
+            "malynovyi_snud_02.jpg",
+            "malynovyi_snud_03.jpg",
+            "malynovyi_snud_04.jpg",
+            "malynovyi_snud_05.jpg",
+            "malynovyi_snud_06.jpg"
+        ],
+        price: 250,
+        link: 'malynovyi_snud',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "zelenyi_snud_rukavytsi_01.jpg",
+                price: 500,
+                link: 'zelenyi_snud_rukavytsi'
+            },
+            {
+                img: "pomaranchevyi_snud_01.jpg",
+                price: 200,
+                link: 'pomaranchevyi_snud'
+            },
+            {
+                img: "pomaranchevyi_snud_kosy_01.jpg",
+                price: 200,
+                link: 'pomaranchevyi_snud_kosy'
+            }
+        ]
+    },
+    {
+        id: 23,
+        name: "Помаранчевий снуд",
+        description: "Цегляний-помаранчевий - один з моїх найюлюбленишіх відтінків помаранчевого. Тож цей неймовірний слуд - мій фаворит з наявних. Дуже м'який та теплий виріб, можна носити як закриваючи підборіддя, так і - відгортати ніби комір від светра.",
+        materials: "Матеріал: акрил. Розміри: висота - 25см, довжина - розтягується.",
+        images: [
+            "pomaranchevyi_snud_01.jpg",
+            "pomaranchevyi_snud_02.jpg",
+            "pomaranchevyi_snud_03.jpg",
+            "pomaranchevyi_snud_04.jpg",
+            "pomaranchevyi_snud_05.jpg",
+            "pomaranchevyi_snud_06.jpg"
+        ],
+        price: 200,
+        link: 'pomaranchevyi_snud',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "zelenyi_snud_rukavytsi_01.jpg",
+                price: 500,
+                link: 'zelenyi_snud_rukavytsi'
+            },
+            {
+                img: "malynovyi_snud_01.jpg",
+                price: 250,
+                link: 'malynovyi_snud'
+            },
+            {
+                img: "pomaranchevyi_snud_kosy_01.jpg",
+                price: 200,
+                link: 'pomaranchevyi_snud_kosy'
+            }
+        ]
+    },
+    {
+        id: 24,
+        name: "Помаранчевий снуд з косами",
+        description: "Цегляний-помаранчевий - один з моїх найюлюбленишіх відтінків помаранчевого. Тож цей неймовірний слуд - мій фаворит з наявних. Дуже м'який та теплий виріб, можна носити як закриваючи підборіддя, так і - відгортати ніби комір від светра.",
+        materials: "Матеріал: акрил. Розміри: висота - 25см, ширина - 30см.",
+        images: [
+            "pomaranchevyi_snud_kosy_01.jpg",
+            "pomaranchevyi_snud_kosy_02.jpg",
+            "pomaranchevyi_snud_kosy_03.jpg",
+            "pomaranchevyi_snud_kosy_04.jpg",
+            "pomaranchevyi_snud_kosy_05.jpg",
+            "pomaranchevyi_snud_kosy_06.jpg"
+        ],
+        price: 200,
+        link: 'pomaranchevyi_snud_kosy',
+        category: "Аксесуари",
+        similar: [
+            {
+                img: "zelenyi_snud_rukavytsi_01.jpg",
+                price: 500,
+                link: 'zelenyi_snud_rukavytsi'
+            },
+            {
+                img: "malynovyi_snud_01.jpg",
+                price: 250,
+                link: 'malynovyi_snud'
+            },
+            {
+                img: "pomaranchevyi_snud_01.jpg",
+                price: 200,
+                link: 'pomaranchevyi_snud'
+            }
+        ]
+    },
+    {
+        id: 25,
+        name: "Зелені рукавиці \"Кольорові кола\"",
+        description: "Найкраще для підкреслення темного глибокого кольору підійде якийсь яскравий кольоровий акцент. В цих рукавичках для мобільного їх - декілька. Гачковані кольрові плямки легко додадуть позитиву в ваш повсякденний образ.",
+        materials: "Матеріал: акрил. Розмір: M-L.",
+        images: [
+            "zeleni_kolyorovi_kola_01.jpg",
+            "zeleni_kolyorovi_kola_02.jpg",
+            "zeleni_kolyorovi_kola_03.jpg"
+        ],
+        price: 300,
+        link: 'zeleni_kolyorovi_kola',
+        category: "Аксесуари",
+    },
+    {
+        id: 26,
+        name: "Рукавиці \"Кольорові кола\"",
+        description: "Найкраще для підкреслення темного глибокого кольору підійде якийсь яскравий кольоровий акцент. В цих рукавичках для мобільного їх - декілька. Гачковані кольрові плямки легко додадуть позитиву в ваш повсякденний образ.",
+        materials: "Матеріал: акрил. Розмір: M-L.",
+        images: [
+            "rukavytsi_kolyorovi_kola_01.jpg",
+            "rukavytsi_kolyorovi_kola_02.jpg",
+            "rukavytsi_kolyorovi_kola_03.jpg",
+            "rukavytsi_kolyorovi_kola_04.jpg"
+        ],
+        price: 300,
+        link: 'rukavytsi_kolyorovi_kola',
+        category: "Аксесуари",
+    },
+    {
+        id: 27,
+        name: "Малинові смугасті рукавиці",
+        description: "Скажемо \"НІ!\" сірості! Ці рукавички містять в собі все найліпше - фактурне цікаве плетіння та різномаїтття соковитих відтінків малини та смородини. Рукавички - ручної роботи, м'які та не колючі.",
+        materials: "Матеріал: акрил. Розмір: L.",
+        images: [
+            "malynovi_smugasti_rukavytsi_01.jpg",
+            "malynovi_smugasti_rukavytsi_02.jpg",
+            "malynovi_smugasti_rukavytsi_03.jpg",
+            "malynovi_smugasti_rukavytsi_04.jpg"
+        ],
+        price: 300,
+        link: 'malynovi_smugasti_rukavytsi',
+        category: "Аксесуари",
+    },
+    {
+        id: 28,
+        name: "Рукавиці \"Вовняна фактура\"",
+        description: "Спеціальна пропозиція для любительниць вовняних аксесуарів! Рукавички зі значним вмістом натуральної вовни (в районі 80%), та ще й з шикарним фактурним орнаментом. Рукавички підійдуть на невеликий розмір руки, пасуватимуть як під пальто, так і під курточку, завдяки своєму класичному кольору та плетінню.",
+        materials: "Матеріал: вовна. Розмір: S-M.",
+        images: [
+            "rukavytsi_vovnyana_faktura_01.jpg",
+            "rukavytsi_vovnyana_faktura_02.jpg",
+            "rukavytsi_vovnyana_faktura_03.jpg",
+            "rukavytsi_vovnyana_faktura_04.jpg"
+        ],
+        price: 330,
+        link: 'rukavytsi_vovnyana_faktura',
+        category: "Аксесуари",
+    },
+    {
+        id: 29,
+        name: "Рукавиці \"Яскраві смужки\"",
+        description: "Чорнобривці, свіжий мед, осіннє яскраве листя... А які асоціації викликають ці кольори у вас? Теплі та яскраві рукавички готові гріти та піднімати настрій!",
+        materials: "Матеріал: акрил. Розмір: M-L.",
+        images: [
+            "rukavytsi_yaskravi_smuzhky_01.jpg",
+            "rukavytsi_yaskravi_smuzhky_02.jpg",
+            "rukavytsi_yaskravi_smuzhky_03.jpg",
+            "rukavytsi_yaskravi_smuzhky_04.jpg"
+        ],
+        price: 300,
+        link: 'rukavytsi_yaskravi_smuzhky',
+        category: "Аксесуари",
+    }
 ]
 
 export default accessories
