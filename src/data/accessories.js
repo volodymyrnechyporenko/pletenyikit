@@ -205,11 +205,6 @@ const accessories = [
                 link: 'mitenky_fioletovyi_melanzh'
             },
             {
-                img: "mitenky_snizhynky_01.jpg",
-                price: 250,
-                link: 'mitenky_snizhynky'
-            },
-            {
                 img: "mitenky_snizhne_zoloto_01.jpg",
                 price: 250,
                 link: 'mitenky_snizhne_zoloto'
@@ -231,41 +226,6 @@ const accessories = [
         link: 'mitenky_fioletovyi_melanzh',
         category: "Аксесуари",
         similar: [
-            {
-                img: "mitenky_snizhna_blakyt_01.jpg",
-                price: 250,
-                link: 'mitenky_snizhna_blakyt'
-            },
-            {
-                img: "mitenky_snizhynky_01.jpg",
-                price: 250,
-                link: 'mitenky_snizhynky'
-            },
-            {
-                img: "mitenky_snizhne_zoloto_01.jpg",
-                price: 250,
-                link: 'mitenky_snizhne_zoloto'
-            }
-        ]
-    },
-    {
-        id: 10,
-        name: "Мітенки \"Сніжинки\"",
-        description: "Мітенки плетені вручну з акрилової меланжевої пряжі бузково-рожевого відтінку. Мають виплетені спицями коси та нашиті дерев'яні ґудзики з намальованими на них сніжинками. Мітенки дуже м'які та приємні на дотик, пасуватимуть до ніжного зимового образу.",
-        images: [
-            "mitenky_snizhynky_01.jpg",
-            "mitenky_snizhynky_02.jpg",
-            "mitenky_snizhynky_03.jpg"
-        ],
-        price: 250,
-        link: 'mitenky_snizhynky',
-        category: "Аксесуари",
-        similar: [
-            {
-                img: "mitenky_fioletovyi_melanzh_01.jpg",
-                price: 250,
-                link: 'mitenky_fioletovyi_melanzh'
-            },
             {
                 img: "mitenky_snizhna_blakyt_01.jpg",
                 price: 250,
@@ -297,11 +257,6 @@ const accessories = [
                 img: "mitenky_fioletovyi_melanzh_01.jpg",
                 price: 250,
                 link: 'mitenky_fioletovyi_melanzh'
-            },
-            {
-                img: "mitenky_snizhynky_01.jpg",
-                price: 250,
-                link: 'mitenky_snizhynky'
             },
             {
                 img: "mitenky_snizhna_blakyt_01.jpg",
@@ -661,6 +616,43 @@ const accessories = [
         price: 300,
         link: 'zeleni_kolyorovi_kola',
         category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_cholovichi_siri_01.jpg",
+                price: 300,
+                link: 'rukavytsi_siri_kosy'
+            },
+            {
+                img: "rukavytsi_yaskravi_smuzhky_01.jpg",
+                price: 300,
+                link: 'rukavytsi_yaskravi_smuzhky'
+            },
+            {
+                img: "rukavytsi_vovnyana_faktura_01.jpg",
+                price: 330,
+                link: 'rukavytsi_vovnyana_faktura'
+            },
+            {
+                img: "rukavytsi_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'rukavytsi_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            },
+            {
+                img: "malynovi_smugasti_rukavytsi_01.jpg",
+                price: 300,
+                link: 'malynovi_smugasti_rukavytsi'
+            }
+        ]
     },
     {
         id: 26,
@@ -676,6 +668,43 @@ const accessories = [
         price: 300,
         link: 'rukavytsi_kolyorovi_kola',
         category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_cholovichi_siri_01.jpg",
+                price: 300,
+                link: 'rukavytsi_siri_kosy'
+            },
+            {
+                img: "rukavytsi_yaskravi_smuzhky_01.jpg",
+                price: 300,
+                link: 'rukavytsi_yaskravi_smuzhky'
+            },
+            {
+                img: "rukavytsi_vovnyana_faktura_01.jpg",
+                price: 330,
+                link: 'rukavytsi_vovnyana_faktura'
+            },
+            {
+                img: "zeleni_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'zeleni_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            },
+            {
+                img: "malynovi_smugasti_rukavytsi_01.jpg",
+                price: 300,
+                link: 'malynovi_smugasti_rukavytsi'
+            }
+        ]
     },
     {
         id: 27,
@@ -691,6 +720,43 @@ const accessories = [
         price: 300,
         link: 'malynovi_smugasti_rukavytsi',
         category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_cholovichi_siri_01.jpg",
+                price: 300,
+                link: 'rukavytsi_siri_kosy'
+            },
+            {
+                img: "rukavytsi_yaskravi_smuzhky_01.jpg",
+                price: 300,
+                link: 'rukavytsi_yaskravi_smuzhky'
+            },
+            {
+                img: "rukavytsi_vovnyana_faktura_01.jpg",
+                price: 330,
+                link: 'rukavytsi_vovnyana_faktura'
+            },
+            {
+                img: "zeleni_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'zeleni_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'rukavytsi_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            }
+        ]
     },
     {
         id: 28,
@@ -706,6 +772,43 @@ const accessories = [
         price: 330,
         link: 'rukavytsi_vovnyana_faktura',
         category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_cholovichi_siri_01.jpg",
+                price: 300,
+                link: 'rukavytsi_siri_kosy'
+            },
+            {
+                img: "rukavytsi_yaskravi_smuzhky_01.jpg",
+                price: 300,
+                link: 'rukavytsi_yaskravi_smuzhky'
+            },
+            {
+                img: "malynovi_smugasti_rukavytsi_01.jpg",
+                price: 300,
+                link: 'malynovi_smugasti_rukavytsi'
+            },
+            {
+                img: "zeleni_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'zeleni_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'rukavytsi_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            }
+        ]
     },
     {
         id: 29,
@@ -721,6 +824,43 @@ const accessories = [
         price: 300,
         link: 'rukavytsi_yaskravi_smuzhky',
         category: "Аксесуари",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_cholovichi_siri_01.jpg",
+                price: 300,
+                link: 'rukavytsi_siri_kosy'
+            },
+            {
+                img: "rukavytsi_vovnyana_faktura_01.jpg",
+                price: 330,
+                link: 'rukavytsi_vovnyana_faktura'
+            },
+            {
+                img: "malynovi_smugasti_rukavytsi_01.jpg",
+                price: 300,
+                link: 'malynovi_smugasti_rukavytsi'
+            },
+            {
+                img: "zeleni_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'zeleni_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'rukavytsi_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            }
+        ]
     }
 ]
 
