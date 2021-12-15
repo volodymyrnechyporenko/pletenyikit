@@ -88,16 +88,6 @@ const accessories = [
                 img: "mitenky_sovy_girchychni_01.jpg",
                 price: 270,
                 link: 'mitenky_sovy_girchychni'
-            },
-            {
-                img: "mitenky_kotyky_chorni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_chorni'
-            },
-            {
-                img: "mitenky_kotyky_girchychni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_girchychni'
             }
         ]
     },
@@ -130,16 +120,6 @@ const accessories = [
                 img: "mitenky_sovy_girchychni_01.jpg",
                 price: 270,
                 link: 'mitenky_sovy_girchychni'
-            },
-            {
-                img: "mitenky_kotyky_chorni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_chorni'
-            },
-            {
-                img: "mitenky_kotyky_girchychni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_girchychni'
             }
         ]
     },
@@ -496,16 +476,6 @@ const accessories = [
                 img: "mitenky_sovy_girchychni_01.jpg",
                 price: 270,
                 link: 'mitenky_sovy_girchychni'
-            },
-            {
-                img: "mitenky_kotyky_chorni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_chorni'
-            },
-            {
-                img: "mitenky_kotyky_girchychni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_girchychni'
             }
         ]
     },
@@ -539,100 +509,6 @@ const accessories = [
                 img: "mitenky_sovy_buzkovi_01.jpg",
                 price: 270,
                 link: 'mitenky_sovy_buzkovi'
-            },
-            {
-                img: "mitenky_kotyky_chorni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_chorni'
-            },
-            {
-                img: "mitenky_kotyky_girchychni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_girchychni'
-            }
-        ]
-    },
-    {
-        id: 19,
-        name: "Мітенки \"Чорні котики\"",
-        description: "І у мене і моєї мами є по чорній кішці, тож у Плетеному КоТі просто мали з'явитись чорні мітенки-котики. Бо ми не віримо в прикмети, а віримо, що чорні коти приносять лише тепло та затишок.",
-        materials: "Ручне плетіння та вишивка, пряжа - акрил.",
-        images: [
-            "mitenky_kotyky_chorni_01.jpg",
-            "mitenky_kotyky_chorni_02.jpg",
-            "mitenky_kotyky_chorni_03.jpg",
-            "mitenky_kotyky_chorni_04.jpg"
-        ],
-        price: 250,
-        link: 'mitenky_kotyky_chorni',
-        category: "Аксесуари",
-        similar: [
-            {
-                img: "mitenky_olyvkovi_kosy_01.jpg",
-                price: 180,
-                link: 'mitenky_olyvkovi_kosy'
-            },
-            {
-                img: "mitenky_fakturni_sovy_01.jpg",
-                price: 250,
-                link: 'mitenky_fakturni_sovy'
-            },
-            {
-                img: "mitenky_sovy_buzkovi_01.jpg",
-                price: 270,
-                link: 'mitenky_sovy_buzkovi'
-            },
-            {
-                img: "mitenky_sovy_girchychni_01.jpg",
-                price: 270,
-                link: 'mitenky_sovy_girchychni'
-            },
-            {
-                img: "mitenky_kotyky_girchychni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_girchychni'
-            }
-        ]
-    },
-    {
-        id: 20,
-        name: "Мітенки \"Гірчичні котики\"",
-        description: "Мітенки-котики гірчичного кольору 100% піднімуть настрій та додадуть тепла у ваш зимовий день.",
-        materials: "Ручне плетіння та вишивка, пряжа - акрил.",
-        images: [
-            "mitenky_kotyky_girchychni_01.jpg",
-            "mitenky_kotyky_girchychni_02.jpg",
-            "mitenky_kotyky_girchychni_03.jpg",
-            "mitenky_kotyky_girchychni_04.jpg"
-        ],
-        price: 250,
-        link: 'mitenky_kotyky_girchychni',
-        category: "Аксесуари",
-        similar: [
-            {
-                img: "mitenky_olyvkovi_kosy_01.jpg",
-                price: 180,
-                link: 'mitenky_olyvkovi_kosy'
-            },
-            {
-                img: "mitenky_fakturni_sovy_01.jpg",
-                price: 250,
-                link: 'mitenky_fakturni_sovy'
-            },
-            {
-                img: "mitenky_sovy_buzkovi_01.jpg",
-                price: 270,
-                link: 'mitenky_sovy_buzkovi'
-            },
-            {
-                img: "mitenky_sovy_girchychni_01.jpg",
-                price: 270,
-                link: 'mitenky_sovy_girchychni'
-            },
-            {
-                img: "mitenky_kotyky_chorni_01.jpg",
-                price: 250,
-                link: 'mitenky_kotyky_chorni'
             }
         ]
     },
