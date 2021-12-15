@@ -870,7 +870,7 @@ const pillows = [
     {
         id: 29,
         name: "Котик-щокастик меланжевий",
-        description: "Білі щічки - одна з найсимпатичніших деатлей цього котика, але, якщо придивитись, таких деталей - купа.",
+        description: "Білі щічки - одна з найсимпатичніших деталей цього котика, але, якщо придивитись, таких деталей - купа.",
         materials: "Гарні вушка, цікавий меланжевий відтінок, коротенькі лапки - все ручного плетіння і все це готово їхати та прикрашати вашу оселю.",
         dimensions: "Розмір: 47/30/13см.",
         images: [
@@ -882,7 +882,19 @@ const pillows = [
         ],
         price: 750,
         link: 'kotyk_schokastyk_melanzhevyi',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "melanzhevyi_siryi_shchokastyk_01.jpg",
+                price: 750,
+                link: 'melanzhevyi_siryi_shchokastyk'
+            },
+            {
+                img: "pukhnastyi_shchokastyk_01.jpg",
+                price: 750,
+                link: 'pukhnastyi_shchokastyk'
+            }
+        ]
     },
     {
         id: 30,
@@ -934,6 +946,64 @@ const pillows = [
         price: 800,
         link: 'buzkovyi_zaichyk',
         category: "Подушки"
+    },
+    {
+        id: 32,
+        name: "Меланжевий сірий щокастик",
+        description: "Білі щічки - одна з найсимпатичніших деталей цього котика, але, якщо придивитись, таких деталей - купа.",
+        materials: "Гарні вушка, цікавий меланжевий відтінок та фактурне плетіння, пухкенькі лапки - все ручної роботи і все це готово їхати та прикрашати вашу оселю.",
+        dimensions: "Розмір: 46/27/16см.",
+        images: [
+            "melanzhevyi_siryi_shchokastyk_01.jpg",
+            "melanzhevyi_siryi_shchokastyk_02.jpg",
+            "melanzhevyi_siryi_shchokastyk_03.jpg",
+            "melanzhevyi_siryi_shchokastyk_04.jpg",
+            "melanzhevyi_siryi_shchokastyk_05.jpg"
+        ],
+        price: 750,
+        link: 'melanzhevyi_siryi_shchokastyk',
+        category: "Подушки",
+        similar: [
+            {
+                img: "pukhnastyi_shchokastyk_01.jpg",
+                price: 750,
+                link: 'pukhnastyi_shchokastyk'
+            },
+            {
+                img: "kotyk_schokastyk_melanzhevyi_01.jpg",
+                price: 750,
+                link: 'kotyk_schokastyk_melanzhevyi'
+            }
+        ]
+    },
+    {
+        id: 33,
+        name: "Пухнастий щокастик",
+        description: "Білі щічки - одна з найсимпатичніших деталей цього котика, але, якщо придивитись, таких деталей - купа.",
+        materials: "Гарні вушка, цікавий меланжевий відтінок та м'якенька пухнаста ниточка, пухкенькі лапки - все ручної роботи і все це готово їхати та прикрашати вашу оселю.",
+        dimensions: "Розмір: 47/29/17см.",
+        images: [
+            "pukhnastyi_shchokastyk_01.jpg",
+            "pukhnastyi_shchokastyk_02.jpg",
+            "pukhnastyi_shchokastyk_03.jpg",
+            "pukhnastyi_shchokastyk_04.jpg",
+            "pukhnastyi_shchokastyk_05.jpg"
+        ],
+        price: 750,
+        link: 'pukhnastyi_shchokastyk',
+        category: "Подушки",
+        similar: [
+            {
+                img: "kotyk_schokastyk_melanzhevyi_01.jpg",
+                price: 750,
+                link: 'kotyk_schokastyk_melanzhevyi'
+            },
+            {
+                img: "melanzhevyi_siryi_shchokastyk_01.jpg",
+                price: 750,
+                link: 'melanzhevyi_siryi_shchokastyk'
+            }
+        ]
     }
 ]
 
