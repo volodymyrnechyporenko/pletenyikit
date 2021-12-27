@@ -13,7 +13,7 @@
     <div class="product-price">{{ item.price }}</div>
     <img
       loading="lazy"
-      :src="require(`@/assets/img/${this.item.img}`)"
+      :src="require(`@/assets/img/${item.img}`)"
       class="product-image"
       alt=""
     />

@@ -1,5 +1,6 @@
 <template>
-  <div class="product" @click="$router.push({
+  <div
+class="product" @click="$router.push({
         name: 'KitchenDetails',
         params: {
           id: product.id,
@@ -13,7 +14,7 @@
       <div class="product-title">{{ product.name }}</div>
       <img
         loading="lazy"
-        :src="require(`@/assets/img/${this.product.images[0]}`)"
+        :src="require(`@/assets/img/${product.images[0]}`)"
         class="product-image"
         alt=""
       />

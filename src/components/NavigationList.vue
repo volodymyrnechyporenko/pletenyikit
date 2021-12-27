@@ -67,11 +67,6 @@ export default {
   data: () => ({
     isBurgerActive: false
   }),
-  methods: {
-    toggle() {
-      this.isBurgerActive = !this.isBurgerActive;
-    }
-  },
   computed: {
     icon() {
       if (this.isBurgerActive) {
@@ -79,6 +74,11 @@ export default {
       } else {
         return ['fas', 'bars'];
       }
+    }
+  },
+  methods: {
+    toggle() {
+      this.isBurgerActive = !this.isBurgerActive;
     }
   }
 };

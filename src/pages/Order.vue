@@ -8,18 +8,18 @@
       <div class="form">
         <h3 class="form_title">Нам можна написати</h3>
         <form
+          id="form"
           action="sendmail.php"
           method="POST"
-          @submit.prevent="formSend()"
-          id="form"
           class="form_body"
+          @submit.prevent="formSend()"
         >
           <div class="form_item">
             <label for="formName" class="form_label">Ім'я*:</label>
             <input
-              type="text"
               id="formName"
               v-model="firstName"
+              type="text"
               name="firstname"
               class="form_input"
             />
@@ -27,9 +27,9 @@
           <div class="form_item">
             <label for="formSurname" class="form_label">Прізвище*:</label>
             <input
-              type="text"
               id="formSurname"
               v-model="lastName"
+              type="text"
               name="lastname"
               class="form_input"
             />
@@ -39,9 +39,9 @@
               >Електронна адреса*:</label
             >
             <input
-              type="text"
               id="formEmail"
               v-model="email"
+              type="text"
               name="email"
               class="form_input"
             />
@@ -49,9 +49,9 @@
           <div class="form_item">
             <label for="formMessage" class="form_label">Повідомлення*:</label>
             <textarea
-              name="message"
               id="formMessage"
               v-model="message"
+              name="message"
               cols="30"
               rows="10"
               class="form_input"

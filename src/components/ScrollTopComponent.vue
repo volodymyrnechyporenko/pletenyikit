@@ -1,5 +1,5 @@
 <template>
-    <a @click="scrollTop" v-show="visible" class="scrollToTop">
+    <a v-show="visible" class="scrollToTop" @click="scrollTop">
         <slot></slot>
     </a>
 </template>
@@ -11,6 +11,12 @@ export default {
       visible: false
     }
   },
+  mounted: function () {
+    window.addEventListener('scroll', this.scrollListener)
+  },
+  beforeUnmount: function () {
+    window.removeEventListener('scroll', this.scrollListener)
+  },
   methods: {
     scrollTop: function () {
         window.scrollTo({
@@ -18,15 +24,9 @@ export default {
         left: 0
       });
     },
-    scrollListener: function (e) {
+    scrollListener: function () {
       this.visible = window.scrollY > 300
     },
-  },
-  mounted: function () {
-    window.addEventListener('scroll', this.scrollListener)
-  },
-  beforeDestroy: function () {
-    window.removeEventListener('scroll', this.scrollListener)
   }
 }
 </script>

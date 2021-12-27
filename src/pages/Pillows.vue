@@ -5,8 +5,8 @@
 
   <div class="filter_heading">Фільтри</div>
   <div class="filter_button_wrap">
-    <div class="filter_button" v-on:click="priceLow()">від дешевших</div>
-    <div class="filter_button" v-on:click="priceHigh()">від дорожчих</div>
+    <div class="filter_button" @click="priceLow()">від дешевших</div>
+    <div class="filter_button" @click="priceHigh()">від дорожчих</div>
   </div>
 
   <div class="product-category">

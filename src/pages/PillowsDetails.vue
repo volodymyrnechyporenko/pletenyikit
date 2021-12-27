@@ -13,7 +13,7 @@
         loop
         effect="fade"
       >
-        <swiper-slide :key="image" v-for="image in product.images"
+        <swiper-slide v-for="image in product.images" :key="image"
           ><img :src="require(`@/assets/img/${image}`)" alt=""
         /></swiper-slide>
       </swiper>
