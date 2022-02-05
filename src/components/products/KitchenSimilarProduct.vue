@@ -6,7 +6,7 @@
         name: 'KitchenDetails',
         params: {
           link: item.link,
-        }
+        },
       })
     "
   >
@@ -21,14 +21,14 @@
 </template>
 
 <script>
-import kitchen from '../../data/kitchen.js';
+import kitchen from "../../data/kitchen.js";
 export default {
-  props: ['item'],
+  props: ["item"],
   data() {
     return {
-      kitchen: kitchen
+      kitchen: kitchen,
     };
-  }
+  },
 };
 </script>
 

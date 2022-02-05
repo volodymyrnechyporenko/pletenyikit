@@ -30,15 +30,19 @@
   </div>
   <h3 v-if="product.similar">Схожі товари</h3>
   <div class="product-similar">
-    <PillowsSimilarProduct v-for="item in product.similar" :item="item" />
+    <PillowsSimilarProduct
+      v-for="item in product.similar"
+      :item="item"
+      :key="item.id"
+    />
   </div>
 </template>
 
 <script>
-import pillows from '../data/pillows.js';
-import PillowsSimilarProduct from '../components/products/PillowsSimilarProduct';
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import SwiperCore, { Pagination, Autoplay, EffectFade } from 'swiper';
+import pillows from "../data/pillows.js";
+import PillowsSimilarProduct from "../components/products/PillowsSimilarProduct";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import SwiperCore, { Pagination, Autoplay, EffectFade } from "swiper";
 
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 
@@ -48,22 +52,22 @@ export default {
     SwiperSlide,
     Pagination,
     Autoplay,
-    PillowsSimilarProduct
+    PillowsSimilarProduct,
   },
   data() {
     return {
       product: null,
-      pillows: pillows
+      pillows: pillows,
     };
   },
   created() {
     const product = pillows.find(
-      product => product.link === this.$route.params.link
+      (product) => product.link === this.$route.params.link
     );
     if (product) {
       this.product = product;
     }
-  }
+  },
 };
 </script>
 

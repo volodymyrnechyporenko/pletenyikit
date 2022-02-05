@@ -6,7 +6,7 @@
         name: 'PillowsDetails',
         params: {
           link: item.link,
-        }
+        },
       })
     "
   >
@@ -21,14 +21,14 @@
 </template>
 
 <script>
-import pillows from '../../data/pillows.js';
+import pillows from "../../data/pillows.js";
 export default {
-  props: ['item'],
+  props: ["item"],
   data() {
     return {
-      pillows: pillows
+      pillows: pillows,
     };
-  }
+  },
 };
 </script>
 

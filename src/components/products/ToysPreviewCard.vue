@@ -9,8 +9,8 @@
           name: product.name,
           price: product.price,
           link: product.link,
-          images: product.images
-        }
+          images: product.images,
+        },
       })
     "
   >
@@ -26,14 +26,14 @@
 </template>
 
 <script>
-import toys from '../../data/toys.js';
+import toys from "../../data/toys.js";
 export default {
-  props: ['product'],
+  props: ["product"],
   data() {
     return {
-      toys: toys
+      toys: toys,
     };
-  }
+  },
 };
 </script>
 

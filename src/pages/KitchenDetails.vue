@@ -30,15 +30,19 @@
   </div>
   <h3 v-if="product.similar">Схожі товари</h3>
   <div class="product-similar">
-    <KitchenSimilarProduct v-for="item in product.similar" :item="item" />
+    <KitchenSimilarProduct
+      v-for="item in product.similar"
+      :item="item"
+      :key="item.id"
+    />
   </div>
 </template>
 
 <script>
-import kitchen from '../data/kitchen.js';
-import KitchenSimilarProduct from '../components/products/KitchenSimilarProduct';
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import SwiperCore, { Pagination, Autoplay, EffectFade } from 'swiper';
+import kitchen from "../data/kitchen.js";
+import KitchenSimilarProduct from "../components/products/KitchenSimilarProduct";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import SwiperCore, { Pagination, Autoplay, EffectFade } from "swiper";
 
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 
@@ -48,23 +52,23 @@ export default {
     SwiperSlide,
     Pagination,
     Autoplay,
-    KitchenSimilarProduct
+    KitchenSimilarProduct,
   },
   data() {
     return {
       product: null,
       kitchen: kitchen,
-      visible: false
+      visible: false,
     };
   },
   created() {
     const product = kitchen.find(
-      product => product.link === this.$route.params.link
+      (product) => product.link === this.$route.params.link
     );
     if (product) {
       this.product = product;
     }
-  }
+  },
 };
 </script>
 

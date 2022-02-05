@@ -93,17 +93,17 @@
 </template>
 
 <script>
-import { email, required } from '@vuelidate/validators';
-import { useVuelidate } from '@vuelidate/core';
+import { email, required } from "@vuelidate/validators";
+import { useVuelidate } from "@vuelidate/core";
 export default {
   setup: () => ({ v$: useVuelidate() }),
   data() {
     return {
-      form: '#form',
-      firstName: '',
-      lastName: '',
-      email: '',
-      message: ''
+      form: "#form",
+      firstName: "",
+      lastName: "",
+      email: "",
+      message: "",
     };
   },
   validations() {
@@ -111,34 +111,34 @@ export default {
       firstName: { required },
       lastName: { required },
       email: { email, required },
-      message: { required }
+      message: { required },
     };
   },
   methods: {
     async formSend() {
       this.v$.$validate();
       if (!this.v$.$error) {
-        form.classList.add('_sending');
+        form.classList.add("_sending");
         const formData = new FormData(form);
         const requestOptions = {
-          method: 'POST',
-          body: formData
+          method: "POST",
+          body: formData,
         };
-        const response = await fetch('./sendmail.php', requestOptions);
+        const response = await fetch("./sendmail.php", requestOptions);
         if (response.ok) {
           let result = await response.json();
           alert(result.message);
           form.reset();
-          form.classList.remove('_sending');
+          form.classList.remove("_sending");
         } else {
-          alert('Помилка');
-          form.classList.remove('_sending');
+          alert("Помилка");
+          form.classList.remove("_sending");
         }
       } else {
-        alert('Будь ласка заповніть всі поля форми');
+        alert("Будь ласка заповніть всі поля форми");
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -148,14 +148,14 @@ export default {
 }
 
 .form_body::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(203, 172, 106, 0.4) url('../assets/img/giphy.gif') center / 50px
-    no-repeat;
+  background: rgba(203, 172, 106, 0.4) url("../assets/img/giphy.gif") center /
+    50px no-repeat;
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s ease 0s;
@@ -184,8 +184,8 @@ textarea {
   outline: none;
 }
 
-input[type='text'],
-input[type='tel'] {
+input[type="text"],
+input[type="tel"] {
   height: 2.6em;
   outline: none;
 }
@@ -193,7 +193,7 @@ input[type='tel'] {
 button {
   background-color: #aea28f;
   color: #ffffff;
-  font: 100% 'RepoRegular';
+  font: 100% "RepoRegular";
   font-weight: 600;
   margin-top: 0.5em;
   border: none;

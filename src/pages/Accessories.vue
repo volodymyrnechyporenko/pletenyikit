@@ -19,34 +19,34 @@
 </template>
 
 <script>
-import accessories from '../data/accessories.js';
-import AccessoriesPreviewCard from '../components/products/AccessoriesPreviewCard.vue';
+import accessories from "../data/accessories.js";
+import AccessoriesPreviewCard from "../components/products/AccessoriesPreviewCard.vue";
 
 export default {
   components: {
-    AccessoriesPreviewCard
+    AccessoriesPreviewCard,
   },
   data() {
     return {
-      accessories: accessories
+      accessories: accessories,
     };
   },
   methods: {
     priceLow() {
-      return this.accessories.sort(function(a, b) {
+      return this.accessories.sort(function (a, b) {
         if (a.price > b.price) {
           return b.price - a.price;
         }
       });
     },
     priceHigh() {
-      return this.accessories.sort(function(a, b) {
+      return this.accessories.sort(function (a, b) {
         if (a.price < b.price) {
           return a.price - b.price;
         }
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -78,10 +78,11 @@ export default {
   position: relative;
 }
 
-.filter_button::before, .filter_button::after {
+.filter_button::before,
+.filter_button::after {
   content: "";
   position: absolute;
-  bottom: -.4rem;
+  bottom: -0.4rem;
   width: 0;
   height: 2px;
   margin: 5px 0 0;
@@ -99,7 +100,8 @@ export default {
   right: 50%;
 }
 
-.filter_button:hover::before, .filter_button:hover::after {
+.filter_button:hover::before,
+.filter_button:hover::after {
   width: 50%;
   opacity: 1;
 }

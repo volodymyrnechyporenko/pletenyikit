@@ -1,18 +1,18 @@
 <template>
   <ScrollTopComponent>
-      <a class="scrollToTop">
-        <font-awesome-icon :icon="['fas', 'angle-up']" size="3x"/>
-      </a>
+    <a class="scrollToTop">
+      <font-awesome-icon :icon="['fas', 'angle-up']" size="3x" />
+    </a>
   </ScrollTopComponent>
 </template>
 
 <script>
-import ScrollTopComponent from './ScrollTopComponent'
+import ScrollTopComponent from "./ScrollTopComponent";
 export default {
   components: {
-    ScrollTopComponent
-  }
-}
+    ScrollTopComponent,
+  },
+};
 </script>
 
 <style>

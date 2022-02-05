@@ -65,22 +65,22 @@
 <script>
 export default {
   data: () => ({
-    isBurgerActive: false
+    isBurgerActive: false,
   }),
   computed: {
     icon() {
       if (this.isBurgerActive) {
-        return ['fas', 'times'];
+        return ["fas", "times"];
       } else {
-        return ['fas', 'bars'];
+        return ["fas", "bars"];
       }
-    }
+    },
   },
   methods: {
     toggle() {
       this.isBurgerActive = !this.isBurgerActive;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -154,7 +154,7 @@ header {
 
 .menu-link:after {
   background: none repeat scroll 0 0 transparent;
-  content: '';
+  content: "";
   display: block;
   height: 2px;
   left: 50%;

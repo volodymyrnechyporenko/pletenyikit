@@ -6,7 +6,7 @@
         name: 'AccessoriesDetails',
         params: {
           link: item.link,
-        }
+        },
       })
     "
   >
@@ -21,14 +21,14 @@
 </template>
 
 <script>
-import accessories from '../../data/accessories.js';
+import accessories from "../../data/accessories.js";
 export default {
-  props: ['item'],
+  props: ["item"],
   data() {
     return {
-      accessories: accessories
+      accessories: accessories,
     };
-  }
+  },
 };
 </script>
 
