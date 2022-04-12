@@ -8,12 +8,12 @@ module.exports = {
   pluginOptions: {
     sitemap: {
         urls: [
-            'https://pletenyikit.com.ua/',
-            'https://pletenyikit.com.ua/toys',
-            'https://pletenyikit.com.ua/accessories',
-            'https://pletenyikit.com.ua/pillows',
-            'https://pletenyikit.com.ua/kitchen',
-            'https://pletenyikit.com.ua/order'
+            'https://pletenyikit.com/',
+            'https://pletenyikit.com/toys',
+            'https://pletenyikit.com/accessories',
+            'https://pletenyikit.com/pillows',
+            'https://pletenyikit.com/kitchen',
+            'https://pletenyikit.com/order'
         ],
         defaults: {
           lastmod:    '2021-11-14',
