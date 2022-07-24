@@ -335,6 +335,55 @@ const toys = [
                 link: 'koshenya_rudenki_vushka'
             }
         ]
+    },
+    {
+        id: 14,
+        name: "Закладка-змійка",
+        description: "Книжкова закладка є чудовим додатком до найкращого подарунка - книжки. Закладка-змійка неймовірно зелена, хвиляста та рукотворна. Шукає собі бібліотеку, яку може собою доповнити.",
+        materials: "Матеріали: акрил",
+        dimensions: "Розмір: 29/3,5см.",
+        images: [
+            "zakladka-zmiyka-01.jpg",
+            "zakladka-zmiyka-02.jpg",
+            "zakladka-zmiyka-03.jpg",
+            "zakladka-zmiyka-04.jpg",
+            "zakladka-zmiyka-05.jpg"
+        ],
+        price: 80,
+        link: 'zakladka-zmiyka',
+        category: "Іграшки",
+        similar: [
+            {
+                img: "zakladka-lysychka-01.jpg",
+                price: 150,
+                link: 'zakladka-lysychka'
+            }
+        ]
+    },
+    {
+        id: 15,
+        name: "Закладка-лисичка",
+        description: "Красиві та цікаві книжки заслуговуть на гарні закладки. З цим і допоможе гачкована вручну закладка-лисичка. Яскрава, весела лисичка готова переїхати до вашої бібліотеки та читати разом з вами будь-яку літературу.",
+        materials: "Матеріали: акрил",
+        dimensions: "Розмір: 43/3,5см.",
+        images: [
+            "zakladka-lysychka-01.jpg",
+            "zakladka-lysychka-02.jpg",
+            "zakladka-lysychka-03.jpg",
+            "zakladka-lysychka-04.jpg",
+            "zakladka-lysychka-05.jpg",
+            "zakladka-lysychka-06.jpg"
+        ],
+        price: 150,
+        link: 'zakladka-lysychka',
+        category: "Іграшки",
+        similar: [
+            {
+                img: "zakladka-zmiyka-01.jpg",
+                price: 80,
+                link: 'zakladka-zmiyka'
+            }
+        ]
     }
 ]
 

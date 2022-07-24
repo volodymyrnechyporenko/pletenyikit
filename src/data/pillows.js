@@ -986,6 +986,62 @@ const pillows = [
                 link: 'melanzhevyi_siryi_shchokastyk'
             }
         ]
+    },
+    {
+        id: 34,
+        name: "Тигроподух",
+        description: "Ця супер-яскрава помаранчева пряжа просто зобов‘язана була стати тигром! Тож до вашої уваги - подушка-тигрик. М‘яка, приємна на дотик, яскрава та весела, вона стане чудовим подарунком будь-кому, а особливо - людині, народженій в рік тигра.",
+        materials: "Звісно, як і все у Плетеному КоТі, подушка в‘язана і пошита повністю вручну. Матеріали: акрил (пряжа), холофайбер (наповнювач).",
+        dimensions: "Розмір: 37/25/13см без урахування довжини лапок та хвоста.",
+        images: [
+            "tygro-podukh-01.jpg",
+            "tygro-podukh-02.jpg",
+            "tygro-podukh-03.jpg",
+            "tygro-podukh-04.jpg",
+            "tygro-podukh-05.jpg"
+        ],
+        price: 700,
+        link: 'tygro-podukh',
+        category: "Подушки",
+    },
+    {
+        id: 35,
+        name: "Подушка-лисичка",
+        description: "Для поціновувачів простих форм та яскравих відтінків - подушка-лисичка. Така модель подушки вже була колись в наявності, але її майже одразу придбали. Тожо користуйтесь наявністю помаранчевої пряжі та придивіться до цієї красуні.",
+        materials: "Матеріали: акрил (пряжа), холофайбер (наповнювач).",
+        dimensions: "Розмір: 45/35/15см.",
+        images: [
+            "podushka-lysychka-01.jpg",
+            "podushka-lysychka-02.jpg",
+            "podushka-lysychka-03.jpg",
+            "podushka-lysychka-04.jpg",
+            "podushka-lysychka-05.jpg"
+        ],
+        price: 700,
+        link: 'podushka-lysychka',
+        category: "Подушки"
+    },
+    {
+        id: 36,
+        name: "Котоподушка сіра кругленька",
+        description: "Сіренька, смугаста й м‘якенька подушка-сарделька - ідеальний варіант як для попереку, так і під голову. А при бажанні можна використати таку котіньку і як валик під двері, для уникнення протягів. Ідеальне поєднання неяскравих кольорів пасуватиме під різноманітні меблі та інтер‘єри. Подушечка завжди усміхнена.",
+        materials: "Матеріали: акрил (пряжа), холофайбер (наповнювач).",
+        dimensions: "Розмір: 48/18см.",
+        images: [
+            "kotopodushka-sira-krugla-01.jpg",
+            "kotopodushka-sira-krugla-02.jpg",
+            "kotopodushka-sira-krugla-03.jpg",
+            "kotopodushka-sira-krugla-04.jpg",
+            "kotopodushka-sira-krugla-05.jpg",
+            "kotopodushka-sira-krugla-06.jpg",
+            "kotopodushka-sira-krugla-07.jpg",
+            "kotopodushka-sira-krugla-08.jpg",
+            "kotopodushka-sira-krugla-09.jpg",
+            "kotopodushka-sira-krugla-10.jpg"
+        ],
+        price: 700,
+        link: 'kotopodushka-sira-krugla',
+        category: "Подушки"
     }
 ]
 
