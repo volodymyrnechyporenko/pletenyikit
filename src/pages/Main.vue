@@ -9,19 +9,19 @@
     <div class="product">
         <a href="#" @click="$router.push('/toys')">
             <div class="category-title">Іграшки</div>
-            <img src="../assets/img/realistychna_kotoigrashka_01.jpg" class="product-image toys" alt="">
+            <img src="../assets/img/zakladka-lysychka-01.jpg" class="product-image toys" alt="">
         </a>
     </div>
     <div class="product">
         <a href="#" @click="$router.push('/accessories')">
-            <div class="category-title">Аксесуари</div>
-            <img src="../assets/img/mitenky_sovy_girchychni_01.jpg" class="product-image accessories" alt="">
+            <div class="category-title">Одяг</div>
+            <img src="../assets/img/maika-merezhyvna-synia-01.jpg" class="product-image accessories" alt="">
         </a>
     </div>
     <div class="product">
         <a href="#" @click="$router.push('/pillows')">
             <div class="category-title">Подушки</div>
-            <img src="../assets/img/pesyk_kvadratnyi_01.jpg" class="product-image pillows" alt="">
+            <img src="../assets/img/kotopodushka-sira-krugla-01.jpg" class="product-image pillows" alt="">
         </a>
     </div>
     <div class="product">

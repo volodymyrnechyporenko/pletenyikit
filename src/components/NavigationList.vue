@@ -6,7 +6,7 @@
           <a href="#" @click="$router.push('/toys')">Іграшки</a>
         </li>
         <li class="menu-link">
-          <a href="#" @click="$router.push('/accessories')">Аксесуари</a>
+          <a href="#" @click="$router.push('/accessories')">Одяг</a>
         </li>
         <li class="menu-link">
           <a href="#" @click="$router.push('/pillows')">Подушки</a>

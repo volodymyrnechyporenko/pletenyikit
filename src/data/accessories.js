@@ -9,7 +9,7 @@ const accessories = [
         ],
         price: 200,
         link: 'beret_sriblo',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "beret_shalyk_01.jpg",
@@ -34,7 +34,7 @@ const accessories = [
         ],
         price: 550,
         link: 'shalyk_beret_svitlyi_bezh',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "beret_shalyk_09.jpg",
@@ -57,7 +57,7 @@ const accessories = [
         ],
         price: 350,
         link: 'baktus_vesniana_zelen',
-        category: "Аксесуари"
+        category: "Одяг"
     },
     {
         id: 4,
@@ -72,7 +72,7 @@ const accessories = [
         ],
         price: 180,
         link: 'mitenky_olyvkovi_kosy',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "mitenky_fakturni_sovy_01.jpg",
@@ -104,7 +104,7 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_fakturni_sovy',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "mitenky_olyvkovi_kosy_01.jpg",
@@ -140,7 +140,7 @@ const accessories = [
         ],
         price: 300,
         link: 'rukavytsi_siri_kosy',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -169,7 +169,7 @@ const accessories = [
         ],
         price: 300,
         link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -197,7 +197,7 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_snizhna_blakyt',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "mitenky_fioletovyi_melanzh_01.jpg",
@@ -224,7 +224,7 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_fioletovyi_melanzh',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "mitenky_snizhna_blakyt_01.jpg",
@@ -251,7 +251,7 @@ const accessories = [
         ],
         price: 250,
         link: 'mitenky_snizhne_zoloto',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "mitenky_fioletovyi_melanzh_01.jpg",
@@ -278,7 +278,7 @@ const accessories = [
         ],
         price: 300,
         link: 'mitenky_try_troyandy',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -305,7 +305,7 @@ const accessories = [
         ],
         price: 270,
         link: 'rukavytsi_pukhnastyky',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavychky_zhakard_01.jpg",
@@ -327,7 +327,7 @@ const accessories = [
         ],
         price: 270,
         link: 'rukavytsi_zhakard',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_bili_puhnasti_01.jpg",
@@ -349,7 +349,7 @@ const accessories = [
         ],
         price: 300,
         link: 'mitenky_bdzhilky',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -378,7 +378,7 @@ const accessories = [
         ],
         price: 350,
         link: 'rukavytsi_mobilnogo_bila_khryzantema',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_smugasti_01.jpg",
@@ -415,7 +415,7 @@ const accessories = [
         ],
         price: 270,
         link: 'mitenky_sovy_buzkovi',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "mitenky_olyvkovi_kosy_01.jpg",
@@ -448,7 +448,7 @@ const accessories = [
         ],
         price: 270,
         link: 'mitenky_sovy_girchychni',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "mitenky_olyvkovi_kosy_01.jpg",
@@ -482,7 +482,7 @@ const accessories = [
         ],
         price: 500,
         link: 'zelenyi_snud_rukavytsi',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "malynovyi_snud_01.jpg",
@@ -516,7 +516,7 @@ const accessories = [
         ],
         price: 250,
         link: 'malynovyi_snud',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "zelenyi_snud_rukavytsi_01.jpg",
@@ -550,7 +550,7 @@ const accessories = [
         ],
         price: 200,
         link: 'pomaranchevyi_snud',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "zelenyi_snud_rukavytsi_01.jpg",
@@ -584,7 +584,7 @@ const accessories = [
         ],
         price: 200,
         link: 'pomaranchevyi_snud_kosy',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "zelenyi_snud_rukavytsi_01.jpg",
@@ -615,7 +615,7 @@ const accessories = [
         ],
         price: 300,
         link: 'zeleni_kolyorovi_kola',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -667,7 +667,7 @@ const accessories = [
         ],
         price: 300,
         link: 'rukavytsi_kolyorovi_kola',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -719,7 +719,7 @@ const accessories = [
         ],
         price: 300,
         link: 'malynovi_smugasti_rukavytsi',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -771,7 +771,7 @@ const accessories = [
         ],
         price: 330,
         link: 'rukavytsi_vovnyana_faktura',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -823,7 +823,7 @@ const accessories = [
         ],
         price: 300,
         link: 'rukavytsi_yaskravi_smuzhky',
-        category: "Аксесуари",
+        category: "Одяг",
         similar: [
             {
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
@@ -859,6 +859,140 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_smugasti_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            }
+        ]
+    },
+    {
+        id: 30,
+        name: "Майка з мереживним низом",
+        description: "Ідеальний варіант літнього одягу - укорочена майка ручного плетіння з американською проймою. Саме такі майки легко комбінуються з будь-яким низом, дуже зручні в повсякденному носінні та стануть невід‘ємною частиною вашого гардеробу. А якщо ви вже маєте одяг подібного силуету - варто придивитись до майок від Плетеного КоТа, бо всі наші вироби - ручна робота, унікальність та апсайклінг.",
+        materials: "Матеріал цього виробу - легенький та м‘який меланжевий акрил. Мереживний цікавий низ завжди додасть майці унікальності. Тож для сумнівів не час, бо літо таке швидкоплинне. Матеріали: акрил. Розмір: S-M. Параметри моделі: зріст - 168см, об‘єм грудей - 87см, об‘єм талії - 70см, об‘єм стегон - 98см.",
+        images: [
+            "maika-merezhyvnyi-nyz-01.jpg",
+            "maika-merezhyvnyi-nyz-02.jpg",
+            "maika-merezhyvnyi-nyz-03.jpg",
+            "maika-merezhyvnyi-nyz-04.jpg",
+            "maika-merezhyvnyi-nyz-05.jpg",
+            "maika-merezhyvnyi-nyz-06.jpg"
+        ],
+        price: 600,
+        link: 'maika-merezhyvnyi-nyz',
+        category: "Одяг",
+        similar: [
+            {
+                img: "maika-melanzh-koliorovyi-01.jpg",
+                price: 650,
+                link: 'maika-melanzh-koliorovyi'
+            },
+            {
+                img: "maika-merezhyvna-synia-01.jpg",
+                price: 650,
+                link: 'maika-merezhyvna-synia'
+            },
+            {
+                img: "maika-melanzh-rozhevyi-01.jpg",
+                price: 650,
+                link: 'maika-melanzh-rozhevyi'
+            }
+        ]
+    },
+    {
+        id: 31,
+        name: "Майка кольоровий меланж",
+        description: "Фаворитка з усіх наявних наразі майок - саме ця. Лишень погляньте на ці кольори! Меланжева кольорова ниточка містить в собі неймовірне поєднання кольорів, а візерунок плетіння додає фактурності цьому виробу та робить його ідеальним. Це саме той момент, коли майка не надто яскрава, але не помітити її важко.",
+        materials: "Матеріали: акрил. Розмір: S-M. Параметри моделі: зріст - 168см, об‘єм грудей - 87см, об‘єм талії - 70см, об‘єм стегон - 98см.",
+        images: [
+            "maika-melanzh-koliorovyi-01.jpg",
+            "maika-melanzh-koliorovyi-02.jpg",
+            "maika-melanzh-koliorovyi-03.jpg",
+            "maika-melanzh-koliorovyi-04.jpg",
+            "maika-melanzh-koliorovyi-05.jpg"
+        ],
+        price: 650,
+        link: 'maika-melanzh-koliorovyi',
+        category: "Одяг",
+        similar: [
+            {
+                img: "maika-merezhyvnyi-nyz-01.jpg",
+                price: 600,
+                link: 'maika-merezhyvnyi-nyz'
+            },
+            {
+                img: "maika-merezhyvna-synia-01.jpg",
+                price: 650,
+                link: 'maika-merezhyvna-synia'
+            },
+            {
+                img: "maika-melanzh-rozhevyi-01.jpg",
+                price: 650,
+                link: 'maika-melanzh-rozhevyi'
+            }
+        ]
+    },
+    {
+        id: 32,
+        name: "Майка синя мереживна",
+        description: "Неймовірний колір неба перед зливою та фактурний орнамент поєднує в собі ця маєчка. Виріб ручної роботи легко доповнить джинси, брюки чи спідницю та підійде як на щодень, так і до свята, варто лиш додати прикрас.",
+        materials: "Матеріали: акрил. Розмір: S-M. Параметри моделі: зріст - 168см, об‘єм грудей - 87см, об‘єм талії - 70см, об‘єм стегон - 98см.",
+        images: [
+            "maika-merezhyvna-synia-01.jpg",
+            "maika-merezhyvna-synia-02.jpg",
+            "maika-merezhyvna-synia-03.jpg",
+            "maika-merezhyvna-synia-04.jpg",
+            "maika-merezhyvna-synia-05.jpg",
+            "maika-merezhyvna-synia-06.jpg"
+        ],
+        price: 650,
+        link: 'maika-merezhyvna-synia',
+        category: "Одяг",
+        similar: [
+            {
+                img: "maika-merezhyvnyi-nyz-01.jpg",
+                price: 600,
+                link: 'maika-merezhyvnyi-nyz'
+            },
+            {
+                img: "maika-melanzh-koliorovyi-01.jpg",
+                price: 650,
+                link: 'maika-melanzh-koliorovyi'
+            },
+            {
+                img: "maika-melanzh-rozhevyi-01.jpg",
+                price: 650,
+                link: 'maika-melanzh-rozhevyi'
+            }
+        ]
+    },
+    {
+        id: 33,
+        name: "Майка рожевий меланж",
+        description: "Легка та приємна до тіла, наче рожева хмаринка. Майка з повітряним орнаментом чудово прикрасить ваше літо та додасть романтики до будь-якого образу.",
+        materials: "Матеріали: акрил. Розмір: S-M. Параметри моделі: зріст - 168см, об‘єм грудей - 87см, об‘єм талії - 70см, об‘єм стегон - 98см.",
+        images: [
+            "maika-melanzh-rozhevyi-01.jpg",
+            "maika-melanzh-rozhevyi-02.jpg",
+            "maika-melanzh-rozhevyi-03.jpg",
+            "maika-melanzh-rozhevyi-04.jpg",
+            "maika-melanzh-rozhevyi-05.jpg"
+        ],
+        price: 650,
+        link: 'maika-melanzh-rozhevyi',
+        category: "Одяг",
+        similar: [
+            {
+                img: "maika-merezhyvnyi-nyz-01.jpg",
+                price: 600,
+                link: 'maika-merezhyvnyi-nyz'
+            },
+            {
+                img: "maika-melanzh-koliorovyi-01.jpg",
+                price: 650,
+                link: 'maika-melanzh-koliorovyi'
+            },
+            {
+                img: "maika-merezhyvna-synia-01.jpg",
+                price: 650,
+                link: 'maika-merezhyvna-synia'
             }
         ]
     }

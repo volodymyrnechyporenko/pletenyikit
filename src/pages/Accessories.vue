@@ -1,6 +1,6 @@
 <template>
   <div class="heading">
-    <h1>Аксесуари</h1>
+    <h1>Одяг</h1>
   </div>
 
   <div class="filter_heading">Фільтри</div>
