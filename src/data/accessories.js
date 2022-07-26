@@ -84,11 +84,6 @@ const accessories = [
                 price: 270,
                 link: 'mitenky_sovy_buzkovi'
             },
-            {
-                img: "mitenky_sovy_girchychni_01.jpg",
-                price: 270,
-                link: 'mitenky_sovy_girchychni'
-            }
         ]
     },
     {
@@ -115,42 +110,6 @@ const accessories = [
                 img: "mitenky_sovy_buzkovi_01.jpg",
                 price: 270,
                 link: 'mitenky_sovy_buzkovi'
-            },
-            {
-                img: "mitenky_sovy_girchychni_01.jpg",
-                price: 270,
-                link: 'mitenky_sovy_girchychni'
-            }
-        ]
-    },
-    {
-        id: 6,
-        name: "Рукавиці чоловічі \"Сірі коси\"",
-        description: "Вовняні чоловічі рукавиці - до вашої уваги. Саме такі рукавиці у мого чоловіка, тож виріб проходить тестування і активно використовується.",
-        materials: "Рукавиці плетені спицями, з пряжі, що містить великий відсоток вовни, але не є кусючою, тепла та приємна на дотик. Ниточка - меланжева, сіро-синюватого відтінку. Рукавиці мають отвір для вказівного пальця та не закритий верх великого пальця. Щоб можна було користуватись мобільним телефоном, не знімаючи рукавичку.",
-        images: [
-            "rukavytsi_cholovichi_siri_01.jpg",
-            "rukavytsi_cholovichi_siri_02.jpg",
-            "rukavytsi_cholovichi_siri_03.jpg",
-            "rukavytsi_cholovichi_siri_04.jpg",
-            "rukavytsi_cholovichi_siri_05.jpg",
-            "rukavytsi_cholovichi_siri_06.jpg",
-            "rukavytsi_cholovichi_siri_07.jpg",
-            "rukavytsi_cholovichi_siri_08.jpg"
-        ],
-        price: 300,
-        link: 'rukavytsi_siri_kosy',
-        category: "Одяг",
-        similar: [
-            {
-                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema'
-            },
-            {
-                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
             }
         ]
     },
@@ -175,11 +134,6 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
-            },
-            {
-                img: "rukavytsi_cholovichi_siri_01.jpg",
-                price: 300,
-                link: 'rukavytsi_siri_kosy'
             }
         ]
     },
@@ -266,33 +220,6 @@ const accessories = [
         ]
     },
     {
-        id: 12,
-        name: "Мітенки \"Три троянди\"",
-        description: "Мітенки плетені вручну з акрилової м'якої пряжі. Мають ручну вишивку - квіти.",
-        materials: "Пряжа, з якої виконано аксесуар - меланжева, в одній нитці поєднано блакитну, білу та сірувату ниточки.",
-        images: [
-            "mitenky_try_troyandy_01.jpg",
-            "mitenky_try_troyandy_02.jpg",
-            "mitenky_try_troyandy_03.jpg",
-            "mitenky_try_troyandy_04.jpg"
-        ],
-        price: 300,
-        link: 'mitenky_try_troyandy',
-        category: "Одяг",
-        similar: [
-            {
-                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema'
-            },
-            {
-                img: "mitenky_bdzhilky_01.jpg",
-                price: 300,
-                link: 'mitenky_bdzhilky'
-            }
-        ]
-    },
-    {
         id: 13,
         name: "Мітенки \"Пухнастики\"",
         description: "Рукавички плетені вручну з дууже м'якої меланжевої пряжі з ворсом. Здалеку здаються білими, але насправді містять в собі дуже багато кольорьорових петельок та різноманітних фактур. Пухнасті, святкові та готові стати чудовим подарунком вам або вашим близьким.",
@@ -355,11 +282,6 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
-            },
-            {
-                img: "mitenky_try_troyandy_01.jpg",
-                price: 300,
-                link: 'mitenky_try_troyandy'
             }
         ]
     },
@@ -384,16 +306,6 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_smugasti_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
-            },
-            {
-                img: "rukavytsi_cholovichi_siri_01.jpg",
-                price: 300,
-                link: 'rukavytsi_siri_kosy'
-            },
-            {
-                img: "mitenky_try_troyandy_01.jpg",
-                price: 300,
-                link: 'mitenky_try_troyandy'
             },
             {
                 img: "mitenky_bdzhilky_01.jpg",
@@ -426,44 +338,6 @@ const accessories = [
                 img: "mitenky_fakturni_sovy_01.jpg",
                 price: 250,
                 link: 'mitenky_fakturni_sovy'
-            },
-            {
-                img: "mitenky_sovy_girchychni_01.jpg",
-                price: 270,
-                link: 'mitenky_sovy_girchychni'
-            }
-        ]
-    },
-    {
-        id: 18,
-        name: "Мітенки \"Гірчичні сови\"",
-        description: "Цей теплий та сонячний колір пасує всім, а зараз ще й - дуже модний. Гірчичні м'якенькі мітенки з маленькими совенятами - не лише зігріють, а й піднімуть настрій.",
-        materials: "Матеріал: акрил та бісер.",
-        images: [
-            "mitenky_sovy_girchychni_01.jpg",
-            "mitenky_sovy_girchychni_02.jpg",
-            "mitenky_sovy_girchychni_03.jpg",
-            "mitenky_sovy_girchychni_04.jpg",
-            "mitenky_sovy_girchychni_05.jpg"
-        ],
-        price: 270,
-        link: 'mitenky_sovy_girchychni',
-        category: "Одяг",
-        similar: [
-            {
-                img: "mitenky_olyvkovi_kosy_01.jpg",
-                price: 180,
-                link: 'mitenky_olyvkovi_kosy'
-            },
-            {
-                img: "mitenky_fakturni_sovy_01.jpg",
-                price: 250,
-                link: 'mitenky_fakturni_sovy'
-            },
-            {
-                img: "mitenky_sovy_buzkovi_01.jpg",
-                price: 270,
-                link: 'mitenky_sovy_buzkovi'
             }
         ]
     },
@@ -623,11 +497,6 @@ const accessories = [
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
             },
             {
-                img: "rukavytsi_cholovichi_siri_01.jpg",
-                price: 300,
-                link: 'rukavytsi_siri_kosy'
-            },
-            {
                 img: "rukavytsi_yaskravi_smuzhky_01.jpg",
                 price: 300,
                 link: 'rukavytsi_yaskravi_smuzhky'
@@ -673,11 +542,6 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
-            },
-            {
-                img: "rukavytsi_cholovichi_siri_01.jpg",
-                price: 300,
-                link: 'rukavytsi_siri_kosy'
             },
             {
                 img: "rukavytsi_yaskravi_smuzhky_01.jpg",
@@ -727,11 +591,6 @@ const accessories = [
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
             },
             {
-                img: "rukavytsi_cholovichi_siri_01.jpg",
-                price: 300,
-                link: 'rukavytsi_siri_kosy'
-            },
-            {
                 img: "rukavytsi_yaskravi_smuzhky_01.jpg",
                 price: 300,
                 link: 'rukavytsi_yaskravi_smuzhky'
@@ -779,11 +638,6 @@ const accessories = [
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
             },
             {
-                img: "rukavytsi_cholovichi_siri_01.jpg",
-                price: 300,
-                link: 'rukavytsi_siri_kosy'
-            },
-            {
                 img: "rukavytsi_yaskravi_smuzhky_01.jpg",
                 price: 300,
                 link: 'rukavytsi_yaskravi_smuzhky'
@@ -829,11 +683,6 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
-            },
-            {
-                img: "rukavytsi_cholovichi_siri_01.jpg",
-                price: 300,
-                link: 'rukavytsi_siri_kosy'
             },
             {
                 img: "rukavytsi_vovnyana_faktura_01.jpg",

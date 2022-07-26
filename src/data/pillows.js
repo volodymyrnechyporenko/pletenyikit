@@ -927,7 +927,24 @@ const pillows = [
         ],
         price: 800,
         link: 'buzkovyi_zaichyk',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "podushka-lysychka-01.jpg",
+                price: 700,
+                link: 'podushka-lysychka'
+            },
+            {
+                img: "zhovtyi-pes-metelyk-01.jpg",
+                price: 750,
+                link: 'zhovtyi-pes-metelyk'
+            },
+            {
+                img: "tygro-podukh-01.jpg",
+                price: 700,
+                link: 'tygro-podukh'
+            }
+        ]
     },
     {
         id: 32,
@@ -1003,6 +1020,23 @@ const pillows = [
         price: 700,
         link: 'tygro-podukh',
         category: "Подушки",
+        similar: [
+            {
+                img: "podushka-lysychka-01.jpg",
+                price: 700,
+                link: 'podushka-lysychka'
+            },
+            {
+                img: "zhovtyi-pes-metelyk-01.jpg",
+                price: 750,
+                link: 'zhovtyi-pes-metelyk'
+            },
+            {
+                img: "buzkovyi_zaichyk_01.jpg",
+                price: 800,
+                link: 'buzkovyi_zaichyk'
+            }
+        ]
     },
     {
         id: 35,
@@ -1019,7 +1053,24 @@ const pillows = [
         ],
         price: 700,
         link: 'podushka-lysychka',
-        category: "Подушки"
+        category: "Подушки",
+        similar: [
+            {
+                img: "tygro-podukh-01.jpg",
+                price: 700,
+                link: 'tygro-podukh'
+            },
+            {
+                img: "zhovtyi-pes-metelyk-01.jpg",
+                price: 750,
+                link: 'zhovtyi-pes-metelyk'
+            },
+            {
+                img: "buzkovyi_zaichyk_01.jpg",
+                price: 800,
+                link: 'buzkovyi_zaichyk'
+            }
+        ]
     },
     {
         id: 36,
@@ -1042,6 +1093,41 @@ const pillows = [
         price: 700,
         link: 'siryi-kruglenkyi-kotyk',
         category: "Подушки"
+    },
+    {
+        id: 37,
+        name: "Жовтий пес з метеликом",
+        description: "Любите песиків? Тоді цей м‘якенький та жовтенький песоПодух для вас. Ручне плетіння і пошиття, приємна неколюча пряжа, гіпоалергенний наповнювач. Песик-подушка має милу вишиту посмішку, рухомі вушка, лапки і патріотичний метелик",
+        materials: "Матеріали: акрил (пряжа), холофайбер (наповнювач).",
+        dimensions: "Розмір: 36/27/12см без урахування лап і хвоста.",
+        images: [
+            "zhovtyi-pes-metelyk-01.jpg",
+            "zhovtyi-pes-metelyk-02.jpg",
+            "zhovtyi-pes-metelyk-03.jpg",
+            "zhovtyi-pes-metelyk-04.jpg",
+            "zhovtyi-pes-metelyk-05.jpg",
+            "zhovtyi-pes-metelyk-06.jpg"
+        ],
+        price: 750,
+        link: 'zhovtyi-pes-metelyk',
+        category: "Подушки",
+        similar: [
+            {
+                img: "tygro-podukh-01.jpg",
+                price: 700,
+                link: 'tygro-podukh'
+            },
+            {
+                img: "podushka-lysychka-01.jpg",
+                price: 700,
+                link: 'podushka-lysychka'
+            },
+            {
+                img: "buzkovyi_zaichyk_01.jpg",
+                price: 800,
+                link: 'buzkovyi_zaichyk'
+            }
+        ]
     }
 ]
 
