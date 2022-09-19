@@ -264,28 +264,6 @@ const accessories = [
         ]
     },
     {
-        id: 15,
-        name: "Мітенки \"Бджілки\"",
-        description: "Аксесуар для любителів меду або комах! Мітенки з вишитими бджілками - що може ще більше нагадувати про літо прохолодними днями?",
-        materials: "Виріб плетено з м'якої акрилової пряжі спицями, вишивка зроблена вручну, як і всі вироби Плетеного КоТа.",
-        images: [
-            "mitenky_bdzhilky_01.jpg",
-            "mitenky_bdzhilky_02.jpg",
-            "mitenky_bdzhilky_03.jpg",
-            "mitenky_bdzhilky_04.jpg"
-        ],
-        price: 300,
-        link: 'mitenky_bdzhilky',
-        category: "Одяг",
-        similar: [
-            {
-                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema'
-            }
-        ]
-    },
-    {
         id: 16,
         name: "Рукавиці для мобільного \"Біла хризантема\"",
         description: "Ця вишивка найбільше нагадує мені пізню білу хризантему у саду, що вже втратив яскраві осінні кольори та почав набувати зимових сірих тонів. Якщо ви любите спокійні відтіки та мінімалізм - ці рукавички для мобільного чудово вам пасуватимуть.",
@@ -307,11 +285,6 @@ const accessories = [
                 price: 350,
                 link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
             },
-            {
-                img: "mitenky_bdzhilky_01.jpg",
-                price: 300,
-                link: 'mitenky_bdzhilky'
-            }
         ]
     },
     {
