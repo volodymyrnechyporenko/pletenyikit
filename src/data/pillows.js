@@ -51,111 +51,6 @@ const pillows = [
         ]
     },
     {
-        id: 3,
-        name: "Пудрова кицька",
-        description: "М'якенька, як свіжий зефір. Рожева, як полуничний крем. Легенька, як солодка вата. Пухкенька ніби вареничок з вишнями на пару. Тільки не смачна.)",
-        materials: "Котоподушка з неймовірно гарної пудрової пряжі, ручного плетіння. Має гарний чубчик та рухомі лапоньки.",
-        dimensions: "Розмір: 30/34/12см.",
-        images: [
-            "rozheva_gryvka_01.jpg",
-            "rozheva_gryvka_02.jpg",
-            "rozheva_gryvka_03.jpg",
-            "rozheva_gryvka_04.jpg",
-            "rozheva_gryvka_05.jpg",
-            "rozheva_gryvka_06.jpg",
-            "rozheva_gryvka_07.jpg",
-            "rozheva_gryvka_08.jpg",
-            "rozheva_gryvka_09.jpg",
-            "rozheva_gryvka_10.jpg"
-        ],
-        price: 650,
-        link: 'pudrova_kytska',
-        category: "Подушки",
-        similar: [
-            {
-                img: "fioletovyi_gentleman_04.jpg",
-                price: 650,
-                link: 'fioletovyi_gentleman'
-            },
-            {
-                img: "rozhevyi_melanzh_veliur_03.jpg",
-                price: 650,
-                link: 'rozhevyi_velur'
-            },
-            {
-                img: "synio-bezhevyi_melanzh_01.jpg",
-                price: 650,
-                link: 'synio_bezhevyi_melanzh'
-            },
-            {
-                img: "bezhevyi_melanzh_03.jpg",
-                price: 550,
-                link: 'bezhevyi_melanzh'
-            },
-            {
-                img: "siryi_kit_rozhevi_lapky_01.jpg",
-                price: 650,
-                link: 'siryi_kit_rozhevi_lapky'
-            },
-            {
-                img: "temno-syniy_zhovtuvatyi_01.jpg",
-                price: 650,
-                link: 'zhovtyi_pukhnastyi_kotyk'
-            }
-        ]
-    },
-    {
-        id: 4,
-        name: "Фіолетовий джентльмен",
-        description: "Справжні джентельмени носять краватки-метелики, навіть якщо вони - коти. Бузковий котоджентельмен в комбінезоні та краватці готовий прикрашати собою будь-яку кімнату.",
-        materials: "Плетений спицями з велюрової світло-фіолетової пряжі та грубшої темно-бузкової акрилової нитки котик має гіпоалергенне наповнення (холофайбер), дуже м'якенький та приємний на дотик.",
-        dimensions: "Розмір: 33/31/13см.",
-        images: [
-            "fioletovyi_gentleman_04.jpg",
-            "fioletovyi_gentleman_02.jpg",
-            "fioletovyi_gentleman_03.jpg",
-            "fioletovyi_gentleman_05.jpg",
-            "fioletovyi_gentleman_06.jpg",
-            "fioletovyi_gentleman_07.jpg",
-            "fioletovyi_gentleman_01.jpg"
-        ],
-        price: 650,
-        link: 'fioletovyi_gentleman',
-        category: "Подушки",
-        similar: [
-            {
-                img: "rozheva_gryvka_01.jpg",
-                price: 650,
-                link: 'pudrova_kytska'
-            },
-            {
-                img: "rozhevyi_melanzh_veliur_03.jpg",
-                price: 650,
-                link: 'rozhevyi_velur'
-            },
-            {
-                img: "synio-bezhevyi_melanzh_01.jpg",
-                price: 650,
-                link: 'synio_bezhevyi_melanzh'
-            },
-            {
-                img: "bezhevyi_melanzh_03.jpg",
-                price: 550,
-                link: 'bezhevyi_melanzh'
-            },
-            {
-                img: "siryi_kit_rozhevi_lapky_01.jpg",
-                price: 650,
-                link: 'siryi_kit_rozhevi_lapky'
-            },
-            {
-                img: "temno-syniy_zhovtuvatyi_01.jpg",
-                price: 650,
-                link: 'zhovtyi_pukhnastyi_kotyk'
-            }
-        ]
-    },
-    {
         id: 5,
         name: "Рожевий велюр",
         description: "В природі не існує рожевих котів, а у Pletenyi KiT - існує! Меланжева рожева ниточка + велюрова малинова пряжа роблять котика неймовірно приємним на дотик. Вся подушка - ручне плетіння, мордочка вишита, лапки рухомі, а котик дуже легенький та м'який.",
@@ -176,16 +71,6 @@ const pillows = [
         category: "Подушки",
         similar: [
             {
-                img: "fioletovyi_gentleman_04.jpg",
-                price: 650,
-                link: 'fioletovyi_gentleman'
-            },
-            {
-                img: "rozheva_gryvka_01.jpg",
-                price: 650,
-                link: 'pudrova_kytska'
-            },
-            {
                 img: "synio-bezhevyi_melanzh_01.jpg",
                 price: 650,
                 link: 'synio_bezhevyi_melanzh'
@@ -194,11 +79,6 @@ const pillows = [
                 img: "bezhevyi_melanzh_03.jpg",
                 price: 550,
                 link: 'bezhevyi_melanzh'
-            },
-            {
-                img: "siryi_kit_rozhevi_lapky_01.jpg",
-                price: 650,
-                link: 'siryi_kit_rozhevi_lapky'
             },
             {
                 img: "temno-syniy_zhovtuvatyi_01.jpg",
@@ -228,29 +108,14 @@ const pillows = [
         category: "Подушки",
         similar: [
             {
-                img: "fioletovyi_gentleman_04.jpg",
-                price: 650,
-                link: 'fioletovyi_gentleman'
-            },
-            {
                 img: "rozhevyi_melanzh_veliur_03.jpg",
                 price: 650,
                 link: 'rozhevyi_velur'
             },
             {
-                img: "rozheva_gryvka_01.jpg",
-                price: 650,
-                link: 'pudrova_kytska'
-            },
-            {
                 img: "bezhevyi_melanzh_03.jpg",
                 price: 550,
                 link: 'bezhevyi_melanzh'
-            },
-            {
-                img: "siryi_kit_rozhevi_lapky_01.jpg",
-                price: 650,
-                link: 'siryi_kit_rozhevi_lapky'
             },
             {
                 img: "temno-syniy_zhovtuvatyi_01.jpg",
@@ -275,11 +140,6 @@ const pillows = [
         category: "Подушки",
         similar: [
             {
-                img: "fioletovyi_gentleman_04.jpg",
-                price: 650,
-                link: 'fioletovyi_gentleman'
-            },
-            {
                 img: "rozhevyi_melanzh_veliur_03.jpg",
                 price: 650,
                 link: 'rozhevyi_velur'
@@ -288,68 +148,6 @@ const pillows = [
                 img: "synio-bezhevyi_melanzh_01.jpg",
                 price: 650,
                 link: 'synio_bezhevyi_melanzh'
-            },
-            {
-                img: "rozheva_gryvka_01.jpg",
-                price: 550,
-                link: 'pudrova_kytska'
-            },
-            {
-                img: "siryi_kit_rozhevi_lapky_01.jpg",
-                price: 650,
-                link: 'siryi_kit_rozhevi_lapky'
-            },
-            {
-                img: "temno-syniy_zhovtuvatyi_01.jpg",
-                price: 650,
-                link: 'zhovtyi_pukhnastyi_kotyk'
-            }
-        ]
-    },
-    {
-        id: 8,
-        name: "Сірий кіт з рожевими лапками",
-        description: "Квадратний котомінімалізм завжди доречний. Сірий м'якенький котоподух з рухомими рожевими лапками та приємною вишитою мордочкою - 100% пасуватиме до будь-якої кімнати.",
-        materials: "Ручне плетіння спицями + ручна вишивка + гіпоалергенний наповнювач (холофайбер) = легенький та приємний подух.",
-        dimensions: "Розмір: 34/33/13см.",
-        images: [
-            "siryi_kit_rozhevi_lapky_01.jpg",
-            "siryi_kit_rozhevi_lapky_02.jpg",
-            "siryi_kit_rozhevi_lapky_03.jpg",
-            "siryi_kit_rozhevi_lapky_04.jpg",
-            "siryi_kit_rozhevi_lapky_05.jpg",
-            "siryi_kit_rozhevi_lapky_06.jpg",
-            "siryi_kit_rozhevi_lapky_07.jpg",
-            "siryi_kit_rozhevi_lapky_08.jpg"
-        ],
-        price: 650,
-        link: 'siryi_kit_rozhevi_lapky',
-        category: "Подушки",
-        similar: [
-            {
-                img: "fioletovyi_gentleman_04.jpg",
-                price: 650,
-                link: 'fioletovyi_gentleman'
-            },
-            {
-                img: "rozhevyi_melanzh_veliur_03.jpg",
-                price: 650,
-                link: 'rozhevyi_velur'
-            },
-            {
-                img: "synio-bezhevyi_melanzh_01.jpg",
-                price: 650,
-                link: 'synio_bezhevyi_melanzh'
-            },
-            {
-                img: "bezhevyi_melanzh_03.jpg",
-                price: 550,
-                link: 'bezhevyi_melanzh'
-            },
-            {
-                img: "rozheva_gryvka_01.jpg",
-                price: 650,
-                link: 'pudrova_kytska'
             },
             {
                 img: "temno-syniy_zhovtuvatyi_01.jpg",
@@ -404,11 +202,6 @@ const pillows = [
         category: "Подушки",
         similar: [
             {
-                img: "fioletovyi_gentleman_04.jpg",
-                price: 650,
-                link: 'fioletovyi_gentleman'
-            },
-            {
                 img: "rozhevyi_melanzh_veliur_03.jpg",
                 price: 650,
                 link: 'rozhevyi_velur'
@@ -423,16 +216,6 @@ const pillows = [
                 price: 550,
                 link: 'bezhevyi_melanzh'
             },
-            {
-                img: "siryi_kit_rozhevi_lapky_01.jpg",
-                price: 650,
-                link: 'siryi_kit_rozhevi_lapky'
-            },
-            {
-                img: "rozheva_gryvka_01.jpg",
-                price: 650,
-                link: 'pudrova_kytska'
-            }
         ]
     },
     {
