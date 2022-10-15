@@ -23,20 +23,20 @@
         <h3>{{ product.name }}</h3>
         <p>{{ product.description }}</p>
         <p>{{ product.materials }}</p>
-        <p>{{ product.dimensions }}</p>
+        <p>{{ product.dimensions }}</p> 
         <div class="price">{{ product.price }} грн</div>
       </div>
     </div>
   </div>
   <h3 v-if="product.similar">Схожі товари</h3>
   <div class="product-similar">
-    <AccessoriesSimilarProduct v-for="item in product.similar" :item="item" />
+    <ProductSimilarCard v-for="item in product.similar" :item="item" itemPath="AccessoriesDetails" />
   </div>
 </template>
 
 <script>
 import accessories from '../data/accessories.js';
-import AccessoriesSimilarProduct from '../components/products/AccessoriesSimilarProduct';
+import ProductSimilarCard from '../components/products/ProductSimilarCard';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import SwiperCore, { Pagination, Autoplay, EffectFade } from 'swiper';
 
@@ -48,7 +48,7 @@ export default {
     SwiperSlide,
     Pagination,
     Autoplay,
-    AccessoriesSimilarProduct
+    ProductSimilarCard
   },
   data() {
     return {

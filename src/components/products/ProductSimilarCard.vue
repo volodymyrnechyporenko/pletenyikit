@@ -3,7 +3,7 @@
     class="product"
     @click="
       $router.push({
-        name: 'KitchenDetails',
+        name: itemPath,
         params: {
           link: item.link,
         }
@@ -21,14 +21,8 @@
 </template>
 
 <script>
-import kitchen from '../../data/kitchen.js';
 export default {
-  props: ['item'],
-  data() {
-    return {
-      kitchen: kitchen
-    };
-  }
+  props: ['item', 'itemPath'],
 };
 </script>
 

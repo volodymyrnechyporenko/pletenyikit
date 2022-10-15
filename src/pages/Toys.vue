@@ -10,10 +10,11 @@
   </div>
 
   <div class="product-category">
-    <ToysPreviewCard
+    <ProductPreviewCard
       v-for="product in toys.slice().reverse()"
       :key="product.id"
       :product="product"
+      :productPath="'ToysDetails'"
     />
   </div>
 </template>
@@ -21,11 +22,11 @@
 <script>
 import { filterTitle, filterCheap, filterExpensive } from '../data/texts';
 import toys from '../data/toys.js';
-import ToysPreviewCard from '../components/products/ToysPreviewCard.vue';
+import ProductPreviewCard from '../components/products/ProductPreviewCard.vue';
 
 export default {
   components: {
-    ToysPreviewCard
+    ProductPreviewCard
   },
   data() {
     return {

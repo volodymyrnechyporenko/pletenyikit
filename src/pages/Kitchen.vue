@@ -10,10 +10,11 @@
   </div>
 
   <div class="product-category">
-    <KitchenPreviewCard
+    <ProductPreviewCard
       v-for="product in kitchen.slice().reverse()"
       :key="product.id"
       :product="product"
+      :productPath="'KitchenDetails'"
     />
   </div>
 </template>
@@ -21,11 +22,11 @@
 <script>
 import { filterTitle, filterCheap, filterExpensive } from '../data/texts';
 import kitchen from '../data/kitchen.js';
-import KitchenPreviewCard from '../components/products/KitchenPreviewCard.vue';
+import ProductPreviewCard from '../components/products/ProductPreviewCard.vue';
 
 export default {
   components: {
-    KitchenPreviewCard
+    ProductPreviewCard
   },
   data() {
     return {

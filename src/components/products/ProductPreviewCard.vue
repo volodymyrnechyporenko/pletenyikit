@@ -1,6 +1,6 @@
 <template>
   <div class="product" @click="$router.push({
-        name: 'AccessoriesDetails',
+        name: productPath,
         params: {
           id: product.id,
           name: product.name,
@@ -21,14 +21,8 @@
 </template>
 
 <script>
-import accessories from '../../data/accessories.js';
 export default {
-  props: ['product'],
-  data() {
-    return {
-      accessories: accessories
-    };
-  }
+  props: ['product', 'productPath'],
 };
 </script>
 

@@ -30,13 +30,13 @@
   </div>
   <h3 v-if="product.similar">Схожі товари</h3>
   <div class="product-similar">
-    <KitchenSimilarProduct v-for="item in product.similar" :item="item" />
+    <ProductSimilarCard v-for="item in product.similar" :item="item" itemPath="KitchenDetails" />
   </div>
 </template>
 
 <script>
 import kitchen from '../data/kitchen.js';
-import KitchenSimilarProduct from '../components/products/KitchenSimilarProduct';
+import ProductSimilarCard from '../components/products/ProductSimilarCard';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import SwiperCore, { Pagination, Autoplay, EffectFade } from 'swiper';
 
@@ -48,7 +48,7 @@ export default {
     SwiperSlide,
     Pagination,
     Autoplay,
-    KitchenSimilarProduct
+    ProductSimilarCard
   },
   data() {
     return {
