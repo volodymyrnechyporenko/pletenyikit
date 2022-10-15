@@ -76,11 +76,6 @@ const pillows = [
                 link: 'synio_bezhevyi_melanzh'
             },
             {
-                img: "bezhevyi_melanzh_03.jpg",
-                price: 550,
-                link: 'bezhevyi_melanzh'
-            },
-            {
                 img: "temno-syniy_zhovtuvatyi_01.jpg",
                 price: 650,
                 link: 'zhovtyi_pukhnastyi_kotyk'
@@ -111,43 +106,6 @@ const pillows = [
                 img: "rozhevyi_melanzh_veliur_03.jpg",
                 price: 650,
                 link: 'rozhevyi_velur'
-            },
-            {
-                img: "bezhevyi_melanzh_03.jpg",
-                price: 550,
-                link: 'bezhevyi_melanzh'
-            },
-            {
-                img: "temno-syniy_zhovtuvatyi_01.jpg",
-                price: 650,
-                link: 'zhovtyi_pukhnastyi_kotyk'
-            }
-        ]
-    },
-    {
-        id: 7,
-        name: "Бежевий меланж",
-        description: "Квадратний, м'якенький, з рухомими лапками та хвостиком - котоподух ідеально пасуватиме до будь-якого дивану чи крісла. Подушку плетено з приємної на дотик, акрилової меланжевої пряжі. Мордочку та носик також плетено спицями та нашито вручну. Жодних фото не стане, щоб зрозуміти, який котик м'якенький та легенький, тож повірте на слово.",
-        materials: "Матеріали: холофайбер (наповнення).",
-        dimensions: "Розмір: 31/30/11см.",
-        images: [
-            "bezhevyi_melanzh_03.jpg",
-            "bezhevyi_melanzh_02.jpg",
-            "bezhevyi_melanzh_01.jpg"
-        ],
-        price: 550,
-        link: 'bezhevyi_melanzh',
-        category: "Подушки",
-        similar: [
-            {
-                img: "rozhevyi_melanzh_veliur_03.jpg",
-                price: 650,
-                link: 'rozhevyi_velur'
-            },
-            {
-                img: "synio-bezhevyi_melanzh_01.jpg",
-                price: 650,
-                link: 'synio_bezhevyi_melanzh'
             },
             {
                 img: "temno-syniy_zhovtuvatyi_01.jpg",
@@ -210,11 +168,6 @@ const pillows = [
                 img: "synio-bezhevyi_melanzh_01.jpg",
                 price: 650,
                 link: 'synio_bezhevyi_melanzh'
-            },
-            {
-                img: "bezhevyi_melanzh_03.jpg",
-                price: 550,
-                link: 'bezhevyi_melanzh'
             },
         ]
     },

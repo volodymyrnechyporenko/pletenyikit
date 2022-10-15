@@ -3,10 +3,10 @@
     <h1>Іграшки</h1>
   </div>
 
-  <div class="filter_heading">Фільтри</div>
+  <div class="filter_heading">{{ filterTitle }}</div>
   <div class="filter_button_wrap">
-    <div class="filter_button" v-on:click="priceLow()">від дешевших</div>
-    <div class="filter_button" v-on:click="priceHigh()">від дорожчих</div>
+    <div class="filter_button" v-on:click="priceLow()">{{ filterCheap }}</div>
+    <div class="filter_button" v-on:click="priceHigh()">{{ filterExpensive }}</div>
   </div>
 
   <div class="product-category">
@@ -19,6 +19,7 @@
 </template>
 
 <script>
+import { filterTitle, filterCheap, filterExpensive } from '../data/texts';
 import toys from '../data/toys.js';
 import ToysPreviewCard from '../components/products/ToysPreviewCard.vue';
 
@@ -28,6 +29,9 @@ export default {
   },
   data() {
     return {
+      filterTitle: filterTitle,
+      filterCheap: filterCheap,
+      filterExpensive: filterExpensive,
       toys: toys
     };
   },

@@ -114,34 +114,6 @@ const toys = [
         ]
     },
     {
-        id: 5,
-        name: "Котик блакитноокий",
-        description: "Пухнастий та блакитноокий - чи це не головні вимоги до котічки? Іграшку поністю плетено та пошито вручну, ретельно вишито кожен пальчик. Тож, сподіваюсь, вона стане окрасою вашоно дому.",
-        dimensions: "Висота іграшки - 29см.",
-        images: [
-            "bila_naturalistychna_01.jpg",
-            "bila_naturalistychna_02.jpg",
-            "bila_naturalistychna_03.jpg",
-            "bila_naturalistychna_04.jpg",
-            "bila_naturalistychna_05.jpg",
-            "bila_naturalistychna_06.jpg",
-            "bila_naturalistychna_07.jpg",
-            "bila_naturalistychna_08.jpg",
-            "bila_naturalistychna_09.jpg",
-            "bila_naturalistychna_10.jpg",
-        ],
-        price: 1000,
-        link: 'kotyk_blakytnookyi',
-        category: "Іграшки",
-        similar: [
-            {
-                img: "realistychna_kotoigrashka_01.jpg",
-                price: 1000,
-                link: 'realistychna_kotoigrashka'
-            }
-        ]
-    },
-    {
         id: 6,
         name: "Мишка руда",
         description: "Повністю ручна робота, від мотка пряжі до останнього стібка. М'якенька, приємна на дотик іграшка стане чудовим подарунком близькій людині або навіть собі.",
@@ -279,13 +251,6 @@ const toys = [
         price: 1000,
         link: 'realistychna_kotoigrashka',
         category: "Іграшки",
-        similar: [
-            {
-                img: "bila_naturalistychna_01.jpg",
-                price: 1000,
-                link: 'kotyk_blakytnookyi'
-            }
-        ]
     },
     {
         id: 12,
