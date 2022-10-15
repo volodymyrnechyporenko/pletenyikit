@@ -313,6 +313,53 @@ const kitchen = [
                 link: 'biriuzovi-kotyky'
             }
         ]
+    },
+    {
+        id: 12,
+        name: "Кактуси з рожевими квіточками",
+        description: "Підставки під гаряче \"Кактуси з рожевими квіточками\" - плетені гачком, мають вишиті \"голочки\", кольорові, яскраві, та геть не колючі.",
+        dimensions: "Діаметр 11см.",
+        amount: "Ціна за набір з 6 шт.",
+        images: [
+            "kaktusy-rozhevi-kvity-01.jpg",
+            "kaktusy-rozhevi-kvity-02.jpg",
+            "kaktusy-rozhevi-kvity-03.jpg",
+            "kaktusy-rozhevi-kvity-04.jpg",
+            "kaktusy-rozhevi-kvity-05.jpg",
+        ],
+        price: 300,
+        link: 'kaktusy-rozhevi-kvity',
+        category: "Для кухні",
+        similar: [
+            {
+                img: "kaktusy-zhovti-kvity-01.jpg",
+                price: 300,
+                link: 'kaktusy-zhovti-kvity'
+            }
+        ]
+    },
+    {
+        id: 13,
+        name: "Кактуси з жовтими квіточками",
+        description: "Підставки під гаряче \"Кактуси з жовтими квіточками\" - плетені гачком, мають вишиті \"голочки\", кольорові, яскраві, та геть не колючі.",
+        dimensions: "Діаметр 11см.",
+        amount: "Ціна за набір з 6 шт.",
+        images: [
+            "kaktusy-zhovti-kvity-01.jpg",
+            "kaktusy-zhovti-kvity-02.jpg",
+            "kaktusy-zhovti-kvity-03.jpg",
+            "kaktusy-zhovti-kvity-04.jpg"
+        ],
+        price: 300,
+        link: 'kaktusy-zhovti-kvity',
+        category: "Для кухні",
+        similar: [
+            {
+                img: "kaktusy-rozhevi-kvity-01.jpg",
+                price: 300,
+                link: 'kaktusy-rozhevi-kvity'
+            }
+        ]
     }
 ]
 
