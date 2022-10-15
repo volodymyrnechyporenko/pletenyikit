@@ -110,6 +110,11 @@ const toys = [
                 img: "kotoigrashka_sirenka_01.jpg",
                 price: 250,
                 link: 'kotyk_siryi'
+            },
+            {
+                img: "koshenya-chorno-sire-01.jpg",
+                price: 250,
+                link: 'koshenya-chorno-sire'
             }
         ]
     },
@@ -163,6 +168,11 @@ const toys = [
                 img: "kotoigrashka_sirenka_01.jpg",
                 price: 250,
                 link: 'kotyk_siryi'
+            },
+            {
+                img: "koshenya-chorno-sire-01.jpg",
+                price: 250,
+                link: 'koshenya-chorno-sire'
             }
         ]
     },
@@ -193,6 +203,11 @@ const toys = [
                 img: "kotoigrashka_bilenka_01.jpg",
                 price: 250,
                 link: 'kotyk_bilyi'
+            },
+            {
+                img: "koshenya-chorno-sire-01.jpg",
+                price: 250,
+                link: 'koshenya-chorno-sire'
             }
         ]
     },
@@ -347,6 +362,40 @@ const toys = [
                 img: "zakladka-zmiyka-01.jpg",
                 price: 80,
                 link: 'zakladka-zmiyka'
+            }
+        ]
+    },
+    {
+        id: 16,
+        name: "Чорно-сіре кошеня",
+        description: "Сіренький, м'якенький та посміхається очима.",
+        materials: "Іграшка котик, плетений спицями з акрилової пряжі, має наповнення холлофайбер та вишиту мордочку. Готовий прикрашати собою вашу оселю.",
+        dimensions: "Розмір: 20/15см.",
+        images: [
+            "koshenya-chorno-sire-01.jpg",
+            "koshenya-chorno-sire-02.jpg",
+            "koshenya-chorno-sire-03.jpg",
+            "koshenya-chorno-sire-04.jpg",
+            "koshenya-chorno-sire-05.jpg"
+        ],
+        price: 250,
+        link: 'koshenya-chorno-sire',
+        category: "Іграшки",
+        similar: [
+            {
+                img: "bezheva_kotoigrashka_01.jpg",
+                price: 250,
+                link: 'kotyk_bezhevyi'
+            },
+            {
+                img: "kotoigrashka_sirenka_01.jpg",
+                price: 250,
+                link: 'kotyk_siryi'
+            },
+            {
+                img: "kotoigrashka_bilenka_01.jpg",
+                price: 250,
+                link: 'kotyk_bilyi'
             }
         ]
     }

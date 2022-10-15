@@ -805,6 +805,11 @@ const pillows = [
                 img: "buzkovyi_zaichyk_01.jpg",
                 price: 800,
                 link: 'buzkovyi_zaichyk'
+            },
+            {
+                img: "pes-patron-01.jpg",
+                price: 750,
+                link: 'pes-patron'
             }
         ]
     },
@@ -862,6 +867,32 @@ const pillows = [
                 img: "buzkovyi_zaichyk_01.jpg",
                 price: 800,
                 link: 'buzkovyi_zaichyk'
+            }
+        ]
+    },
+    {
+        id: 37,
+        name: "Пес Патрон",
+        description: "На створення ціє подушки нас надихнув неймовірний пес Патрон, а саме - його біленька мордочка і лапки. Подушечка плетена та пошита повністю вручну спицями та гачком. Пряжа - повторне використання (апсайклінг) залишків ниток та розпущених непотрібних речей. Наповнювач - холлофайбер. Нейомвірно м'який та яскравий песик - ідеальний для обіймів та думок про прийдешню перемогу. 30% від вартості подушки, звісно, підуть волонтерам на допомогу ЗСУ.",
+        materials: "Матеріали: акрил (пряжа), холофайбер (наповнювач).",
+        dimensions: "Розмір: 32/32/12см.",
+        images: [
+            "pes-patron-01.jpg",
+            "pes-patron-02.jpg",
+            "pes-patron-03.jpg",
+            "pes-patron-04.jpg",
+            "pes-patron-05.jpg",
+            "pes-patron-06.jpg",
+            "pes-patron-07.jpg"
+        ],
+        price: 750,
+        link: 'pes-patron',
+        category: "Подушки",
+        similar: [
+            {
+                img: "podushka-lysychka-01.jpg",
+                price: 700,
+                link: 'podushka-lysychka'
             }
         ]
     }
