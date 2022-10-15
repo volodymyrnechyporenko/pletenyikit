@@ -174,6 +174,145 @@ const kitchen = [
                 link: 'siri_smailyky'
             }
         ]
+    },
+    {
+        id: 8,
+        name: "Бірюзові котики",
+        description: "Набір підставочок під горнята \"Бірюзові котики\", готовий прикрашати ваше чаювання чи кавування. Плетені гачком та вишиті вручну підставки - чудовий подарунок для любителів_ок сімейства котячих. До набору входять шість підставочок.",
+        dimensions: "Діаметр 11.5см.",
+        amount: "Ціна за набір з 6 шт.",
+        images: [
+            "biriuzovi-kotyky-01.jpg",
+            "biriuzovi-kotyky-02.jpg",
+            "biriuzovi-kotyky-03.jpg",
+            "biriuzovi-kotyky-04.jpg",
+            "biriuzovi-kotyky-05.jpg",
+            "biriuzovi-kotyky-06.jpg"
+        ],
+        price: 250,
+        link: 'biriuzovi-kotyky',
+        category: "Для кухні",
+        similar: [
+            {
+                img: "blakytni-kotyky-01.jpg",
+                price: 250,
+                link: 'blakytni-kotyky'
+            },
+            {
+                img: "kotyky-buzkovi-01.jpg",
+                price: 250,
+                link: 'kotyky-buzkovi'
+            },
+            {
+                img: "kotyky-svitlo-korychnevi-01.jpg",
+                price: 250,
+                link: 'kotyky-svitlo-korychnevi'
+            }
+        ]
+    },
+    {
+        id: 9,
+        name: "Блакитні котики",
+        description: "Набір підставочок під горнята \"Блакитні котики\", готовий прикрашати ваше чаювання чи кавування. Плетені гачком та вишиті вручну підставки - чудовий подарунок для любителів_ок сімейства котячих. До набору входять шість підставочок.",
+        dimensions: "Діаметр 11.5см.",
+        amount: "Ціна за набір з 6 шт.",
+        images: [
+            "blakytni-kotyky-01.jpg",
+            "blakytni-kotyky-02.jpg",
+            "blakytni-kotyky-03.jpg",
+            "blakytni-kotyky-04.jpg",
+            "blakytni-kotyky-05.jpg"
+        ],
+        price: 250,
+        link: 'blakytni-kotyky',
+        category: "Для кухні",
+        similar: [
+            {
+                img: "biriuzovi-kotyky-01.jpg",
+                price: 250,
+                link: 'biriuzovi-kotyky'
+            },
+            {
+                img: "kotyky-buzkovi-01.jpg",
+                price: 250,
+                link: 'kotyky-buzkovi'
+            },
+            {
+                img: "kotyky-svitlo-korychnevi-01.jpg",
+                price: 250,
+                link: 'kotyky-svitlo-korychnevi'
+            }
+        ]
+    },
+    {
+        id: 10,
+        name: "Бузкові котики",
+        description: "Набір підставочок під горнята \"Бузкові котики\", готовий прикрашати ваше чаювання чи кавування. Плетені гачком та вишиті вручну підставки - чудовий подарунок для любителів_ок сімейства котячих. До набору входять шість підставочок.",
+        dimensions: "Діаметр 11.5см.",
+        amount: "Ціна за набір з 6 шт.",
+        images: [
+            "kotyky-buzkovi-01.jpg",
+            "kotyky-buzkovi-02.jpg",
+            "kotyky-buzkovi-03.jpg",
+            "kotyky-buzkovi-04.jpg",
+            "kotyky-buzkovi-05.jpg",
+            "kotyky-buzkovi-06.jpg"
+        ],
+        price: 250,
+        link: 'kotyky-buzkovi',
+        category: "Для кухні",
+        similar: [
+            {
+                img: "blakytni-kotyky-01.jpg",
+                price: 250,
+                link: 'blakytni-kotyky'
+            },
+            {
+                img: "biriuzovi-kotyky-01.jpg",
+                price: 250,
+                link: 'biriuzovi-kotyky'
+            },
+            {
+                img: "kotyky-svitlo-korychnevi-01.jpg",
+                price: 250,
+                link: 'kotyky-svitlo-korychnevi'
+            }
+        ]
+    },
+    {
+        id: 11,
+        name: "Світло-коричневі котики",
+        description: "Набір підставочок під горнята \"Світло-коричневі котики\", готовий прикрашати ваше чаювання чи кавування. Плетені гачком та вишиті вручну підставки - чудовий подарунок для любителів_ок сімейства котячих. До набору входять шість підставочок.",
+        dimensions: "Діаметр 11.5см.",
+        amount: "Ціна за набір з 6 шт.",
+        images: [
+            "kotyky-svitlo-korychnevi-01.jpg",
+            "kotyky-svitlo-korychnevi-02.jpg",
+            "kotyky-svitlo-korychnevi-03.jpg",
+            "kotyky-svitlo-korychnevi-04.jpg",
+            "kotyky-svitlo-korychnevi-05.jpg",
+            "kotyky-svitlo-korychnevi-06.jpg"
+        ],
+        price: 250,
+        link: 'kotyky-svitlo-korychnevi',
+        category: "Для кухні",
+        similar: [
+            {
+                img: "blakytni-kotyky-01.jpg",
+                price: 250,
+                link: 'blakytni-kotyky'
+            },
+            {
+                img: "kotyky-buzkovi-01.jpg",
+                price: 250,
+                link: 'kotyky-buzkovi'
+            },
+            {
+                img: "biriuzovi-kotyky-01.jpg",
+                price: 250,
+                link: 'biriuzovi-kotyky'
+            }
+        ]
     }
 ]
 
