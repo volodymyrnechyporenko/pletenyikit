@@ -837,7 +837,7 @@ const pillows = [
     },
     {
         id: 37,
-        name: "Жовтий пес з метеликом",
+        name: "Пес з жовто-блакитним метеликом",
         description: "Любите песиків? Тоді цей м‘якенький та жовтенький песоПодух для вас. Ручне плетіння і пошиття, приємна неколюча пряжа, гіпоалергенний наповнювач. Песик-подушка має милу вишиту посмішку, рухомі вушка, лапки і патріотичний метелик",
         materials: "Матеріали: акрил (пряжа), холофайбер (наповнювач).",
         dimensions: "Розмір: 36/27/12см без урахування лап і хвоста.",
@@ -867,11 +867,16 @@ const pillows = [
                 img: "buzkovyi_zaichyk_01.jpg",
                 price: 800,
                 link: 'buzkovyi_zaichyk'
+            },
+            {
+                img: "zhovtyi-pes-blakytnyi-metelyk-01.jpg",
+                price: 750,
+                link: 'zhovtyi-pes-blakytnyi-metelyk'
             }
         ]
     },
     {
-        id: 37,
+        id: 38,
         name: "Пес Патрон",
         description: "На створення ціє подушки нас надихнув неймовірний пес Патрон, а саме - його біленька мордочка і лапки. Подушечка плетена та пошита повністю вручну спицями та гачком. Пряжа - повторне використання (апсайклінг) залишків ниток та розпущених непотрібних речей. Наповнювач - холлофайбер. Нейомвірно м'який та яскравий песик - ідеальний для обіймів та думок про прийдешню перемогу. 30% від вартості подушки, звісно, підуть волонтерам на допомогу ЗСУ.",
         materials: "Матеріали: акрил (пряжа), холофайбер (наповнювач).",
@@ -895,7 +900,47 @@ const pillows = [
                 link: 'podushka-lysychka'
             }
         ]
-    }
+    },
+    {
+        id: 39,
+        name: "Жовтий пес з блакитним метеликом",
+        description: "Любите песиків? Тоді цей м‘якенький та жовтенький песоПодух для вас. Ручне плетіння і пошиття, приємна неколюча пряжа, гіпоалергенний наповнювач. Песик-подушка має милу вишиту посмішку, рухомі вушка, лапки та метелик",
+        materials: "Матеріали: акрил (пряжа), холофайбер (наповнювач).",
+        dimensions: "Розмір: 36/27/12см без урахування лап і хвоста.",
+        images: [
+            "zhovtyi-pes-blakytnyi-metelyk-01.jpg",
+            "zhovtyi-pes-blakytnyi-metelyk-02.jpg",
+            "zhovtyi-pes-blakytnyi-metelyk-03.jpg",
+            "zhovtyi-pes-blakytnyi-metelyk-04.jpg",
+            "zhovtyi-pes-blakytnyi-metelyk-05.jpg",
+            "zhovtyi-pes-blakytnyi-metelyk-06.jpg"
+        ],
+        price: 750,
+        link: 'zhovtyi-pes-blakytnyi-metelyk',
+        category: "Подушки",
+        similar: [
+            {
+                img: "tygro-podukh-01.jpg",
+                price: 700,
+                link: 'tygro-podukh'
+            },
+            {
+                img: "podushka-lysychka-01.jpg",
+                price: 700,
+                link: 'podushka-lysychka'
+            },
+            {
+                img: "buzkovyi_zaichyk_01.jpg",
+                price: 800,
+                link: 'buzkovyi_zaichyk'
+            },
+            {
+                img: "zhovtyi-pes-metelyk-01.jpg",
+                price: 750,
+                link: 'zhovtyi-pes-metelyk'
+            }
+        ]
+    },
 ]
 
 export default pillows

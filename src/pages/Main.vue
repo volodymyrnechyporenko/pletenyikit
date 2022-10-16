@@ -21,13 +21,13 @@
     <div class="product">
         <a href="#" @click="$router.push('/pillows')">
             <div class="category-title">Подушки</div>
-            <img src="../assets/img/kotopodushka-sira-krugla-01.jpg" class="product-image pillows" alt="">
+            <img src="../assets/img/zhovtyi-pes-blakytnyi-metelyk-01.jpg" class="product-image pillows" alt="">
         </a>
     </div>
     <div class="product">
         <a href="#" @click="$router.push('/kitchen')">
             <div class="category-title">Для кухні</div>
-            <img src="../assets/img/serdtsya_01.jpg" class="product-image kitchen" alt="">
+            <img src="../assets/img/kotyky-svitlo-korychnevi-01.jpg" class="product-image kitchen" alt="">
         </a>
     </div>
   </div>

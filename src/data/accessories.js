@@ -83,7 +83,7 @@ const accessories = [
                 img: "mitenky_sovy_buzkovi_01.jpg",
                 price: 270,
                 link: 'mitenky_sovy_buzkovi'
-            },
+            }
         ]
     },
     {
@@ -110,6 +110,16 @@ const accessories = [
                 img: "mitenky_sovy_buzkovi_01.jpg",
                 price: 270,
                 link: 'mitenky_sovy_buzkovi'
+            },
+            {
+                img: "mitenky-kotyky-hirchychni-01.jpg",
+                price: 300,
+                link: 'mitenky-kotyky-hirchychni'
+            },
+            {
+                img: "mitenky-kotyky-siri-01.jpg",
+                price: 300,
+                link: 'mitenky-kotyky-siri'
             }
         ]
     },
@@ -134,6 +144,11 @@ const accessories = [
                 img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
                 price: 350,
                 link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi-mobilnogo-cholovichi-siri-01.jpg",
+                price: 330,
+                link: 'rukavytsi-mobilnogo-cholovichi-siri'
             }
         ]
     },
@@ -285,6 +300,11 @@ const accessories = [
                 price: 350,
                 link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
             },
+            {
+                img: "rukavytsi-mobilnogo-cholovichi-siri-01.jpg",
+                price: 330,
+                link: 'rukavytsi-mobilnogo-cholovichi-siri'
+            }
         ]
     },
     {
@@ -311,6 +331,16 @@ const accessories = [
                 img: "mitenky_fakturni_sovy_01.jpg",
                 price: 250,
                 link: 'mitenky_fakturni_sovy'
+            },
+            {
+                img: "mitenky-kotyky-hirchychni-01.jpg",
+                price: 300,
+                link: 'mitenky-kotyky-hirchychni'
+            },
+            {
+                img: "mitenky-kotyky-siri-01.jpg",
+                price: 300,
+                link: 'mitenky-kotyky-siri'
             }
         ]
     },
@@ -345,6 +375,11 @@ const accessories = [
                 img: "pomaranchevyi_snud_kosy_01.jpg",
                 price: 200,
                 link: 'pomaranchevyi_snud_kosy'
+            },
+            {
+                img: "rukavytsi-mobilnogo-cholovichi-siri-01.jpg",
+                price: 330,
+                link: 'rukavytsi-mobilnogo-cholovichi-siri'
             }
         ]
     },
@@ -493,6 +528,16 @@ const accessories = [
                 img: "malynovi_smugasti_rukavytsi_01.jpg",
                 price: 300,
                 link: 'malynovi_smugasti_rukavytsi'
+            },
+            {
+                img: "rukavytsi-mobilnogo-cholovichi-siri-01.jpg",
+                price: 330,
+                link: 'rukavytsi-mobilnogo-cholovichi-siri'
+            },
+            {
+                img: "rukavytsi-koliorovi-kulky-01.jpg",
+                price: 350,
+                link: 'rukavytsi-koliorovi-kulky'
             }
         ]
     },
@@ -540,6 +585,16 @@ const accessories = [
                 img: "malynovi_smugasti_rukavytsi_01.jpg",
                 price: 300,
                 link: 'malynovi_smugasti_rukavytsi'
+            },
+            {
+                img: "rukavytsi-mobilnogo-cholovichi-siri-01.jpg",
+                price: 330,
+                link: 'rukavytsi-mobilnogo-cholovichi-siri'
+            },
+            {
+                img: "rukavytsi-koliorovi-kulky-01.jpg",
+                price: 350,
+                link: 'rukavytsi-koliorovi-kulky'
             }
         ]
     },
@@ -817,7 +872,150 @@ const accessories = [
                 link: 'maika-merezhyvna-synia'
             }
         ]
+    },
+    {
+        id: 34,
+        name: "Мітенки-котики гірчичні",
+        description: "Мітенки-котики приємного гірчичного кольору 100% піднімуть настрій та додадуть сонячного настрою! Ручне плетіння та вишивка, м'яка пряжа та універсальний розмір, завдяки платенню \"гумка\" на долоні.",
+        materials: "Матеріали: акрил з невеликим відсотком бавовни.",
+        images: [
+            "mitenky-kotyky-hirchychni-01.jpg",
+            "mitenky-kotyky-hirchychni-02.jpg",
+            "mitenky-kotyky-hirchychni-03.jpg",
+            "mitenky-kotyky-hirchychni-04.jpg"
+        ],
+        price: 300,
+        link: 'mitenky-kotyky-hirchychni',
+        category: "Одяг",
+        similar: [
+            {
+                img: "mitenky_fakturni_sovy_01.jpg",
+                price: 250,
+                link: 'mitenky_fakturni_sovy'
+            },
+            {
+                img: "mitenky-kotyky-siri-01.jpg",
+                price: 300,
+                link: 'mitenky-kotyky-siri'
+            },
+            {
+                img: "mitenky_sovy_buzkovi_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_buzkovi'
+            }
+        ]
+    },
+    {
+        id: 35,
+        name: "Мітенки-котики сірі",
+        description: "Мітенки-котики нейтрального сірого кольору - чудове оригінальне доповлення до демісезонного, або й зимового гардеробу, бо в складі виробу є 30% вовни. Ручне плетіння та вишивка, м'яка пряжа та універсальний розмір, завдяки платенню \"гумка\" на долоні.",
+        materials: "Матеріали: акрил з невеликим відсотком бавовни.",
+        images: [
+            "mitenky-kotyky-siri-01.jpg",
+            "mitenky-kotyky-siri-02.jpg",
+            "mitenky-kotyky-siri-03.jpg",
+            "mitenky-kotyky-siri-04.jpg"
+        ],
+        price: 300,
+        link: 'mitenky-kotyky-siri',
+        category: "Одяг",
+        similar: [
+            {
+                img: "mitenky_fakturni_sovy_01.jpg",
+                price: 250,
+                link: 'mitenky_fakturni_sovy'
+            },
+            {
+                img: "mitenky-kotyky-hirchychni-01.jpg",
+                price: 300,
+                link: 'mitenky-kotyky-hirchychni'
+            },
+            {
+                img: "mitenky_sovy_buzkovi_01.jpg",
+                price: 270,
+                link: 'mitenky_sovy_buzkovi'
+            }
+        ]
+    },
+    {
+        id: 36,
+        name: "Рукавиці для мобільного сірі",
+        description: "Рукавиці з м'якої меланжевої пряжі кількох відтінків сірого - однозначно пасуватимуть і до класичного пальто і до пухової куртки. Рукавички мають отвори для вказівного та великого пальців, тож можна легко користуватись телефоном, не знімаючи їх щоразу. Плетений вручну орнамент \"косичка\" додає виробу фактури та більш цікавого вигляду. Розмір цих рукавичок може бути на жіночий L, або на чоловічу руку середнього розміру.",
+        materials: "Матеріали: акрил з 15% вовни. Розмір L.",
+        images: [
+            "rukavytsi-mobilnogo-cholovichi-siri-01.jpg",
+            "rukavytsi-mobilnogo-cholovichi-siri-02.jpg",
+            "rukavytsi-mobilnogo-cholovichi-siri-03.jpg",
+            "rukavytsi-mobilnogo-cholovichi-siri-04.jpg",
+            "rukavytsi-mobilnogo-cholovichi-siri-05.jpg",
+            "rukavytsi-mobilnogo-cholovichi-siri-06.jpg"
+        ],
+        price: 330,
+        link: 'rukavytsi-mobilnogo-cholovichi-siri',
+        category: "Одяг",
+        similar: [
+            {
+                img: "rukavytsi_mobilnogo_bila_khryzantema_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_bila_khryzantema'
+            },
+            {
+                img: "rukavytsi_yaskravi_smuzhky_01.jpg",
+                price: 300,
+                link: 'rukavytsi_yaskravi_smuzhky'
+            },
+            {
+                img: "rukavytsi_vovnyana_faktura_01.jpg",
+                price: 330,
+                link: 'rukavytsi_vovnyana_faktura'
+            },
+            {
+                img: "rukavytsi_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'rukavytsi_kolyorovi_kola'
+            },
+            {
+                img: "rukavytsi_mobilnogo_smugasti_01.jpg",
+                price: 350,
+                link: 'rukavytsi_mobilnogo_blakytno_zhovtyi_melanzh'
+            },
+            {
+                img: "malynovi_smugasti_rukavytsi_01.jpg",
+                price: 300,
+                link: 'malynovi_smugasti_rukavytsi'
+            }
+        ]
+    },
+    {
+        id: 37,
+        name: "Рукавиці \"Кольорові кульки\"",
+        description: "Коли хочеться розбавити образ кольором - цікавим варіантом можуть бути рукавички з різнобарвними гачкованими кульками. Особливість цих рукавичок також в наявності можливості не знімати їх, для користування мобільним. Рукавички мають отвори для вказівного на великого - пальців, тож ви легко зможете розблокувати телефон та швидко відповісти на дзвінок чи повідомлення. Виріб дуже м'якенький та теплий, завдяки пухнастій ниточці та незначному вмісту вовни в складі пряжі.",
+        materials: "Матеріали: акрил з 15% вовни. Розмір M/L.",
+        images: [
+            "rukavytsi-koliorovi-kulky-01.jpg",
+            "rukavytsi-koliorovi-kulky-02.jpg",
+            "rukavytsi-koliorovi-kulky-03.jpg",
+            "rukavytsi-koliorovi-kulky-04.jpg",
+            "rukavytsi-koliorovi-kulky-05.jpg",
+            "rukavytsi-koliorovi-kulky-06.jpg",
+            "rukavytsi-koliorovi-kulky-07.jpg"
+        ],
+        price: 350,
+        link: 'rukavytsi-koliorovi-kulky',
+        category: "Одяг",
+        similar: [
+            {
+                img: "rukavytsi_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'rukavytsi_kolyorovi_kola'
+            },
+            {
+                img: "zeleni_kolyorovi_kola_01.jpg",
+                price: 300,
+                link: 'zeleni_kolyorovi_kola'
+            }
+        ]
     }
 ]
 
-export default accessories
+export default accessories;
