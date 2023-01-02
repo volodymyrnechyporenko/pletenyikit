@@ -47,39 +47,6 @@ const pillows = [
         ],
     },
     {
-        id: 5,
-        name: 'Рожевий велюр',
-        description:
-            "В природі не існує рожевих котів, а у Pletenyi KiT - існує! Меланжева рожева ниточка + велюрова малинова пряжа роблять котика неймовірно приємним на дотик. Вся подушка - ручне плетіння, мордочка вишита, лапки рухомі, а котик дуже легенький та м'який.",
-        materials: 'Матеріали: холофайбер (наповнення), синтетична пряжа.',
-        dimensions: 'Розмір: 35/34/15см.',
-        images: [
-            'rozhevyi_melanzh_veliur_03.jpg',
-            'rozhevyi_melanzh_veliur_02.jpg',
-            'rozhevyi_melanzh_veliur_01.jpg',
-            'rozhevyi_melanzh_veliur_04.jpg',
-            'rozhevyi_melanzh_veliur_05.jpg',
-            'rozhevyi_melanzh_veliur_06.jpg',
-            'rozhevyi_melanzh_veliur_07.jpg',
-            'rozhevyi_melanzh_veliur_08.jpg',
-        ],
-        price: 650,
-        link: 'rozhevyi_velur',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'synio-bezhevyi_melanzh_01.jpg',
-                price: 650,
-                link: 'synio_bezhevyi_melanzh',
-            },
-            {
-                img: 'temno-syniy_zhovtuvatyi_01.jpg',
-                price: 650,
-                link: 'zhovtyi_pukhnastyi_kotyk',
-            },
-        ],
-    },
-    {
         id: 6,
         name: 'Синьо-бежевий меланж',
         description:
@@ -101,40 +68,9 @@ const pillows = [
         category: 'Подушки',
         similar: [
             {
-                img: 'rozhevyi_melanzh_veliur_03.jpg',
-                price: 650,
-                link: 'rozhevyi_velur',
-            },
-            {
                 img: 'temno-syniy_zhovtuvatyi_01.jpg',
                 price: 650,
                 link: 'zhovtyi_pukhnastyi_kotyk',
-            },
-        ],
-    },
-    {
-        id: 9,
-        name: 'Сірий зеленоокий смугач',
-        description:
-            'Кожна котоподушка такої моделі унікальна, бо ми ніколи не повторюємо поєднання кольорів та відтінків. Техніка апсайклінгу передбачає повторне використання, тож всі відтінки пряжі ми маємо у обмеженій кількості. Цей котоподух не є виключенням. Його можна дуже довго торкатись і розглядати всі відтінки сірого, а його зелені очі легко вас загіпнотизують.',
-        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнення).',
-        dimensions: 'Розмір: 42/25/13см.',
-        images: [
-            'smugach_siryi_zelenookyi_01.jpg',
-            'smugach_siryi_zelenookyi_02.jpg',
-            'smugach_siryi_zelenookyi_03.jpg',
-            'smugach_siryi_zelenookyi_04.jpg',
-            'smugach_siryi_zelenookyi_05.jpg',
-            'smugach_siryi_zelenookyi_06.jpg',
-        ],
-        price: 800,
-        link: 'siryi_zelenookyi_smugach',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'pesyk_kvadratnyi_01.jpg',
-                price: 650,
-                link: 'pesyk_burshtynovi_ochi',
             },
         ],
     },
@@ -159,11 +95,6 @@ const pillows = [
         link: 'zhovtyi_pukhnastyi_kotyk',
         category: 'Подушки',
         similar: [
-            {
-                img: 'rozhevyi_melanzh_veliur_03.jpg',
-                price: 650,
-                link: 'rozhevyi_velur',
-            },
             {
                 img: 'synio-bezhevyi_melanzh_01.jpg',
                 price: 650,
@@ -191,13 +122,6 @@ const pillows = [
         price: 650,
         link: 'pesyk_burshtynovi_ochi',
         category: 'Подушки',
-        similar: [
-            {
-                img: 'smugach_siryi_zelenookyi_01.jpg',
-                price: 650,
-                link: 'siryi_zelenookyi_smugach',
-            },
-        ],
     },
     {
         id: 12,
@@ -545,37 +469,6 @@ const pillows = [
         category: 'Подушки',
     },
     {
-        id: 29,
-        name: 'Котик-щокастик меланжевий',
-        description:
-            'Білі щічки - одна з найсимпатичніших деталей цього котика, але, якщо придивитись, таких деталей - купа.',
-        materials:
-            'Гарні вушка, цікавий меланжевий відтінок, коротенькі лапки - все ручного плетіння і все це готово їхати та прикрашати вашу оселю.',
-        dimensions: 'Розмір: 47/30/13см.',
-        images: [
-            'kotyk_schokastyk_melanzhevyi_01.jpg',
-            'kotyk_schokastyk_melanzhevyi_02.jpg',
-            'kotyk_schokastyk_melanzhevyi_03.jpg',
-            'kotyk_schokastyk_melanzhevyi_04.jpg',
-            'kotyk_schokastyk_melanzhevyi_05.jpg',
-        ],
-        price: 750,
-        link: 'kotyk_schokastyk_melanzhevyi',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'melanzhevyi_siryi_shchokastyk_01.jpg',
-                price: 750,
-                link: 'melanzhevyi_siryi_shchokastyk',
-            },
-            {
-                img: 'pukhnastyi_shchokastyk_01.jpg',
-                price: 750,
-                link: 'pukhnastyi_shchokastyk',
-            },
-        ],
-    },
-    {
         id: 30,
         name: 'Біла зірка',
         description:
@@ -629,11 +522,6 @@ const pillows = [
         category: 'Подушки',
         similar: [
             {
-                img: 'podushka-lysychka-01.jpg',
-                price: 700,
-                link: 'podushka-lysychka',
-            },
-            {
                 img: 'zhovtyi-pes-metelyk-01.jpg',
                 price: 750,
                 link: 'zhovtyi-pes-metelyk',
@@ -669,11 +557,6 @@ const pillows = [
                 price: 750,
                 link: 'pukhnastyi_shchokastyk',
             },
-            {
-                img: 'kotyk_schokastyk_melanzhevyi_01.jpg',
-                price: 750,
-                link: 'kotyk_schokastyk_melanzhevyi',
-            },
         ],
     },
     {
@@ -695,11 +578,6 @@ const pillows = [
         link: 'pukhnastyi_shchokastyk',
         category: 'Подушки',
         similar: [
-            {
-                img: 'kotyk_schokastyk_melanzhevyi_01.jpg',
-                price: 750,
-                link: 'kotyk_schokastyk_melanzhevyi',
-            },
             {
                 img: 'melanzhevyi_siryi_shchokastyk_01.jpg',
                 price: 750,
@@ -727,11 +605,6 @@ const pillows = [
         category: 'Подушки',
         similar: [
             {
-                img: 'podushka-lysychka-01.jpg',
-                price: 700,
-                link: 'podushka-lysychka',
-            },
-            {
                 img: 'zhovtyi-pes-metelyk-01.jpg',
                 price: 750,
                 link: 'zhovtyi-pes-metelyk',
@@ -740,46 +613,6 @@ const pillows = [
                 img: 'buzkovyi_zaichyk_01.jpg',
                 price: 800,
                 link: 'buzkovyi_zaichyk',
-            },
-        ],
-    },
-    {
-        id: 35,
-        name: 'Подушка-лисичка',
-        description:
-            'Для поціновувачів простих форм та яскравих відтінків - подушка-лисичка. Така модель подушки вже була колись в наявності, але її майже одразу придбали. Тожо користуйтесь наявністю помаранчевої пряжі та придивіться до цієї красуні.',
-        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнювач).',
-        dimensions: 'Розмір: 45/35/15см.',
-        images: [
-            'podushka-lysychka-01.jpg',
-            'podushka-lysychka-02.jpg',
-            'podushka-lysychka-03.jpg',
-            'podushka-lysychka-04.jpg',
-            'podushka-lysychka-05.jpg',
-        ],
-        price: 700,
-        link: 'podushka-lysychka',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'tygro-podukh-01.jpg',
-                price: 700,
-                link: 'tygro-podukh',
-            },
-            {
-                img: 'zhovtyi-pes-metelyk-01.jpg',
-                price: 750,
-                link: 'zhovtyi-pes-metelyk',
-            },
-            {
-                img: 'buzkovyi_zaichyk_01.jpg',
-                price: 800,
-                link: 'buzkovyi_zaichyk',
-            },
-            {
-                img: 'pes-patron-01.jpg',
-                price: 750,
-                link: 'pes-patron',
             },
         ],
     },
@@ -831,11 +664,6 @@ const pillows = [
                 link: 'tygro-podukh',
             },
             {
-                img: 'podushka-lysychka-01.jpg',
-                price: 700,
-                link: 'podushka-lysychka',
-            },
-            {
                 img: 'buzkovyi_zaichyk_01.jpg',
                 price: 800,
                 link: 'buzkovyi_zaichyk',
@@ -866,13 +694,6 @@ const pillows = [
         price: 750,
         link: 'pes-patron',
         category: 'Подушки',
-        similar: [
-            {
-                img: 'podushka-lysychka-01.jpg',
-                price: 700,
-                link: 'podushka-lysychka',
-            },
-        ],
     },
     {
         id: 39,
@@ -897,11 +718,6 @@ const pillows = [
                 img: 'tygro-podukh-01.jpg',
                 price: 700,
                 link: 'tygro-podukh',
-            },
-            {
-                img: 'podushka-lysychka-01.jpg',
-                price: 700,
-                link: 'podushka-lysychka',
             },
             {
                 img: 'buzkovyi_zaichyk_01.jpg',
