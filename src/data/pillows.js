@@ -370,46 +370,6 @@ const pillows = [
         category: 'Подушки',
         similar: [
             {
-                img: 'zirka_chervoni_tony_01.jpg',
-                price: 500,
-                link: 'zirka_chervoni_tony',
-            },
-            {
-                img: 'buzkova_zirka_01.jpg',
-                price: 500,
-                link: 'buzkova_zirka',
-            },
-            {
-                img: 'bila_zirka_01.jpg',
-                price: 500,
-                link: 'bila_zirka',
-            },
-        ],
-    },
-    {
-        id: 26,
-        name: 'Зірка в червоних тонах',
-        description:
-            "Нарешті така подушка з'явилась в нашому асортименті! М'яка, плетена вручну, кольорова та п'ятикутна подушкоЗірка готова прикрашати собою вашу оселю, або стати зоряним подарунком для близької людини. Лишень придивіться до цього поєднання кольорів: темно-бордовий, фуксія, рожевий та все це відтіняється білою ниточкою.",
-        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнення).',
-        dimensions: 'Розмір: 48/12см.',
-        images: [
-            'zirka_chervoni_tony_01.jpg',
-            'zirka_chervoni_tony_02.jpg',
-            'zirka_chervoni_tony_03.jpg',
-            'zirka_chervoni_tony_04.jpg',
-            'zirka_chervoni_tony_05.jpg',
-        ],
-        price: 500,
-        link: 'zirka_chervoni_tony',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'biryuzova_zirka_01.jpg',
-                price: 500,
-                link: 'biryuzova_zirka',
-            },
-            {
                 img: 'buzkova_zirka_01.jpg',
                 price: 500,
                 link: 'buzkova_zirka',
@@ -437,11 +397,6 @@ const pillows = [
                 img: 'biryuzova_zirka_01.jpg',
                 price: 500,
                 link: 'biryuzova_zirka',
-            },
-            {
-                img: 'zirka_chervoni_tony_01.jpg',
-                price: 500,
-                link: 'zirka_chervoni_tony',
             },
             {
                 img: 'bila_zirka_01.jpg',
@@ -492,11 +447,6 @@ const pillows = [
                 link: 'biryuzova_zirka',
             },
             {
-                img: 'zirka_chervoni_tony_01.jpg',
-                price: 500,
-                link: 'zirka_chervoni_tony',
-            },
-            {
                 img: 'buzkova_zirka_01.jpg',
                 price: 500,
                 link: 'buzkova_zirka',
@@ -534,58 +484,6 @@ const pillows = [
         ],
     },
     {
-        id: 32,
-        name: 'Меланжевий сірий щокастик',
-        description:
-            'Білі щічки - одна з найсимпатичніших деталей цього котика, але, якщо придивитись, таких деталей - купа.',
-        materials:
-            'Гарні вушка, цікавий меланжевий відтінок та фактурне плетіння, пухкенькі лапки - все ручної роботи і все це готово їхати та прикрашати вашу оселю.',
-        dimensions: 'Розмір: 46/27/16см.',
-        images: [
-            'melanzhevyi_siryi_shchokastyk_01.jpg',
-            'melanzhevyi_siryi_shchokastyk_02.jpg',
-            'melanzhevyi_siryi_shchokastyk_03.jpg',
-            'melanzhevyi_siryi_shchokastyk_04.jpg',
-            'melanzhevyi_siryi_shchokastyk_05.jpg',
-        ],
-        price: 750,
-        link: 'melanzhevyi_siryi_shchokastyk',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'pukhnastyi_shchokastyk_01.jpg',
-                price: 750,
-                link: 'pukhnastyi_shchokastyk',
-            },
-        ],
-    },
-    {
-        id: 33,
-        name: 'Пухнастий щокастик',
-        description:
-            'Білі щічки - одна з найсимпатичніших деталей цього котика, але, якщо придивитись, таких деталей - купа.',
-        materials:
-            "Гарні вушка, цікавий меланжевий відтінок та м'якенька пухнаста ниточка, пухкенькі лапки - все ручної роботи і все це готово їхати та прикрашати вашу оселю.",
-        dimensions: 'Розмір: 47/29/17см.',
-        images: [
-            'pukhnastyi_shchokastyk_01.jpg',
-            'pukhnastyi_shchokastyk_02.jpg',
-            'pukhnastyi_shchokastyk_03.jpg',
-            'pukhnastyi_shchokastyk_04.jpg',
-            'pukhnastyi_shchokastyk_05.jpg',
-        ],
-        price: 750,
-        link: 'pukhnastyi_shchokastyk',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'melanzhevyi_siryi_shchokastyk_01.jpg',
-                price: 750,
-                link: 'melanzhevyi_siryi_shchokastyk',
-            },
-        ],
-    },
-    {
         id: 34,
         name: 'Тигроподух',
         description:
@@ -615,29 +513,6 @@ const pillows = [
                 link: 'buzkovyi_zaichyk',
             },
         ],
-    },
-    {
-        id: 36,
-        name: 'Сірий кругленький котик',
-        description:
-            'Сіренька, смугаста й м‘якенька подушка-сарделька - ідеальний варіант як для попереку, так і під голову. А при бажанні можна використати таку котіньку і як валик під двері, для уникнення протягів. Ідеальне поєднання неяскравих кольорів пасуватиме під різноманітні меблі та інтер‘єри. Подушечка завжди усміхнена.',
-        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнювач).',
-        dimensions: 'Розмір: 48/18см.',
-        images: [
-            'kotopodushka-sira-krugla-01.jpg',
-            'kotopodushka-sira-krugla-02.jpg',
-            'kotopodushka-sira-krugla-03.jpg',
-            'kotopodushka-sira-krugla-04.jpg',
-            'kotopodushka-sira-krugla-05.jpg',
-            'kotopodushka-sira-krugla-06.jpg',
-            'kotopodushka-sira-krugla-07.jpg',
-            'kotopodushka-sira-krugla-08.jpg',
-            'kotopodushka-sira-krugla-09.jpg',
-            'kotopodushka-sira-krugla-10.jpg',
-        ],
-        price: 700,
-        link: 'siryi-kruglenkyi-kotyk',
-        category: 'Подушки',
     },
     {
         id: 37,

@@ -1,22 +1,5 @@
 const accessories = [
     {
-        id: 1,
-        name: 'Берет "Срібло"',
-        description:
-            'Берет плетений спицями з тоненької сірої ниточки з люрексом. Аксесуар дуже легкий та додасть романтики у ваш образ.',
-        images: ['beret_shalyk_09.jpg', 'beret_shalyk_10.jpg'],
-        price: 200,
-        link: 'beret_sriblo',
-        category: 'Одяг',
-        similar: [
-            {
-                img: 'beret_shalyk_01.jpg',
-                price: 550,
-                link: 'shalyk_beret_svitlyi_bezh',
-            },
-        ],
-    },
-    {
         id: 2,
         name: 'Шалик та берет "Світлий беж"',
         description:
@@ -34,13 +17,6 @@ const accessories = [
         price: 550,
         link: 'shalyk_beret_svitlyi_bezh',
         category: 'Одяг',
-        similar: [
-            {
-                img: 'beret_shalyk_09.jpg',
-                price: 200,
-                link: 'beret_sriblo',
-            },
-        ],
     },
     {
         id: 3,
@@ -384,11 +360,6 @@ const accessories = [
                 price: 330,
                 link: 'rukavytsi-mobilnogo-cholovichi-siri',
             },
-            {
-                img: 'rukavytsi-koliorovi-kulky-01.jpg',
-                price: 350,
-                link: 'rukavytsi-koliorovi-kulky',
-            },
         ],
     },
     {
@@ -436,11 +407,6 @@ const accessories = [
                 img: 'rukavytsi-mobilnogo-cholovichi-siri-01.jpg',
                 price: 330,
                 link: 'rukavytsi-mobilnogo-cholovichi-siri',
-            },
-            {
-                img: 'rukavytsi-koliorovi-kulky-01.jpg',
-                price: 350,
-                link: 'rukavytsi-koliorovi-kulky',
             },
         ],
     },
@@ -780,37 +746,6 @@ const accessories = [
                 img: 'malynovi_smugasti_rukavytsi_01.jpg',
                 price: 300,
                 link: 'malynovi_smugasti_rukavytsi',
-            },
-        ],
-    },
-    {
-        id: 37,
-        name: 'Рукавиці "Кольорові кульки"',
-        description:
-            "Коли хочеться розбавити образ кольором - цікавим варіантом можуть бути рукавички з різнобарвними гачкованими кульками. Особливість цих рукавичок також в наявності можливості не знімати їх, для користування мобільним. Рукавички мають отвори для вказівного на великого - пальців, тож ви легко зможете розблокувати телефон та швидко відповісти на дзвінок чи повідомлення. Виріб дуже м'якенький та теплий, завдяки пухнастій ниточці та незначному вмісту вовни в складі пряжі.",
-        materials: 'Матеріали: акрил з 15% вовни. Розмір M/L.',
-        images: [
-            'rukavytsi-koliorovi-kulky-01.jpg',
-            'rukavytsi-koliorovi-kulky-02.jpg',
-            'rukavytsi-koliorovi-kulky-03.jpg',
-            'rukavytsi-koliorovi-kulky-04.jpg',
-            'rukavytsi-koliorovi-kulky-05.jpg',
-            'rukavytsi-koliorovi-kulky-06.jpg',
-            'rukavytsi-koliorovi-kulky-07.jpg',
-        ],
-        price: 350,
-        link: 'rukavytsi-koliorovi-kulky',
-        category: 'Одяг',
-        similar: [
-            {
-                img: 'rukavytsi_kolyorovi_kola_01.jpg',
-                price: 300,
-                link: 'rukavytsi_kolyorovi_kola',
-            },
-            {
-                img: 'zeleni_kolyorovi_kola_01.jpg',
-                price: 300,
-                link: 'zeleni_kolyorovi_kola',
             },
         ],
     },
