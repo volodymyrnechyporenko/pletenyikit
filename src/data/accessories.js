@@ -172,6 +172,31 @@ const accessories = [
                 price: 300,
                 link: 'mitenky-kotyky-hirchychni',
             },
+            {
+                img: 'mitenky-sovy-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-pukhnasti',
+            },
         ],
     },
     {
@@ -702,6 +727,31 @@ const accessories = [
                 price: 270,
                 link: 'mitenky_sovy_buzkovi',
             },
+            {
+                img: 'mitenky-sovy-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-pukhnasti',
+            },
         ],
     },
     {
@@ -746,6 +796,331 @@ const accessories = [
                 img: 'malynovi_smugasti_rukavytsi_01.jpg',
                 price: 300,
                 link: 'malynovi_smugasti_rukavytsi',
+            },
+        ],
+    },
+    {
+        id: 37,
+        name: 'Мітенки-котики малинові',
+        description:
+            'Сірий та малиновий - одне з найгарнийних поєднань кольорів. Тож, якщо котрийсь з цих кольорів присутній у вашому гардеробі - варто придивитись до цих рукавичок для мобільного. Не колючі, зручні, теплі та яскраві рукавички готові гріти та піднімати настрій!',
+        materials: 'Матеріали: акрил. Розмір: M-L',
+        images: [
+            'rukavytsi-malynovi-smuzhky-01.jpg',
+            'rukavytsi-malynovi-smuzhky-02.jpg',
+            'rukavytsi-malynovi-smuzhky-03.jpg',
+            'rukavytsi-malynovi-smuzhky-04.jpg',
+            'rukavytsi-malynovi-smuzhky-05.jpg',
+            'rukavytsi-malynovi-smuzhky-06.jpg',
+        ],
+        price: 330,
+        link: 'rukavytsi-malynovi-smuzhky',
+        category: 'Одяг',
+    },
+    {
+        id: 38,
+        name: 'Мітенки-котики з хвостами',
+        description:
+            'Це - найоригінальніша з наявних моделей мітенок-котиків, яку ми маємо в наявності. До завжди трендових смужок в цьому виробі присутні і модні натуральні відтінки молочного та шоколадного і, звісно, силует котика. Нам здається, що більшість людей полюбляють смужки і котиків, тож комусь ці аксесуари точно підійдуть до демісезонного або й зимовго гардеробів.',
+        materials: 'Розмір: M',
+        images: [
+            'mitenky-kotyky-khvosty-01.jpg',
+            'mitenky-kotyky-khvosty-02.jpg',
+            'mitenky-kotyky-khvosty-03.jpg',
+            'mitenky-kotyky-khvosty-04.jpg',
+            'mitenky-kotyky-khvosty-05.jpg',
+        ],
+        price: 300,
+        link: 'mitenky-kotyky-khvosty',
+        category: 'Одяг',
+    },
+    {
+        id: 39,
+        name: 'Мітенки-котики сірі більші',
+        description:
+            'Мітенки плетено вручну з акрилової пряжі. Приємні на дотик, точно як котики, мають виплетені гачком вушка та вишиту вручну мордочку. Нейтральний сірий колір виробу пасуватиме до будь-якого образу, а його котячість - зробить цей образ оригінальним. Мітенки підійдуть на більшу долоню, чоловічу, або жіночий L.',
+        materials: 'Матеріал: акрил. Розмір: L',
+        images: [
+            'mitenky-kotyky-siri-bilshi-01.jpg',
+            'mitenky-kotyky-siri-bilshi-02.jpg',
+            'mitenky-kotyky-siri-bilshi-03.jpg',
+            'mitenky-kotyky-siri-bilshi-04.jpg',
+            'mitenky-kotyky-siri-bilshi-05.jpg',
+        ],
+        price: 300,
+        link: 'mitenky-kotyky-siri-bilshi',
+        category: 'Одяг',
+        similar: [
+            {
+                img: 'mitenky-kotyky-siri-menshi-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-siri-menshi',
+            },
+        ],
+    },
+    {
+        id: 40,
+        name: 'Мітенки-котики сірі менші',
+        description:
+            'Мітенки плетено вручну з акрилової пряжі. Приємні на дотик, точно як котики, мають виплетені гачком вушка та вишиту вручну мордочку. Нейтральний сірий колір виробу пасуватиме до будь-якого образу, а його котячість - зробить цей образ оригінальним. Мітенки підійдуть на меншу чи середню долоню, розміру S-M.',
+        materials: 'Матеріал: акрил. Розмір: S-M',
+        images: [
+            'mitenky-kotyky-siri-menshi-01.jpg',
+            'mitenky-kotyky-siri-menshi-02.jpg',
+            'mitenky-kotyky-siri-menshi-03.jpg',
+            'mitenky-kotyky-siri-menshi-04.jpg',
+            'mitenky-kotyky-siri-menshi-05.jpg',
+            'mitenky-kotyky-siri-menshi-06.jpg',
+        ],
+        price: 300,
+        link: 'mitenky-kotyky-siri-menshi',
+        category: 'Одяг',
+        similar: [
+            {
+                img: 'mitenky-kotyky-siri-bilshi-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-siri-bilshi',
+            },
+        ],
+    },
+    {
+        id: 41,
+        name: 'Мітенки-сови жовті світліші',
+        description:
+            'Одна з найпопулярніших моделей та кольорів. Мітенки-совенята в жовтому кольорі це - завжди сонячний настрій поруч. Світо-жовтий колір, м\'якенькі мітенки з маленькими совенятами - чудове доповнення до демісезонного гардеробу, для зими - можуть бути затоненькі.',
+        materials: 'Матеріал: акрил та бісер',
+        images: [
+            'mitenky-sovy-zhovti-svitli-01.jpg',
+            'mitenky-sovy-zhovti-svitli-02.jpg',
+            'mitenky-sovy-zhovti-svitli-03.jpg',
+            'mitenky-sovy-zhovti-svitli-04.jpg',
+        ],
+        price: 300,
+        link: 'mitenky-sovy-zhovti-svitli',
+        category: 'Одяг',
+        similar: [
+            {
+                img: 'mitenky_sovy_buzkovi_01.jpg',
+                price: 270,
+                link: 'mitenky_sovy_buzkovi',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-pukhnasti',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-hirchychni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-hirchychni',
+            },
+        ],
+    },
+    {
+        id: 42,
+        name: 'Мітенки-сови жовті темніші',
+        description:
+            'Одна з найпопулярніших моделей та кольорів. Мітенки-совенята в жовтому кольорі це - завжди сонячний настрій поруч. Насичено-жовтий колір, м\'якенькі мітенки з маленькими совенятами - чудове доповнення до демісезонного або й зимового гардеробу.',
+        materials: 'Матеріал: акрил та бісер',
+        images: [
+            'mitenky-sovy-zhovti-temni-01.jpg',
+            'mitenky-sovy-zhovti-temni-02.jpg',
+            'mitenky-sovy-zhovti-temni-03.jpg',
+            'mitenky-sovy-zhovti-temni-04.jpg',
+        ],
+        price: 300,
+        link: 'mitenky-sovy-zhovti-temni',
+        category: 'Одяг',
+        similar: [
+            {
+                img: 'mitenky_sovy_buzkovi_01.jpg',
+                price: 270,
+                link: 'mitenky_sovy_buzkovi',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-pukhnasti',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-hirchychni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-hirchychni',
+            },
+        ],
+    },
+    {
+        id: 43,
+        name: 'Мітенки-котики жовті світліші',
+        description:
+            'Мітенки-котики яскравого жовтого кольору 100% піднімуть настрій та додадуть сонячного настрою! Ручне плетіння та вишивка, м\'яка пряжа та універсальний розмір, завдяки платенню "гумка" на долоні.',
+        materials: 'Матеріал: акрил. Розмір: М',
+        images: [
+            'mitenky-kotyky-zhovti-svitli-01.jpg',
+            'mitenky-kotyky-zhovti-svitli-02.jpg',
+            'mitenky-kotyky-zhovti-svitli-03.jpg',
+            'mitenky-kotyky-zhovti-svitli-04.jpg',
+        ],
+        price: 300,
+        link: 'mitenky-kotyky-zhovti-svitli',
+        category: 'Одяг',
+        similar: [
+            {
+                img: 'mitenky_sovy_buzkovi_01.jpg',
+                price: 270,
+                link: 'mitenky_sovy_buzkovi',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-pukhnasti',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-hirchychni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-hirchychni',
+            },
+        ],
+    },
+    {
+        id: 44,
+        name: 'Мітенки-котики жовті темніші',
+        description:
+            'Мітенки-котики гарного темно-жовтого кольору - чудове оригінальне доповлення до демісезонного, або й зимового гардеробу. Ручне плетіння та вишивка, м\'яка пряжа та універсальний розмір, завдяки платенню "гумка" на долоні.',
+        materials: 'Матеріал: акрил. Розмір: М',
+        images: [
+            'mitenky-kotyky-zhovti-temni-01.jpg',
+            'mitenky-kotyky-zhovti-temni-02.jpg',
+            'mitenky-kotyky-zhovti-temni-03.jpg',
+            'mitenky-kotyky-zhovti-temni-04.jpg',
+            'mitenky-kotyky-zhovti-temni-05.jpg',
+        ],
+        price: 300,
+        link: 'mitenky-kotyky-zhovti-temni',
+        category: 'Одяг',
+        similar: [
+            {
+                img: 'mitenky_sovy_buzkovi_01.jpg',
+                price: 270,
+                link: 'mitenky_sovy_buzkovi',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-pukhnasti',
+            },
+            {
+                img: 'mitenky-kotyky-hirchychni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-hirchychni',
+            },
+        ],
+    },
+    {
+        id: 45,
+        name: 'Мітенки-котики жовті пухнасті',
+        description:
+            'Мітенки-котики приємного гірчичного кольору 100% піднімуть настрій та додадуть сонячного настрою! Пухнаста тепла ниточка не лише підніматиме настій, а й зігріє долоню. Ручне плетіння та вишивка, м\'яка пряжа та універсальний розмір, завдяки платенню "гумка" на долоні.',
+        materials: 'Матеріал: акрил. Розмір: М',
+        images: [
+            'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
+            'mitenky-kotyky-zhovti-pukhnasti-02.jpg',
+            'mitenky-kotyky-zhovti-pukhnasti-03.jpg',
+            'mitenky-kotyky-zhovti-pukhnasti-04.jpg',
+        ],
+        price: 300,
+        link: 'mitenky-kotyky-zhovti-pukhnasti',
+        category: 'Одяг',
+        similar: [
+            {
+                img: 'mitenky_sovy_buzkovi_01.jpg',
+                price: 270,
+                link: 'mitenky_sovy_buzkovi',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-sovy-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-sovy-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-svitli',
+            },
+            {
+                img: 'mitenky-kotyky-zhovti-temni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-zhovti-temni',
+            },
+            {
+                img: 'mitenky-kotyky-hirchychni-01.jpg',
+                price: 300,
+                link: 'mitenky-kotyky-hirchychni',
             },
         ],
     },

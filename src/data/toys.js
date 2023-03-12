@@ -20,11 +20,6 @@ const toys = [
                 price: 100,
                 link: 'myshka_temno_sira',
             },
-            {
-                img: 'myshoigrashka_sira_01.jpg',
-                price: 100,
-                link: 'myshka_sira',
-            },
         ],
     },
     {
@@ -48,40 +43,6 @@ const toys = [
                 img: 'myshoigrashka_bila_01.jpg',
                 price: 100,
                 link: 'myshka_bila',
-            },
-            {
-                img: 'myshoigrashka_sira_01.jpg',
-                price: 100,
-                link: 'myshka_sira',
-            },
-        ],
-    },
-    {
-        id: 3,
-        name: 'Мишка сіра',
-        description: "Сіренька, плетена спицями мишка в наявності. Неймовірно мила та м'якенька.",
-        materials: 'Має вишиті носик і очі з біленькими намистинками.',
-        dimensions: 'Розмір: 12/7см.',
-        images: [
-            'myshoigrashka_sira_01.jpg',
-            'myshoigrashka_sira_02.jpg',
-            'myshoigrashka_sira_03.jpg',
-            'myshoigrashka_sira_04.jpg',
-            'myshoigrashka_sira_05.jpg',
-        ],
-        price: 100,
-        link: 'myshka_sira',
-        category: 'Іграшки',
-        similar: [
-            {
-                img: 'myshoigrashka_bila_01.jpg',
-                price: 100,
-                link: 'myshka_bila',
-            },
-            {
-                img: 'myshoigrashka_temno-sira_01.jpg',
-                price: 100,
-                link: 'myshka_temno_sira',
             },
         ],
     },
