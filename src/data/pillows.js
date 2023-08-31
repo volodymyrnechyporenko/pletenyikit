@@ -394,36 +394,6 @@ const pillows = [
         ],
     },
     {
-        id: 31,
-        name: 'Бузковий зайчик',
-        description: 'Усміхнений та веселий - бузковий зубатий заєць до вашої уваги.',
-        materials:
-            "Рухомі лапки та вушка, цікаве плетіння бузкової м'якенької пряжі. Звісно, все - повністю ручна робота та мордочка вишита вручну. Ідеальний подарунок до будь-якого свята тішитиме своєю посмішкою що дня.",
-        dimensions: 'Розміри: тулуб 30/28/10см.',
-        images: [
-            'buzkovyi_zaichyk_01.jpg',
-            'buzkovyi_zaichyk_02.jpg',
-            'buzkovyi_zaichyk_03.jpg',
-            'buzkovyi_zaichyk_04.jpg',
-            'buzkovyi_zaichyk_05.jpg',
-        ],
-        price: 800,
-        link: 'buzkovyi_zaichyk',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'zhovtyi-pes-metelyk-01.jpg',
-                price: 750,
-                link: 'zhovtyi-pes-metelyk',
-            },
-            {
-                img: 'tygro-podukh-01.jpg',
-                price: 700,
-                link: 'tygro-podukh',
-            },
-        ],
-    },
-    {
         id: 34,
         name: 'Тигроподух',
         description:
@@ -446,11 +416,6 @@ const pillows = [
                 img: 'zhovtyi-pes-metelyk-01.jpg',
                 price: 750,
                 link: 'zhovtyi-pes-metelyk',
-            },
-            {
-                img: 'buzkovyi_zaichyk_01.jpg',
-                price: 800,
-                link: 'buzkovyi_zaichyk',
             },
         ],
     },
@@ -477,11 +442,6 @@ const pillows = [
                 img: 'tygro-podukh-01.jpg',
                 price: 700,
                 link: 'tygro-podukh',
-            },
-            {
-                img: 'buzkovyi_zaichyk_01.jpg',
-                price: 800,
-                link: 'buzkovyi_zaichyk',
             },
             {
                 img: 'zhovtyi-pes-blakytnyi-metelyk-01.jpg',
@@ -533,11 +493,6 @@ const pillows = [
                 img: 'tygro-podukh-01.jpg',
                 price: 700,
                 link: 'tygro-podukh',
-            },
-            {
-                img: 'buzkovyi_zaichyk_01.jpg',
-                price: 800,
-                link: 'buzkovyi_zaichyk',
             },
             {
                 img: 'zhovtyi-pes-metelyk-01.jpg',
@@ -623,39 +578,6 @@ const pillows = [
         price: 950,
         link: 'smuhach-siryi',
         category: 'Подушки',
-        similar: [
-            {
-                img: 'trykolirnyi-01.jpg',
-                price: 1000,
-                link: 'trykolirnyi',
-            },
-        ],
-    },
-    {
-        id: 44,
-        name: 'Триколірний до щастя',
-        description:
-            "Вперше ця модель котоПодуха наявна в таких кольорах, і ми хочемо зробити ще більше подібних! Лише придивіться до цих поєднань фактур і кольорів! Всі наші подухи такої моделі - неповторні, бо не робимо з ідентичних кольорових поєднань і не маємо багато однакових ниток в наявності. Але такого - взагалі не є можливим повторити, бо в'язався просто \"з голови\" всіма відтінками, які сподобались. Тож - неповторний триколірний (чогось всіх рябих котиків так називають, хоча там значно більше кольорів, по-факту), м'який та нейомвірно приємний на дотик подух - готовий прикрашати собою будь-яку оселю.",
-        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнювач).',
-        dimensions: 'Розмір: 43/32/15см.',
-        images: [
-            'trykolirnyi-01.jpg',
-            'trykolirnyi-02.jpg',
-            'trykolirnyi-03.jpg',
-            'trykolirnyi-04.jpg',
-            'trykolirnyi-05.jpg',
-            'trykolirnyi-06.jpg',
-        ],
-        price: 1000,
-        link: 'trykolirnyi',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'smuhach-siryi-01.jpg',
-                price: 950,
-                link: 'smuhach-siryi',
-            },
-        ],
     },
     {
         id: 45,
