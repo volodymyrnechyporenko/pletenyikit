@@ -238,24 +238,6 @@ const pillows = [
         ],
     },
     {
-        id: 22,
-        name: 'Синій кит',
-        description:
-            'Це один з двох неплетених виробів у "Плетеному КоТі". Якось я знайшла серед тканин, що залишились від пошиття одягу та іграшок на замовлення, кілька видів бавовняного вельвету та бавовняну заквітчану фланель. З них мені побачились сплячі кити. І я їх пошила. Наповнення, як і у плетених подушок - холофайбер, а тканини на 100% натуральні.',
-        dimensions: 'Розміри: 58/24/14см.',
-        images: ['syniy_kyt_01.jpg', 'syniy_kyt_02.jpg', 'syniy_kyt_03.jpg', 'syniy_kyt_04.jpg'],
-        price: 350,
-        link: 'syniy_kyt',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'synio_rozhevyi_kyt_02.jpg',
-                price: 350,
-                link: 'synio_rozhevyi_kyt',
-            },
-        ],
-    },
-    {
         id: 23,
         name: 'Синьо-рожевий кит',
         description:
@@ -271,13 +253,6 @@ const pillows = [
         price: 350,
         link: 'synio_rozhevyi_kyt',
         category: 'Подушки',
-        similar: [
-            {
-                img: 'syniy_kyt_01.jpg',
-                price: 350,
-                link: 'syniy_kyt',
-            },
-        ],
     },
     {
         id: 24,
@@ -394,32 +369,6 @@ const pillows = [
         ],
     },
     {
-        id: 34,
-        name: 'Тигроподух',
-        description:
-            'Ця супер-яскрава помаранчева пряжа просто зобов‘язана була стати тигром! Тож до вашої уваги - подушка-тигрик. М‘яка, приємна на дотик, яскрава та весела, вона стане чудовим подарунком будь-кому, а особливо - людині, народженій в рік тигра.',
-        materials:
-            'Звісно, як і все у Плетеному КоТі, подушка в‘язана і пошита повністю вручну. Матеріали: акрил (пряжа), холофайбер (наповнювач).',
-        dimensions: 'Розмір: 37/25/13см без урахування довжини лапок та хвоста.',
-        images: [
-            'tygro-podukh-01.jpg',
-            'tygro-podukh-02.jpg',
-            'tygro-podukh-03.jpg',
-            'tygro-podukh-04.jpg',
-            'tygro-podukh-05.jpg',
-        ],
-        price: 700,
-        link: 'tygro-podukh',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'zhovtyi-pes-metelyk-01.jpg',
-                price: 750,
-                link: 'zhovtyi-pes-metelyk',
-            },
-        ],
-    },
-    {
         id: 37,
         name: 'Пес з жовто-блакитним метеликом',
         description:
@@ -438,11 +387,6 @@ const pillows = [
         link: 'zhovtyi-pes-metelyk',
         category: 'Подушки',
         similar: [
-            {
-                img: 'tygro-podukh-01.jpg',
-                price: 700,
-                link: 'tygro-podukh',
-            },
             {
                 img: 'zhovtyi-pes-blakytnyi-metelyk-01.jpg',
                 price: 750,
@@ -490,11 +434,6 @@ const pillows = [
         category: 'Подушки',
         similar: [
             {
-                img: 'tygro-podukh-01.jpg',
-                price: 700,
-                link: 'tygro-podukh',
-            },
-            {
                 img: 'zhovtyi-pes-metelyk-01.jpg',
                 price: 750,
                 link: 'zhovtyi-pes-metelyk',
@@ -519,25 +458,6 @@ const pillows = [
         ],
         price: 800,
         link: 'hora',
-        category: 'Подушки',
-    },
-    {
-        id: 41,
-        name: 'Котоджентльмен',
-        description:
-            "Хто сказав, що котику не можна носити штанці на підтяжках і довгу гривку? Звісно котикам можна вдягати будь що, бо їм все пасує. Ніжне поєднання молочного кольору та спокійного відтінку бузково - чудово виглядає на цьому котоПодухові. Він - неймовірно пухнастий, м'якенький та легенький, і вже готовий оселятись на ваших диваних чи ліжках.",
-        materials: 'Матеріали: акрил (пряжа), дерево (ґудзики), холофайбер (наповнювач).',
-        dimensions: 'Розмір: 31/31/15см.',
-        images: [
-            'kotogentleman-01.jpg',
-            'kotogentleman-02.jpg',
-            'kotogentleman-03.jpg',
-            'kotogentleman-04.jpg',
-            'kotogentleman-05.jpg',
-            'kotogentleman-06.jpg',
-        ],
-        price: 800,
-        link: 'kotogentleman',
         category: 'Подушки',
     },
     {

@@ -121,32 +121,6 @@ const accessories = [
         category: 'Одяг',
     },
     {
-        id: 16,
-        name: 'Рукавиці для мобільного "Біла хризантема"',
-        description:
-            'Ця вишивка найбільше нагадує мені пізню білу хризантему у саду, що вже втратив яскраві осінні кольори та почав набувати зимових сірих тонів. Якщо ви любите спокійні відтіки та мінімалізм - ці рукавички для мобільного чудово вам пасуватимуть.',
-        materials:
-            'Ручне плетіння спицями та ручна вишивка. Розмір універсальний, завдяки плетінню "гумка" на долоні. Можна легко користуватись мобільним телефоном, не знімаючи рукавички.',
-        images: [
-            'rukavytsi_mobilnogo_bila_khryzantema_01.jpg',
-            'rukavytsi_mobilnogo_bila_khryzantema_02.jpg',
-            'rukavytsi_mobilnogo_bila_khryzantema_03.jpg',
-            'rukavytsi_mobilnogo_bila_khryzantema_04.jpg',
-            'rukavytsi_mobilnogo_bila_khryzantema_05.jpg',
-            'rukavytsi_mobilnogo_bila_khryzantema_06.jpg',
-        ],
-        price: 350,
-        link: 'rukavytsi_mobilnogo_bila_khryzantema',
-        category: 'Одяг',
-        similar: [
-            {
-                img: 'rukavytsi-mobilnogo-cholovichi-siri-01.jpg',
-                price: 330,
-                link: 'rukavytsi-mobilnogo-cholovichi-siri',
-            },
-        ],
-    },
-    {
         id: 17,
         name: 'Мітенки "Бузкові сови"',
         description:
@@ -356,11 +330,6 @@ const accessories = [
         category: 'Одяг',
         similar: [
             {
-                img: 'rukavytsi_mobilnogo_bila_khryzantema_01.jpg',
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema',
-            },
-            {
                 img: 'rukavytsi_yaskravi_smuzhky_01.jpg',
                 price: 300,
                 link: 'rukavytsi_yaskravi_smuzhky',
@@ -403,11 +372,6 @@ const accessories = [
         link: 'rukavytsi_kolyorovi_kola',
         category: 'Одяг',
         similar: [
-            {
-                img: 'rukavytsi_mobilnogo_bila_khryzantema_01.jpg',
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema',
-            },
             {
                 img: 'rukavytsi_yaskravi_smuzhky_01.jpg',
                 price: 300,
@@ -452,11 +416,6 @@ const accessories = [
         category: 'Одяг',
         similar: [
             {
-                img: 'rukavytsi_mobilnogo_bila_khryzantema_01.jpg',
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema',
-            },
-            {
                 img: 'rukavytsi_yaskravi_smuzhky_01.jpg',
                 price: 300,
                 link: 'rukavytsi_yaskravi_smuzhky',
@@ -495,11 +454,6 @@ const accessories = [
         category: 'Одяг',
         similar: [
             {
-                img: 'rukavytsi_mobilnogo_bila_khryzantema_01.jpg',
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema',
-            },
-            {
                 img: 'rukavytsi_yaskravi_smuzhky_01.jpg',
                 price: 300,
                 link: 'rukavytsi_yaskravi_smuzhky',
@@ -537,11 +491,6 @@ const accessories = [
         link: 'rukavytsi_yaskravi_smuzhky',
         category: 'Одяг',
         similar: [
-            {
-                img: 'rukavytsi_mobilnogo_bila_khryzantema_01.jpg',
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema',
-            },
             {
                 img: 'rukavytsi_vovnyana_faktura_01.jpg',
                 price: 330,
@@ -772,11 +721,6 @@ const accessories = [
         link: 'rukavytsi-mobilnogo-cholovichi-siri',
         category: 'Одяг',
         similar: [
-            {
-                img: 'rukavytsi_mobilnogo_bila_khryzantema_01.jpg',
-                price: 350,
-                link: 'rukavytsi_mobilnogo_bila_khryzantema',
-            },
             {
                 img: 'rukavytsi_yaskravi_smuzhky_01.jpg',
                 price: 300,
