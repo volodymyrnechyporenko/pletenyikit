@@ -63,47 +63,6 @@ const toys = [
         category: 'Іграшки',
         similar: [
             {
-                img: 'kotoigrashka_bilenka_01.jpg',
-                price: 250,
-                link: 'kotyk_bilyi',
-            },
-            {
-                img: 'kotoigrashka_sirenka_01.jpg',
-                price: 250,
-                link: 'kotyk_siryi',
-            },
-            {
-                img: 'koshenya-chorno-sire-01.jpg',
-                price: 250,
-                link: 'koshenya-chorno-sire',
-            },
-        ],
-    },
-    {
-        id: 7,
-        name: 'Котик білий',
-        description:
-            "Біленький та ніжний, як пелюстки травневого цвіту! Біленький меланжевий котик і його рожевий носик готові їхати до вас і тішити своєю м'якістю та рукотворністю.",
-        dimensions: 'Розміри: ширина 13см, довжина 19см.',
-        images: [
-            'kotoigrashka_bilenka_01.jpg',
-            'kotoigrashka_bilenka_02.jpg',
-            'kotoigrashka_bilenka_03.jpg',
-            'kotoigrashka_bilenka_04.jpg',
-            'kotoigrashka_bilenka_05.jpg',
-            'kotoigrashka_bilenka_06.jpg',
-            'kotoigrashka_bilenka_07.jpg',
-        ],
-        price: 250,
-        link: 'kotyk_bilyi',
-        category: 'Іграшки',
-        similar: [
-            {
-                img: 'bezheva_kotoigrashka_01.jpg',
-                price: 250,
-                link: 'kotyk_bezhevyi',
-            },
-            {
                 img: 'kotoigrashka_sirenka_01.jpg',
                 price: 250,
                 link: 'kotyk_siryi',
@@ -137,11 +96,6 @@ const toys = [
                 img: 'bezheva_kotoigrashka_01.jpg',
                 price: 250,
                 link: 'kotyk_bezhevyi',
-            },
-            {
-                img: 'kotoigrashka_bilenka_01.jpg',
-                price: 250,
-                link: 'kotyk_bilyi',
             },
             {
                 img: 'koshenya-chorno-sire-01.jpg',
@@ -278,11 +232,6 @@ const toys = [
                 img: 'kotoigrashka_sirenka_01.jpg',
                 price: 250,
                 link: 'kotyk_siryi',
-            },
-            {
-                img: 'kotoigrashka_bilenka_01.jpg',
-                price: 250,
-                link: 'kotyk_bilyi',
             },
         ],
     },

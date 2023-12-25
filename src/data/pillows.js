@@ -40,41 +40,6 @@ const pillows = [
         price: 650,
         link: 'synio_bezhevyi_melanzh',
         category: 'Подушки',
-        similar: [
-            {
-                img: 'temno-syniy_zhovtuvatyi_01.jpg',
-                price: 650,
-                link: 'zhovtyi_pukhnastyi_kotyk',
-            },
-        ],
-    },
-    {
-        id: 10,
-        name: 'Жовтий пухнастий котик',
-        description:
-            "Пухнастий котоподух чи гладке плетіння? Ця модель поєднує в собі все найліпше. Пухнастий меланжевий верх та темно-синій фактурний низ створюють цікавий ефект котика в штанях. Дуже м'якенький, легенький та жмакальний котоподух прикрасить собою будь-яке місце в домі.",
-        materials: 'Наповнення - холофайбер, пряжа - "травичка" і акрил, очі - гудзики.',
-        dimensions: 'Розмір: 33/33/13см.',
-        images: [
-            'temno-syniy_zhovtuvatyi_01.jpg',
-            'temno-syniy_zhovtuvatyi_02.jpg',
-            'temno-syniy_zhovtuvatyi_03.jpg',
-            'temno-syniy_zhovtuvatyi_04.jpg',
-            'temno-syniy_zhovtuvatyi_05.jpg',
-            'temno-syniy_zhovtuvatyi_06.jpg',
-            'temno-syniy_zhovtuvatyi_07.jpg',
-            'temno-syniy_zhovtuvatyi_08.jpg',
-        ],
-        price: 650,
-        link: 'zhovtyi_pukhnastyi_kotyk',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'synio-bezhevyi_melanzh_01.jpg',
-                price: 650,
-                link: 'synio_bezhevyi_melanzh',
-            },
-        ],
     },
     {
         id: 11,
@@ -96,6 +61,13 @@ const pillows = [
         price: 650,
         link: 'pesyk_burshtynovi_ochi',
         category: 'Подушки',
+        similar: [
+            {
+                img: 'kvadratnyi-zhovtyi-pesyk-01.jpg',
+                price: 800,
+                link: 'kvadratnyi-zhovtyi-pesyk',
+            },
+        ]
     },
     {
         id: 12,
@@ -337,6 +309,13 @@ const pillows = [
         price: 700,
         link: 'kotosyluet',
         category: 'Подушки',
+        similar: [
+            {
+                img: 'kit-zhovta-smuzhka-01.jpg',
+                price: 700,
+                link: 'kit-zhovta-smuzhka',
+            },
+        ]
     },
     {
         id: 30,
@@ -522,6 +501,11 @@ const pillows = [
                 price: 900,
                 link: 'schokastyk-siryi',
             },
+            {
+                img: 'lymonnyi-schokastyk-01.jpg',
+                price: 900,
+                link: 'schokastyk-lymonnyi',
+            },
         ],
     },
     {
@@ -548,7 +532,97 @@ const pillows = [
                 price: 900,
                 link: 'schokastyk-rudyi',
             },
+            {
+                img: 'lymonnyi-schokastyk-01.jpg',
+                price: 900,
+                link: 'schokastyk-lymonnyi',
+            },
         ],
+    },
+    {
+        id: 47,
+        name: 'Щокастик лимонний',
+        description:
+            "Білі щічки - одна з найсимпатичніших деатлей цього котика, але, якщо придивитись, таких деталей - купа. Гарні вушка, цікавий меланжевий градієнт плетіння - від лимонного до чорного, приємна пряжа та пухкенькі лапки. Все - ручної роботи і все це готово їхати та прикрашати вашу оселю.",
+        materials: 'Матеріали: акрил (пряжа), пластик (очі), холофайбер (наповнювач).',
+        dimensions: 'Розмір: 47/30/17см.',
+        images: [
+            'lymonnyi-schokastyk-01.jpg',
+            'lymonnyi-schokastyk-02.jpg',
+            'lymonnyi-schokastyk-03.jpg',
+            'lymonnyi-schokastyk-04.jpg',
+            'lymonnyi-schokastyk-05.jpg',
+            'lymonnyi-schokastyk-06.jpg',
+        ],
+        price: 900,
+        link: 'schokastyk-lymonnyi',
+        category: 'Подушки',
+        similar: [
+            {
+                img: 'schokastyk-rudyi-01.jpg',
+                price: 900,
+                link: 'schokastyk-rudyi',
+            },
+            {
+                img: 'schokastyk-siryi-01.jpg',
+                price: 900,
+                link: 'schokastyk-siryi',
+            },
+        ],
+    },
+    {
+        id: 48,
+        name: 'Кіт в жовту смужку',
+        description:
+            "Жовто-сіра смужка - ідеальні кольори та орнамент для КотоПодуха. М'який на дотик, яскравий та рукотворний. Такий котик ідеально прикрасить будь-яку кімнату.",
+        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнювач).',
+        dimensions: 'Розмір: 43/33/15см.',
+        images: [
+            'kit-zhovta-smuzhka-01.jpg',
+            'kit-zhovta-smuzhka-02.jpg',
+            'kit-zhovta-smuzhka-03.jpg',
+            'kit-zhovta-smuzhka-04.jpg',
+            'kit-zhovta-smuzhka-05.jpg',
+            'kit-zhovta-smuzhka-06.jpg',
+            'kit-zhovta-smuzhka-07.jpg',
+        ],
+        price: 700,
+        link: 'kit-zhovta-smuzhka',
+        category: 'Подушки',
+        similar: [
+            {
+                img: 'kotosyluet_01.jpg',
+                price: 700,
+                link: 'kotosyluet',
+            },
+        ],
+    },
+
+    {
+        id: 49,
+        name: 'Квадратний жовтий песик',
+        description:
+            "ПесоПодуха створено повністю вручну для обіймів та прикрашання оселі. Подушку-іграшку плетено та пошито вручну з приємної м'якої акрилової пряжі. Песик містить і плетіння спицями і плетіння гачком, мордочку вишито вручну. Подушка має гіпоалергенне наповнення - холофайбер.",
+        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнювач).',
+        dimensions: 'Розмір: 31/32/15см.',
+        images: [
+            'kvadratnyi-zhovtyi-pesyk-01.jpg',
+            'kvadratnyi-zhovtyi-pesyk-02.jpg',
+            'kvadratnyi-zhovtyi-pesyk-03.jpg',
+            'kvadratnyi-zhovtyi-pesyk-04.jpg',
+            'kvadratnyi-zhovtyi-pesyk-05.jpg',
+            'kvadratnyi-zhovtyi-pesyk-06.jpg',
+        ],
+        price: 800,
+        link: 'kvadratnyi-zhovtyi-pesyk',
+        category: 'Подушки',
+        similar: [
+            {
+                img: 'pesyk_kvadratnyi_01.jpg',
+                price: 650,
+                link: 'pesyk_burshtynovi_ochi',
+            },
+        ]
     },
 ]
 

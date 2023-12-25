@@ -147,11 +147,6 @@ const accessories = [
                 link: 'mitenky-kotyky-hirchychni',
             },
             {
-                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-zhovti-svitli',
-            },
-            {
                 img: 'mitenky-kotyky-zhovti-temni-01.jpg',
                 price: 300,
                 link: 'mitenky-kotyky-zhovti-temni',
@@ -667,11 +662,6 @@ const accessories = [
                 link: 'mitenky_sovy_buzkovi',
             },
             {
-                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-zhovti-svitli',
-            },
-            {
                 img: 'mitenky-kotyky-zhovti-temni-01.jpg',
                 price: 300,
                 link: 'mitenky-kotyky-zhovti-temni',
@@ -808,44 +798,6 @@ const accessories = [
         ],
     },
     {
-        id: 43,
-        name: 'Мітенки-котики жовті світліші',
-        description:
-            'Мітенки-котики яскравого жовтого кольору 100% піднімуть настрій та додадуть сонячного настрою! Ручне плетіння та вишивка, м\'яка пряжа та універсальний розмір, завдяки платенню "гумка" на долоні.',
-        materials: 'Матеріал: акрил. Розмір: М',
-        images: [
-            'mitenky-kotyky-zhovti-svitli-01.jpg',
-            'mitenky-kotyky-zhovti-svitli-02.jpg',
-            'mitenky-kotyky-zhovti-svitli-03.jpg',
-            'mitenky-kotyky-zhovti-svitli-04.jpg',
-        ],
-        price: 300,
-        link: 'mitenky-kotyky-zhovti-svitli',
-        category: 'Одяг',
-        similar: [
-            {
-                img: 'mitenky_sovy_buzkovi_01.jpg',
-                price: 270,
-                link: 'mitenky_sovy_buzkovi',
-            },
-            {
-                img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-zhovti-pukhnasti',
-            },
-            {
-                img: 'mitenky-kotyky-zhovti-temni-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-zhovti-temni',
-            },
-            {
-                img: 'mitenky-kotyky-hirchychni-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-hirchychni',
-            },
-        ],
-    },
-    {
         id: 44,
         name: 'Мітенки-котики жовті темніші',
         description:
@@ -866,11 +818,6 @@ const accessories = [
                 img: 'mitenky_sovy_buzkovi_01.jpg',
                 price: 270,
                 link: 'mitenky_sovy_buzkovi',
-            },
-            {
-                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-zhovti-svitli',
             },
             {
                 img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
@@ -904,11 +851,6 @@ const accessories = [
                 img: 'mitenky_sovy_buzkovi_01.jpg',
                 price: 270,
                 link: 'mitenky_sovy_buzkovi',
-            },
-            {
-                img: 'mitenky-kotyky-zhovti-svitli-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-zhovti-svitli',
             },
             {
                 img: 'mitenky-kotyky-zhovti-temni-01.jpg',
