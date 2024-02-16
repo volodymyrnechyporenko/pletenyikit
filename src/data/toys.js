@@ -153,7 +153,6 @@ const toys = [
         price: 300,
         link: 'veliurove_bilenke_koshenya',
         category: 'Іграшки',
-        similar: [],
     },
     {
         id: 15,

@@ -365,7 +365,6 @@ const pillows = [
         price: 750,
         link: 'zhovtyi-pes-blakytnyi-metelyk',
         category: 'Подушки',
-        similar: [],
     },
     {
         id: 40,
