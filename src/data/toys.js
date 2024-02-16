@@ -135,31 +135,6 @@ const toys = [
         category: 'Іграшки',
     },
     {
-        id: 12,
-        name: 'Кошеня з руденькими вушками',
-        description:
-            'М\'якеньке кошеня з пухнастими руденькими вушками готове прикрашати собою будь-який простір. Повністю ручна робота, від першої петельки до достаннього стібка голкою. Цікаве поєднання гладкої нитки та пряжі "травичка". Кожен наш виріб - зроблено з любов\'ю та думкою про вас. Вам варто лише обрати щось з наявного на свій смак.',
-        materials: 'Матеріали: акрил, бісер (очі), холофайбер (наповнення).',
-        dimensions: 'Висота 14 см.',
-        images: [
-            'koshenya_rudenki_vushka_05.jpg',
-            'koshenya_rudenki_vushka_01.jpg',
-            'koshenya_rudenki_vushka_02.jpg',
-            'koshenya_rudenki_vushka_03.jpg',
-            'koshenya_rudenki_vushka_04.jpg',
-        ],
-        price: 300,
-        link: 'koshenya_rudenki_vushka',
-        category: 'Іграшки',
-        similar: [
-            {
-                img: 'veliurove_bilenke_koshenya_01.jpg',
-                price: 300,
-                link: 'veliurove_bilenke_koshenya',
-            },
-        ],
-    },
-    {
         id: 13,
         name: 'Біленьке велюрове кошеня',
         description:
@@ -178,13 +153,7 @@ const toys = [
         price: 300,
         link: 'veliurove_bilenke_koshenya',
         category: 'Іграшки',
-        similar: [
-            {
-                img: 'koshenya_rudenki_vushka_05.jpg',
-                price: 300,
-                link: 'koshenya_rudenki_vushka',
-            },
-        ],
+        similar: [],
     },
     {
         id: 15,

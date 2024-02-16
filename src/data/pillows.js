@@ -348,52 +348,6 @@ const pillows = [
         ],
     },
     {
-        id: 37,
-        name: 'Пес з жовто-блакитним метеликом',
-        description:
-            'Любите песиків? Тоді цей м‘якенький та жовтенький песоПодух для вас. Ручне плетіння і пошиття, приємна неколюча пряжа, гіпоалергенний наповнювач. Песик-подушка має милу вишиту посмішку, рухомі вушка, лапки і патріотичний метелик',
-        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнювач).',
-        dimensions: 'Розмір: 36/27/12см без урахування лап і хвоста.',
-        images: [
-            'zhovtyi-pes-metelyk-01.jpg',
-            'zhovtyi-pes-metelyk-02.jpg',
-            'zhovtyi-pes-metelyk-03.jpg',
-            'zhovtyi-pes-metelyk-04.jpg',
-            'zhovtyi-pes-metelyk-05.jpg',
-            'zhovtyi-pes-metelyk-06.jpg',
-        ],
-        price: 750,
-        link: 'zhovtyi-pes-metelyk',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'zhovtyi-pes-blakytnyi-metelyk-01.jpg',
-                price: 750,
-                link: 'zhovtyi-pes-blakytnyi-metelyk',
-            },
-        ],
-    },
-    {
-        id: 38,
-        name: 'Пес Патрон',
-        description:
-            "На створення ціє подушки нас надихнув неймовірний пес Патрон, а саме - його біленька мордочка і лапки. Подушечка плетена та пошита повністю вручну спицями та гачком. Пряжа - повторне використання (апсайклінг) залишків ниток та розпущених непотрібних речей. Наповнювач - холлофайбер. Нейомвірно м'який та яскравий песик - ідеальний для обіймів та думок про прийдешню перемогу. 30% від вартості подушки, звісно, підуть волонтерам на допомогу ЗСУ.",
-        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнювач).',
-        dimensions: 'Розмір: 32/32/12см.',
-        images: [
-            'pes-patron-01.jpg',
-            'pes-patron-02.jpg',
-            'pes-patron-03.jpg',
-            'pes-patron-04.jpg',
-            'pes-patron-05.jpg',
-            'pes-patron-06.jpg',
-            'pes-patron-07.jpg',
-        ],
-        price: 750,
-        link: 'pes-patron',
-        category: 'Подушки',
-    },
-    {
         id: 39,
         name: 'Жовтий пес з блакитним метеликом',
         description:
@@ -411,13 +365,7 @@ const pillows = [
         price: 750,
         link: 'zhovtyi-pes-blakytnyi-metelyk',
         category: 'Подушки',
-        similar: [
-            {
-                img: 'zhovtyi-pes-metelyk-01.jpg',
-                price: 750,
-                link: 'zhovtyi-pes-metelyk',
-            },
-        ],
+        similar: [],
     },
     {
         id: 40,
