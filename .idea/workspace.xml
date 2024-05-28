@@ -6,8 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="dcaf8ee7-740d-4494-a35d-0901cc68e1c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/kotyk-smuhastokhvostyi-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/kotyk-smuhastokhvostyi-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/kotyk-smuhastokhvostyi-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/kotyk-smuhastokhvostyi-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/kotyk-smuhastokhvostyi-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/kotyk-smuhastokhvostyi-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/maika-merezhyvna-synia-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/maika-merezhyvna-synia-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/maika-merezhyvna-synia-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/maika-merezhyvna-synia-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/maika-merezhyvna-synia-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/maika-merezhyvna-synia-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/smuhach-siryi-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/smuhach-siryi-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/smuhach-siryi-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/smuhach-siryi-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/smuhach-siryi-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/smuhach-siryi-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/smuhach-siryi-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/accessories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/accessories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/pillows.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/pillows.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/toys.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/toys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +60,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +81,8 @@
       <updated>1708102525143</updated>
       <workItem from="1708102526205" duration="204000" />
       <workItem from="1708103353586" duration="849000" />
+      <workItem from="1710350505616" duration="46000" />
+      <workItem from="1716916126508" duration="794000" />
     </task>
     <servers />
   </component>

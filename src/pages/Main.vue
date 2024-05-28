@@ -14,7 +14,7 @@
         <div class="product">
             <a href="#" @click="$router.push('/accessories')">
                 <div class="category-title">Одяг</div>
-                <img src="../assets/img/maika-merezhyvna-synia-01.jpg" class="product-image accessories" alt="" />
+                <img src="../assets/img/mitenky-kotyky-zhovti-pukhnasti-01.jpg" class="product-image accessories" alt="" />
             </a>
         </div>
         <div class="product">

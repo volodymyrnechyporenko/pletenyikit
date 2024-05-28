@@ -523,11 +523,6 @@ const accessories = [
                 link: 'maika-melanzh-koliorovyi',
             },
             {
-                img: 'maika-merezhyvna-synia-01.jpg',
-                price: 650,
-                link: 'maika-merezhyvna-synia',
-            },
-            {
                 img: 'maika-melanzh-rozhevyi-01.jpg',
                 price: 650,
                 link: 'maika-melanzh-rozhevyi',
@@ -556,47 +551,6 @@ const accessories = [
                 img: 'maika-merezhyvnyi-nyz-01.jpg',
                 price: 600,
                 link: 'maika-merezhyvnyi-nyz',
-            },
-            {
-                img: 'maika-merezhyvna-synia-01.jpg',
-                price: 650,
-                link: 'maika-merezhyvna-synia',
-            },
-            {
-                img: 'maika-melanzh-rozhevyi-01.jpg',
-                price: 650,
-                link: 'maika-melanzh-rozhevyi',
-            },
-        ],
-    },
-    {
-        id: 32,
-        name: 'Майка синя мереживна',
-        description:
-            'Неймовірний колір неба перед зливою та фактурний орнамент поєднує в собі ця маєчка. Виріб ручної роботи легко доповнить джинси, брюки чи спідницю та підійде як на щодень, так і до свята, варто лиш додати прикрас.',
-        materials:
-            'Матеріали: акрил. Розмір: S-M. Параметри моделі: зріст - 168см, об‘єм грудей - 87см, об‘єм талії - 70см, об‘єм стегон - 98см.',
-        images: [
-            'maika-merezhyvna-synia-01.jpg',
-            'maika-merezhyvna-synia-02.jpg',
-            'maika-merezhyvna-synia-03.jpg',
-            'maika-merezhyvna-synia-04.jpg',
-            'maika-merezhyvna-synia-05.jpg',
-            'maika-merezhyvna-synia-06.jpg',
-        ],
-        price: 650,
-        link: 'maika-merezhyvna-synia',
-        category: 'Одяг',
-        similar: [
-            {
-                img: 'maika-merezhyvnyi-nyz-01.jpg',
-                price: 600,
-                link: 'maika-merezhyvnyi-nyz',
-            },
-            {
-                img: 'maika-melanzh-koliorovyi-01.jpg',
-                price: 650,
-                link: 'maika-melanzh-koliorovyi',
             },
             {
                 img: 'maika-melanzh-rozhevyi-01.jpg',
@@ -632,11 +586,6 @@ const accessories = [
                 img: 'maika-melanzh-koliorovyi-01.jpg',
                 price: 650,
                 link: 'maika-melanzh-koliorovyi',
-            },
-            {
-                img: 'maika-merezhyvna-synia-01.jpg',
-                price: 650,
-                link: 'maika-merezhyvna-synia',
             },
         ],
     },
