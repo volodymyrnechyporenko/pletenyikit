@@ -42,34 +42,6 @@ const pillows = [
         category: 'Подушки',
     },
     {
-        id: 11,
-        name: 'Песик з бурштиновими очима',
-        description:
-            "Важко описати цю подушку словами. Неймовірне поєднання кольорів в меланжевому плетеному полотні нікого не залишить байдужим, а бурштинові очі дивляться прямо в серце. Неймовірний квадратний песоподух ручного плетіння - в наявності і готовий їхати до вас. Він дивитиметься на вас уважними очима, тішитиме легкою посмішкою та слухатиме висячими м'якими вушками.",
-        materials: 'Матеріали: акрил (пряжа), холофайбер (наповнення).',
-        dimensions: 'Розміри: 28/28/13см.',
-        images: [
-            'pesyk_kvadratnyi_01.jpg',
-            'pesyk_kvadratnyi_02.jpg',
-            'pesyk_kvadratnyi_03.jpg',
-            'pesyk_kvadratnyi_04.jpg',
-            'pesyk_kvadratnyi_05.jpg',
-            'pesyk_kvadratnyi_06.jpg',
-            'pesyk_kvadratnyi_07.jpg',
-            'pesyk_kvadratnyi_08.jpg',
-        ],
-        price: 650,
-        link: 'pesyk_burshtynovi_ochi',
-        category: 'Подушки',
-        similar: [
-            {
-                img: 'kvadratnyi-zhovtyi-pesyk-01.jpg',
-                price: 800,
-                link: 'kvadratnyi-zhovtyi-pesyk',
-            },
-        ]
-    },
-    {
         id: 12,
         name: 'Піаніно',
         description:
@@ -524,13 +496,7 @@ const pillows = [
         price: 800,
         link: 'kvadratnyi-zhovtyi-pesyk',
         category: 'Подушки',
-        similar: [
-            {
-                img: 'pesyk_kvadratnyi_01.jpg',
-                price: 650,
-                link: 'pesyk_burshtynovi_ochi',
-            },
-        ]
+        similar: []
     },
 ]
 

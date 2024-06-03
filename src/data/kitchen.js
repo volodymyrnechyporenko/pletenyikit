@@ -175,41 +175,6 @@ const kitchen = [
         category: 'Для кухні',
         similar: [
             {
-                img: 'blakytni-kotyky-01.jpg',
-                price: 250,
-                link: 'blakytni-kotyky',
-            },
-            {
-                img: 'kotyky-buzkovi-01.jpg',
-                price: 250,
-                link: 'kotyky-buzkovi',
-            },
-        ],
-    },
-    {
-        id: 9,
-        name: 'Блакитні котики',
-        description:
-            'Набір підставочок під горнята "Блакитні котики", готовий прикрашати ваше чаювання чи кавування. Плетені гачком та вишиті вручну підставки - чудовий подарунок для любителів_ок сімейства котячих. До набору входять шість підставочок.',
-        dimensions: 'Діаметр 11.5см.',
-        amount: 'Ціна за набір з 6 шт.',
-        images: [
-            'blakytni-kotyky-01.jpg',
-            'blakytni-kotyky-02.jpg',
-            'blakytni-kotyky-03.jpg',
-            'blakytni-kotyky-04.jpg',
-            'blakytni-kotyky-05.jpg',
-        ],
-        price: 250,
-        link: 'blakytni-kotyky',
-        category: 'Для кухні',
-        similar: [
-            {
-                img: 'biriuzovi-kotyky-01.jpg',
-                price: 250,
-                link: 'biriuzovi-kotyky',
-            },
-            {
                 img: 'kotyky-buzkovi-01.jpg',
                 price: 250,
                 link: 'kotyky-buzkovi',
@@ -235,11 +200,6 @@ const kitchen = [
         link: 'kotyky-buzkovi',
         category: 'Для кухні',
         similar: [
-            {
-                img: 'blakytni-kotyky-01.jpg',
-                price: 250,
-                link: 'blakytni-kotyky',
-            },
             {
                 img: 'biriuzovi-kotyky-01.jpg',
                 price: 250,
