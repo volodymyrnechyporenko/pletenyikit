@@ -105,24 +105,6 @@ const toys = [
         ],
     },
     {
-        id: 9,
-        name: 'Мишка букльована сіра',
-        description:
-            "Повністю ручна робота, від мотка пряжі до останнього стібка. М'якенька, приємна на дотик іграшка стане чудовим подарунком близькій людині або навіть собі.",
-        materials: 'Наповнення - холофайбер. Нитки - акрил.',
-        dimensions: 'Розміри: 14/8см.',
-        images: [
-            'kryska_sira_01.jpg',
-            'kryska_sira_02.jpg',
-            'kryska_sira_03.jpg',
-            'kryska_sira_04.jpg',
-            'kryska_sira_05.jpg',
-        ],
-        price: 300,
-        link: 'myshka_bukliovana_sira',
-        category: 'Іграшки',
-    },
-    {
         id: 10,
         name: 'Кошенятко з сердечком',
         description:

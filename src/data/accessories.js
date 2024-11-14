@@ -19,23 +19,6 @@ const accessories = [
         category: 'Одяг',
     },
     {
-        id: 3,
-        name: 'Бактус "Весняна зелень"',
-        description:
-            'Виріб з напиленням весняного настрою - зелений пухнастий бактус. Плетений спицями з цікавої кольорової пряжі, можна носити і як шалик, і як хустку.',
-        materials: 'Бактус має фактурне легке плетіння, тож чудово пасуватиме до демісезонних образів.',
-        images: [
-            'zelenyi_baktus_01.jpg',
-            'zelenyi_baktus_02.jpg',
-            'zelenyi_baktus_03.jpg',
-            'zelenyi_baktus_04.jpg',
-            'zelenyi_baktus_05.jpg',
-        ],
-        price: 350,
-        link: 'baktus_vesniana_zelen',
-        category: 'Одяг',
-    },
-    {
         id: 4,
         name: 'Мітенки "Оливкові коси"',
         description:
@@ -140,11 +123,6 @@ const accessories = [
                 img: 'mitenky_olyvkovi_kosy_01.jpg',
                 price: 180,
                 link: 'mitenky_olyvkovi_kosy',
-            },
-            {
-                img: 'mitenky-kotyky-hirchychni-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-hirchychni',
             },
             {
                 img: 'mitenky-kotyky-zhovti-temni-01.jpg',
@@ -590,39 +568,6 @@ const accessories = [
         ],
     },
     {
-        id: 34,
-        name: 'Мітенки-котики гірчичні',
-        description:
-            'Мітенки-котики приємного гірчичного кольору 100% піднімуть настрій та додадуть сонячного настрою! Ручне плетіння та вишивка, м\'яка пряжа та універсальний розмір, завдяки платенню "гумка" на долоні.',
-        materials: 'Матеріали: акрил з невеликим відсотком бавовни.',
-        images: [
-            'mitenky-kotyky-hirchychni-01.jpg',
-            'mitenky-kotyky-hirchychni-02.jpg',
-            'mitenky-kotyky-hirchychni-03.jpg',
-            'mitenky-kotyky-hirchychni-04.jpg',
-        ],
-        price: 300,
-        link: 'mitenky-kotyky-hirchychni',
-        category: 'Одяг',
-        similar: [
-            {
-                img: 'mitenky_sovy_buzkovi_01.jpg',
-                price: 270,
-                link: 'mitenky_sovy_buzkovi',
-            },
-            {
-                img: 'mitenky-kotyky-zhovti-temni-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-zhovti-temni',
-            },
-            {
-                img: 'mitenky-kotyky-zhovti-pukhnasti-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-zhovti-pukhnasti',
-            },
-        ],
-    },
-    {
         id: 36,
         name: 'Рукавиці для мобільного сірі',
         description:
@@ -663,65 +608,6 @@ const accessories = [
         ],
     },
     {
-        id: 37,
-        name: 'Рукавиці "Малинові смужки"',
-        description:
-            'Сірий та малиновий - одне з найгарнийних поєднань кольорів. Тож, якщо котрийсь з цих кольорів присутній у вашому гардеробі - варто придивитись до цих рукавичок для мобільного. Не колючі, зручні, теплі та яскраві рукавички готові гріти та піднімати настрій!',
-        materials: 'Матеріали: акрил. Розмір: M-L',
-        images: [
-            'rukavytsi-malynovi-smuzhky-01.jpg',
-            'rukavytsi-malynovi-smuzhky-02.jpg',
-            'rukavytsi-malynovi-smuzhky-03.jpg',
-            'rukavytsi-malynovi-smuzhky-04.jpg',
-            'rukavytsi-malynovi-smuzhky-05.jpg',
-            'rukavytsi-malynovi-smuzhky-06.jpg',
-        ],
-        price: 330,
-        link: 'rukavytsi-malynovi-smuzhky',
-        category: 'Одяг',
-    },
-    {
-        id: 38,
-        name: 'Мітенки-котики з хвостами',
-        description:
-            'Це - найоригінальніша з наявних моделей мітенок-котиків, яку ми маємо в наявності. До завжди трендових смужок в цьому виробі присутні і модні натуральні відтінки молочного та шоколадного і, звісно, силует котика. Нам здається, що більшість людей полюбляють смужки і котиків, тож комусь ці аксесуари точно підійдуть до демісезонного або й зимовго гардеробів.',
-        materials: 'Розмір: M',
-        images: [
-            'mitenky-kotyky-khvosty-01.jpg',
-            'mitenky-kotyky-khvosty-02.jpg',
-            'mitenky-kotyky-khvosty-03.jpg',
-            'mitenky-kotyky-khvosty-04.jpg',
-            'mitenky-kotyky-khvosty-05.jpg',
-        ],
-        price: 300,
-        link: 'mitenky-kotyky-khvosty',
-        category: 'Одяг',
-    },
-    {
-        id: 39,
-        name: 'Мітенки-котики сірі більші',
-        description:
-            'Мітенки плетено вручну з акрилової пряжі. Приємні на дотик, точно як котики, мають виплетені гачком вушка та вишиту вручну мордочку. Нейтральний сірий колір виробу пасуватиме до будь-якого образу, а його котячість - зробить цей образ оригінальним. Мітенки підійдуть на більшу долоню, чоловічу, або жіночий L.',
-        materials: 'Матеріал: акрил. Розмір: L',
-        images: [
-            'mitenky-kotyky-siri-bilshi-01.jpg',
-            'mitenky-kotyky-siri-bilshi-02.jpg',
-            'mitenky-kotyky-siri-bilshi-03.jpg',
-            'mitenky-kotyky-siri-bilshi-04.jpg',
-            'mitenky-kotyky-siri-bilshi-05.jpg',
-        ],
-        price: 300,
-        link: 'mitenky-kotyky-siri-bilshi',
-        category: 'Одяг',
-        similar: [
-            {
-                img: 'mitenky-kotyky-siri-menshi-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-siri-menshi',
-            },
-        ],
-    },
-    {
         id: 40,
         name: 'Мітенки-котики сірі менші',
         description:
@@ -738,13 +624,7 @@ const accessories = [
         price: 300,
         link: 'mitenky-kotyky-siri-menshi',
         category: 'Одяг',
-        similar: [
-            {
-                img: 'mitenky-kotyky-siri-bilshi-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-siri-bilshi',
-            },
-        ],
+        similar: [],
     },
     {
         id: 44,
@@ -773,11 +653,6 @@ const accessories = [
                 price: 300,
                 link: 'mitenky-kotyky-zhovti-pukhnasti',
             },
-            {
-                img: 'mitenky-kotyky-hirchychni-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-hirchychni',
-            },
         ],
     },
     {
@@ -805,11 +680,6 @@ const accessories = [
                 img: 'mitenky-kotyky-zhovti-temni-01.jpg',
                 price: 300,
                 link: 'mitenky-kotyky-zhovti-temni',
-            },
-            {
-                img: 'mitenky-kotyky-hirchychni-01.jpg',
-                price: 300,
-                link: 'mitenky-kotyky-hirchychni',
             },
         ],
     },
