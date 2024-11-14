@@ -624,7 +624,6 @@ const accessories = [
         price: 300,
         link: 'mitenky-kotyky-siri-menshi',
         category: 'Одяг',
-        similar: [],
     },
     {
         id: 44,

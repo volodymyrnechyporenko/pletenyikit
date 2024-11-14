@@ -107,7 +107,6 @@ const pillows = [
         price: 400,
         link: 'sira_melanzheva_myshka',
         category: 'Подушки',
-        similar: [],
     },
     {
         id: 19,
@@ -472,7 +471,6 @@ const pillows = [
         price: 800,
         link: 'kvadratnyi-zhovtyi-pesyk',
         category: 'Подушки',
-        similar: [],
     },
 ]
 
